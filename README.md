@@ -6,19 +6,19 @@ Slightly swell with the determination to stay number one in the second half of t
 **Changes:**
 
 Condition: distance_rate>=50&order==1&bashin_diff_behind<=1**@distance_rate>=50&order==2&is_overtake==1**
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.15
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 acceleration: 0.2
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Added a new activation condition: now also works when you're in 2nd place (not just 1st) in the second half of the race, as long as you have someone to overtake. This makes the skill easier to trigger.
+
+**VI:** Thêm điều kiện kích hoạt mới: giờ cũng hoạt động khi bạn ở vị trí thứ 2 (không chỉ thứ nhất) trong nửa sau cuộc đua, miễn là bạn có người để vượt qua. Điều này giúp kỹ năng dễ kích hoạt hơn.
 
 ---
 
@@ -28,14 +28,17 @@ Moderately increase velocity with a strong turn of foot when passing another run
 **Changes:**
 
 Condition: is_finalcorner==1&corner==0&change_order_onetime<0&order>=~~4~~**3**
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Position requirement relaxed from 4th or worse to 3rd or worse. Now activates when you're 3rd, 4th, 5th etc. on the final straight while overtaking someone. Easier to trigger.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ thứ 4 trở xuống sang thứ 3 trở xuống. Giờ kích hoạt khi bạn ở vị trí thứ 3, 4, 5... ở đường thẳng cuối khi đang vượt ai đó. Dễ kích hoạt hơn.
 
 ---
 
@@ -45,14 +48,17 @@ Moderately increase velocity with the stride of an empress when passing another 
 **Changes:**
 
 Condition: is_finalcorner==1&corner!=0&order>=~~4~~**3**&change_order_onetime<0
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Position requirement relaxed from 4th or worse to 3rd or worse. Now activates when you're 3rd, 4th, 5th etc. on a corner during final corner phase while overtaking. Easier to trigger.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ thứ 4 trở xuống sang thứ 3 trở xuống. Giờ kích hoạt khi bạn ở vị trí thứ 3, 4, 5... ở khúc cua trong giai đoạn khúc cua cuối khi đang vượt. Dễ kích hoạt hơn.
 
 ---
 
@@ -62,19 +68,19 @@ Slightly increase ability to break out of the pack on the straight after engagin
 **Changes:**
 
 Condition: is_finalcorner==1&~~corner!=0&~~blocked_side_continuetime>=2&order<=3
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.15
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 acceleration: 0.2
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Removed the requirement to be on a corner specifically (corner!=0). Now works on both the corner AND the final straight after the corner, as long as you're in top 3 and blocked from the side. More flexible.
+
+**VI:** Loại bỏ yêu cầu phải ở khúc cua cụ thể. Giờ hoạt động ở cả khúc cua VÀ đường thẳng cuối sau khúc cua, miễn là bạn ở top 3 và bị chặn từ bên hông. Linh hoạt hơn.
 
 ---
 
@@ -84,19 +90,19 @@ Moderately recover endurance when conserving energy on a corner in the second ha
 **Changes:**
 
 Condition: distance_rate>=50&corner!=0&order>=3&order_rate<=40
- Duration: ~~0~~ -> **4**
-
-						// Cooldown:
-
-						500
- hp_recovery: 0.035
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~0~~ -> **4**
+Cooldown:
+500
+hp_recovery: 0.035
+(Target: self, max 1 )
 **speed**: **0.15**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Duration increased from instant (0) to 4 seconds. Also now gives speed boost (0.15) on top of stamina recovery. Much stronger - you get stamina AND speed when saving energy on corners in second half.
+
+**VI:** Thời lượng tăng từ tức thì (0) lên 4 giây. Cũng tăng tốc độ (0.15) thêm vào việc hồi stamina. Mạnh hơn nhiều - bạn được cả stamina VÀ tốc độ khi tiết kiệm năng lượng ở khúc cua nửa sau.
 
 ---
 
@@ -106,15 +112,18 @@ Refuse to back down from a challenge, moderately increasing velocity on the fina
 **Changes:**
 
 Precondition: **is_finalcorner==1&blocked_side_continuetime>=2**
- Condition: is_finalcorner==1&corner==0&order<=5~~&blocked_side_continuetime>=2~~
- Duration: 5
+Condition: is_finalcorner==1&corner==0&order<=5~~&blocked_side_continuetime>=2~~
+Duration: 5
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Moved the "blocked from side for 2+ seconds" condition from main condition to precondition. This makes activation more reliable - the blocking must happen on final corner, then skill activates on the straight after. More consistent timing.
 
-								(Target: self, max 1 )
+**VI:** Chuyển điều kiện "bị chặn từ bên trong 2+ giây" từ điều kiện chính sang điều kiện tiên quyết. Giúp kích hoạt đáng tin cậy hơn - phải bị chặn ở khúc cua cuối, sau đó kỹ năng kích hoạt ở đường thẳng. Thời điểm ổn định hơn.
 
 ---
 
@@ -124,14 +133,17 @@ Moderately recover endurance when well-positioned mid-race.
 **Changes:**
 
 Condition: phase_random==1&order>=2&order_rate<=40
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: ~~0.035~~ -> **0.055**
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: ~~0.035~~ -> **0.055**
+**EN:** Stamina recovery increased from 0.035 to 0.055 (57% increase). Recovers much more stamina when you're in top 40% position at a random point in mid-race.
 
-								(Target: self, max 1 )
+**VI:** Hồi phục stamina tăng từ 0.035 lên 0.055 (tăng 57%). Hồi nhiều stamina hơn khi bạn ở vị trí top 40% tại điểm ngẫu nhiên giữa cuộc đua.
 
 ---
 
@@ -141,19 +153,19 @@ Moderately clear a path forward with the power of divination when the way ahead 
 **Changes:**
 
 Condition: phase>=2&order>=3&blocked_front==1
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.25
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 **acceleration**: **0.1**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Added acceleration boost (0.1) on top of existing speed boost. Now gives both speed AND acceleration when blocked from front in late-race phase while 3rd or worse. Better at breaking through traffic.
+
+**VI:** Thêm tăng gia tốc (0.1) vào tăng tốc độ hiện có. Giờ tăng cả tốc độ VÀ gia tốc khi bị chặn phía trước ở giai đoạn cuối khi đang ở vị trí thứ 3 trở xuống. Tốt hơn khi phá vòng vây.
 
 ---
 
@@ -163,14 +175,17 @@ Increase velocity in a true display of skill with 200m remaining after racing ca
 **Changes:**
 
 Condition: temptation_count==0&remain_distance<=201&remain_distance>=199&order>=~~5~~**4**&order_rate<=~~60~~**70**
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Position requirements relaxed: now activates from 4th place (was 5th) and within top 70% of pack (was top 60%). Easier to activate at 200m mark when you haven't rushed during the race.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng: giờ kích hoạt từ vị trí thứ 4 (trước là 5) và trong top 70% (trước là top 60%). Dễ kích hoạt hơn ở mốc 200m khi bạn chưa lao nhanh trong cuộc đua.
 
 ---
 
@@ -180,19 +195,19 @@ Ride the momentum and increase velocity after passing another runner toward the 
 **Changes:**
 
 Condition: phase>=2&order>=~~2~~**1**&order_rate<=50&change_order_onetime<0
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.35
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 **acceleration**: **0.1**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Can now activate from 1st place (was 2nd+), and added acceleration boost (0.1). More flexible - works even when you're leading, as long as you're overtaking someone in top 50% of pack during late-race.
+
+**VI:** Giờ có thể kích hoạt từ vị trí thứ nhất (trước là từ thứ 2), và thêm tăng gia tốc (0.1). Linh hoạt hơn - hoạt động ngay cả khi bạn đang dẫn đầu, miễn là bạn đang vượt ai đó trong top 50% ở cuối cuộc đua.
 
 ---
 
@@ -202,14 +217,17 @@ Increase velocity by drawing on all remaining strength when in the lead by a fai
 **Changes:**
 
 Condition: ~~is_finalcorner==1~~**distance_rate>=50**&~~corner==0&~~order==1&bashin_diff_behind>=1
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Completely changed activation timing. OLD: only on final straight/corner area. NEW: anytime in second half of race (50%+). No longer restricted to corners/straights - activates anywhere as long as you're 1st with 1+ horse length lead in second half. Activates much earlier now.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi hoàn toàn thời điểm kích hoạt. CŨ: chỉ ở đường thẳng/khúc cua cuối. MỚI: bất cứ lúc nào trong nửa sau cuộc đua (50%+). Không còn giới hạn ở khúc cua/đường thẳng - kích hoạt ở bất cứ đâu miễn bạn thứ nhất và dẫn trước 1+ thân ngựa trong nửa sau. Kích hoạt sớm hơn nhiều.
 
 ---
 
@@ -219,14 +237,17 @@ Greatly increase velocity with a dazzling display when just breaking out of the 
 **Changes:**
 
 Condition: is_finalcorner==1&corner==0&order_rate<=30&~~behind_near_lane_time~~**behind_near_lane_time_set1**>=1
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.45
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.45
+**EN:** Changed detection zone for horses behind you. OLD: 2.5m/1 lane. NEW: 5m/2.7 lanes (wider area). Easier to detect when someone's behind, making skill easier to activate when breaking out in top 30% on final straight.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi vùng phát hiện ngựa phía sau bạn. CŨ: 2.5m/1 làn. MỚI: 5m/2.7 làn (khu vực rộng hơn). Dễ phát hiện khi có người ở phía sau, giúp kỹ năng dễ kích hoạt hơn khi thoát khỏi nhóm trong top 30% ở đường thẳng cuối.
 
 ---
 
@@ -236,19 +257,19 @@ Swell with the determination to stay number one in the second half of the race.
 **Changes:**
 
 Condition: distance_rate>=50&order==1&bashin_diff_behind<=1**@distance_rate>=50&order==2&is_overtake==1**
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.25
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 acceleration: 0.3
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Added alternative activation condition: now also works when in 2nd place (not just 1st) in second half, as long as you have overtake target. Same as regular Red Ace but with stronger stats. More flexible.
+
+**VI:** Thêm điều kiện kích hoạt thay thế: giờ cũng hoạt động khi ở vị trí thứ 2 (không chỉ thứ nhất) trong nửa sau, miễn có mục tiêu vượt. Giống Red Ace thường nhưng chỉ số mạnh hơn. Linh hoạt hơn.
 
 ---
 
@@ -258,14 +279,17 @@ Increase acceleration with a pow, a wow, and a bang when well-positioned on the 
 **Changes:**
 
 Condition: ~~is_finalcorner~~**is_finalcorner_laterhalf**==1&corner!=0&order>=3&order_rate<=~~50~~**40**
- Duration: 4
+Duration: 4
+Cooldown:
+500
+acceleration: 0.4
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.4
+**EN:** Two changes: (1) Now only activates on second half of final corner (more precise timing). (2) Position requirement tightened from top 50% to top 40%. Activates at better timing but slightly harder to trigger.
 
-								(Target: self, max 1 )
+**VI:** Hai thay đổi: (1) Giờ chỉ kích hoạt ở nửa sau của khúc cua cuối (thời điểm chính xác hơn). (2) Yêu cầu vị trí thắt chặt từ top 50% xuống top 40%. Kích hoạt đúng thời điểm hơn nhưng hơi khó kích hoạt hơn chút.
 
 ---
 
@@ -275,14 +299,17 @@ Increase velocity with a strong turn of foot when passing another runner toward 
 **Changes:**
 
 Condition: is_finalcorner==1&corner==0&change_order_onetime<0&order>=~~4~~**3**
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Position requirement relaxed from 4th or worse to 3rd or worse. Stronger version of Focused Mind - same condition change, higher speed boost. Easier to trigger.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ thứ 4 trở xuống sang thứ 3 trở xuống. Phiên bản mạnh hơn của Focused Mind - cùng thay đổi điều kiện, tăng tốc độ cao hơn. Dễ kích hoạt hơn.
 
 ---
 
@@ -292,15 +319,18 @@ Increase velocity when passing another runner on the outside toward the back on 
 **Changes:**
 
 Precondition: **is_finalcorner==1&is_behind_in==1&change_order_onetime<0&order_rate>=40**
- Condition: is_finalcorner==1&corner==0~~&is_behind_in==1&change_order_onetime<0&order_rate>=40~~
- Duration: 5
+Condition: is_finalcorner==1&corner==0~~&is_behind_in==1&change_order_onetime<0&order_rate>=40~~
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Moved complex conditions to precondition. Must be overtaking someone on outer lane in back half during final corner area first, then skill activates on the straight. Makes timing more predictable and reliable.
 
-								(Target: self, max 1 )
+**VI:** Chuyển các điều kiện phức tạp sang điều kiện tiên quyết. Phải vượt ai đó ở làn ngoài trong nửa sau tại khu vực khúc cua cuối trước, sau đó kỹ năng kích hoạt ở đường thẳng. Làm thời điểm dự đoán được và đáng tin cậy hơn.
 
 ---
 
@@ -310,14 +340,17 @@ Increase velocity with royal brilliance when engaged in a challenge toward the f
 **Changes:**
 
 Condition: is_finalcorner==1&~~corner!=0~~**bashin_diff_behind<=1**&~~bashin_diff_infront~~**order**<=**4@is_finalcorner==**1&~~bashin_diff_behind~~**bashin_diff_infront**<=1&~~blocked_side_continuetime>=2&~~order<=4
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Complete rework with 2 separate conditions: (1) Within 1 horse length behind someone while in top 4, OR (2) Within 1 horse length ahead of someone while in top 4. Removed blocking requirement. Focuses on close racing in top positions.
 
-								(Target: self, max 1 )
+**VI:** Làm lại hoàn toàn với 2 điều kiện riêng: (1) Trong vòng 1 thân ngựa phía sau ai đó khi ở top 4, HOẶC (2) Trong vòng 1 thân ngựa phía trước ai đó khi ở top 4. Loại bỏ yêu cầu bị chặn. Tập trung vào đua sát sao ở vị trí cao.
 
 ---
 
@@ -327,28 +360,24 @@ Increase velocity with beastly strength when passing another runner on the outsi
 **Changes:**
 
 Precondition: **phase==1&blocked_side_continuetime>=2**
- Condition: is_finalcorner==1&order>=2&order_rate<=75&is_behind_in==1&change_order_onetime<0
- Duration: 5
+Condition: is_finalcorner==1&order>=2&order_rate<=75&is_behind_in==1&change_order_onetime<0
+Duration: 5
+Cooldown:
+500
+speed: ~~0.35~~ -> **0.45**
+(Target: self, max 1 )
+Condition: **is_finalcorner==1&order>=2&order_rate<=75&is_behind_in==1&change_order_onetime<0**
+Duration: **5**
+Cooldown:
+**500**
+**speed**: **0.35**
+(Target: **self**, max **1** )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: ~~0.35~~ -> **0.45**
+**EN:** Now has TWO separate activations: (1) Added precondition variant - if blocked in mid-race, get 0.45 speed on final corner. (2) Normal activation stays at 0.35 speed. Can trigger twice in one race for massive boost when overtaking on outside.
 
-								(Target: self, max 1 )
-
-						
-
- 
- Condition: **is_finalcorner==1&order>=2&order_rate<=75&is_behind_in==1&change_order_onetime<0**
- Duration: **5**
-
-						// Cooldown:
-
-						**500**
- **speed**: **0.35**
-
-								(Target: **self**, max **1** )
+**VI:** Giờ có HAI lần kích hoạt riêng: (1) Thêm biến thể điều kiện tiên quyết - nếu bị chặn giữa cuộc đua, nhận 0.45 tốc độ ở khúc cua cuối. (2) Kích hoạt bình thường vẫn 0.35 tốc độ. Có thể kích hoạt 2 lần trong 1 cuộc đua để tăng khủng khi vượt bên ngoài.
 
 ---
 
@@ -358,14 +387,17 @@ Increase velocity with the stride of an empress when passing another runner towa
 **Changes:**
 
 Condition: is_finalcorner==1&corner!=0&order>=~~4~~**3**&change_order_onetime<0
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Position requirement relaxed from 4th or worse to 3rd or worse. Stronger version of Empress's Pride - same condition change, higher speed boost. Easier to trigger.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ thứ 4 trở xuống sang thứ 3 trở xuống. Phiên bản mạnh hơn của Empress's Pride - cùng thay đổi điều kiện, tăng tốc độ cao hơn. Dễ kích hoạt hơn.
 
 ---
 
@@ -375,19 +407,19 @@ undefined
 **Changes:**
 
 Condition: change_order_up_end_after>=2
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.35
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 **lane_speed**: **0.035**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Added navigation/lane speed boost (0.035) on top of existing speed boost. Activates after overtaking 2+ horses during late-race phase. Now gives both speed AND better lane movement.
+
+**VI:** Thêm tăng tốc di chuyển làn/điều hướng (0.035) vào tăng tốc độ hiện có. Kích hoạt sau khi vượt 2+ ngựa trong giai đoạn cuối. Giờ tăng cả tốc độ VÀ di chuyển làn tốt hơn.
 
 ---
 
@@ -397,14 +429,17 @@ Increase velocity by deriving the winning equation when passing another runner t
 **Changes:**
 
 Condition: is_finalcorner==1&~~corner!=0&~~change_order_onetime<0&order<=4
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Removed corner requirement - now works on both corners AND final straight after final corner. More flexible activation timing while overtaking in top 4.
 
-								(Target: self, max 1 )
+**VI:** Loại bỏ yêu cầu phải ở khúc cua - giờ hoạt động ở cả khúc cua VÀ đường thẳng cuối sau khúc cua cuối. Thời điểm kích hoạt linh hoạt hơn khi vượt trong top 4.
 
 ---
 
@@ -414,19 +449,19 @@ Increase ability to break out of the pack on the straight after engaging in a ch
 **Changes:**
 
 Condition: is_finalcorner==1&~~corner!=0&~~blocked_side_continuetime>=2&order<=3
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.25
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 acceleration: 0.3
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Removed corner requirement - now works on both corners AND final straight. Stronger version of 1st Place Kiss☆ with same condition change and better stats.
+
+**VI:** Loại bỏ yêu cầu phải ở khúc cua - giờ hoạt động ở cả khúc cua VÀ đường thẳng cuối. Phiên bản mạnh hơn của 1st Place Kiss☆ với cùng thay đổi điều kiện và chỉ số tốt hơn.
 
 ---
 
@@ -436,15 +471,18 @@ Increase velocity with strong willpower when breaking out of the pack on the fin
 **Changes:**
 
 Precondition: **is_finalcorner==1&order<=4&change_order_onetime<0**
- Condition: is_finalcorner==1&corner==0~~&order<=4&change_order_onetime<0~~
- Duration: 5
+Condition: is_finalcorner==1&corner==0~~&order<=4&change_order_onetime<0~~
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Moved overtaking conditions to precondition. Must be overtaking in top 4 during final corner area first, then activates on straight. More reliable and predictable timing.
 
-								(Target: self, max 1 )
+**VI:** Chuyển điều kiện vượt sang điều kiện tiên quyết. Phải vượt trong top 4 ở khu vực khúc cua cuối trước, sau đó kích hoạt ở đường thẳng. Thời điểm đáng tin cậy và dự đoán được hơn.
 
 ---
 
@@ -454,19 +492,19 @@ Recover endurance when conserving energy on a corner in the second half of the r
 **Changes:**
 
 Condition: distance_rate>=50&corner!=0&order>=3&order_rate<=40
- Duration: ~~0~~ -> **4**
-
-						// Cooldown:
-
-						500
- hp_recovery: 0.055
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~0~~ -> **4**
+Cooldown:
+500
+hp_recovery: 0.055
+(Target: self, max 1 )
 **speed**: **0.25**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Duration increased from instant (0) to 4 seconds. Added speed boost (0.25) on top of stamina recovery. Stronger version of Introduction to Physiology - more stamina recovery AND higher speed boost.
+
+**VI:** Thời lượng tăng từ tức thì (0) lên 4 giây. Thêm tăng tốc độ (0.25) vào hồi stamina. Phiên bản mạnh hơn của Introduction to Physiology - hồi stamina nhiều hơn VÀ tăng tốc độ cao hơn.
 
 ---
 
@@ -476,15 +514,18 @@ Refuse to back down from a challenge, increasing velocity on the final straight.
 **Changes:**
 
 Precondition: **is_finalcorner==1&blocked_side_continuetime>=2**
- Condition: is_finalcorner==1&corner==0&order<=5~~&blocked_side_continuetime>=2~~
- Duration: 5
+Condition: is_finalcorner==1&corner==0&order<=5~~&blocked_side_continuetime>=2~~
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Moved blocking condition to precondition. Stronger version of V Is for Victory! - same condition change with higher speed boost. More reliable activation.
 
-								(Target: self, max 1 )
+**VI:** Chuyển điều kiện bị chặn sang điều kiện tiên quyết. Phiên bản mạnh hơn của V Is for Victory! - cùng thay đổi điều kiện với tăng tốc độ cao hơn. Kích hoạt đáng tin cậy hơn.
 
 ---
 
@@ -494,19 +535,19 @@ Gain momentum and begin to advance when passing another runner while well-positi
 **Changes:**
 
 Condition: distance_rate>=50&distance_rate<=65&order>=~~3~~**2**&order_rate<=40&change_order_onetime<0
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.25
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 acceleration: 0.3
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Position requirement relaxed from 3rd or worse to 2nd or worse. Activates between 50-65% race progress. Can now trigger even when in 2nd place in top 40% while overtaking.
+
+**VI:** Yêu cầu vị trí nới lỏng từ thứ 3 trở xuống sang thứ 2 trở xuống. Kích hoạt giữa 50-65% tiến trình cuộc đua. Giờ có thể kích hoạt ngay cả khi ở vị trí thứ 2 trong top 40% khi đang vượt.
 
 ---
 
@@ -516,14 +557,17 @@ undefined
 **Changes:**
 
 Condition: is_finalcorner==1&corner==0&~~order>=3&order_rate<=70&~~blocked_side_continuetime>=2
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Removed position requirements completely - now only needs to be blocked from side for 2+ seconds on final straight. Can activate from any position, much easier to trigger.
 
-								(Target: self, max 1 )
+**VI:** Loại bỏ hoàn toàn yêu cầu vị trí - giờ chỉ cần bị chặn từ bên trong 2+ giây ở đường thẳng cuối. Có thể kích hoạt từ bất kỳ vị trí nào, dễ kích hoạt hơn nhiều.
 
 ---
 
@@ -533,14 +577,17 @@ Recover endurance when well-positioned mid-race.
 **Changes:**
 
 Condition: phase_random==1&order>=2&order_rate<=40
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: ~~0.055~~ -> **0.075**
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: ~~0.055~~ -> **0.075**
+**EN:** Stamina recovery increased from 0.055 to 0.075 (36% increase). Stronger version of Clear Heart - recovers even more stamina when in top 40% at random mid-race point.
 
-								(Target: self, max 1 )
+**VI:** Hồi phục stamina tăng từ 0.055 lên 0.075 (tăng 36%). Phiên bản mạnh hơn của Clear Heart - hồi nhiều stamina hơn nữa khi ở top 40% tại điểm ngẫu nhiên giữa cuộc đua.
 
 ---
 
@@ -550,19 +597,19 @@ Become empowered against ceding the spotlight when about to lose the lead on a s
 **Changes:**
 
 Condition: phase==1&corner==0&order~~==1~~**<=2**&bashin_diff_behind<=1
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.25
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 acceleration: 0.3
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Position requirement relaxed from only 1st place to top 2. Now activates when 1st OR 2nd on straights in mid-race with close competition behind. Easier to trigger.
+
+**VI:** Yêu cầu vị trí nới lỏng từ chỉ vị trí thứ nhất sang top 2. Giờ kích hoạt khi thứ nhất HOẶC thứ 2 ở đường thẳng giữa cuộc đua với đối thủ đeo bám phía sau. Dễ kích hoạt hơn.
 
 ---
 
@@ -572,14 +619,17 @@ Increase velocity with smoldering ambition when moving up from a position toward
 **Changes:**
 
 Condition: is_finalcorner==1&~~corner!=0&~~order_rate>=~~50~~**40**&order_rate<=75&is_overtake==1
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Two changes: (1) Removed corner requirement - works on corners AND straight. (2) Position range changed from 50-75% to 40-75%. Activates when overtaking from middle positions during final corner phase.
 
-								(Target: self, max 1 )
+**VI:** Hai thay đổi: (1) Loại bỏ yêu cầu khúc cua - hoạt động ở khúc cua VÀ đường thẳng. (2) Phạm vi vị trí thay đổi từ 50-75% sang 40-75%. Kích hoạt khi vượt từ vị trí giữa trong giai đoạn khúc cua cuối.
 
 ---
 
@@ -589,19 +639,19 @@ Clear a path forward with the power of divination when the way ahead is jammed l
 **Changes:**
 
 Condition: phase>=2&order>=3&blocked_front==1
- Duration: 5
-
-						// Cooldown:
-
-						500
- speed: 0.35
-
-								(Target: self, max 1 )
-
-						
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 **acceleration**: **0.1**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Added acceleration boost (0.1) on top of speed boost. Stronger version of Luck Be with Me! - same conditions with higher speed. Better at breaking through when blocked.
+
+**VI:** Thêm tăng gia tốc (0.1) vào tăng tốc độ. Phiên bản mạnh hơn của Luck Be with Me! - cùng điều kiện với tốc độ cao hơn. Tốt hơn khi phá vòng vây khi bị chặn.
 
 ---
 
@@ -611,14 +661,17 @@ Greatly increase velocity in a true display of skill with 200m remaining after r
 **Changes:**
 
 Condition: temptation_count==0&remain_distance<=201&remain_distance>=199&order>=~~5~~**4**&order_rate<=~~60~~**70**
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.45
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.45
+**EN:** Position requirements relaxed from 5th+ to 4th+, and top 60% to top 70%. Stronger version of Call Me King - same condition changes with higher speed boost. Easier to trigger at 200m mark.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ thứ 5+ sang thứ 4+, và top 60% sang top 70%. Phiên bản mạnh hơn của Call Me King - cùng thay đổi điều kiện với tăng tốc độ cao hơn. Dễ kích hoạt hơn ở mốc 200m.
 
 ---
 
@@ -628,15 +681,18 @@ Increase velocity with an indomitable fighting spirit when on the heels of anoth
 **Changes:**
 
 Precondition: **is_finalcorner==1&is_overtake==1&order<=5&order_rate<=50&overtake_target_no_order_up_time>=2**
- Condition: is_finalcorner==1&corner==0~~&is_overtake==1&order<=5&order_rate<=50&overtake_target_no_order_up_time>=2~~
- Duration: 5
+Condition: is_finalcorner==1&corner==0~~&is_overtake==1&order<=5&order_rate<=50&overtake_target_no_order_up_time>=2~~
+Duration: 5
+Cooldown:
+500
+speed: ~~0.35~~ -> **0.45**
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: ~~0.35~~ -> **0.45**
+**EN:** Two changes: (1) Moved complex conditions to precondition for reliable timing. (2) Speed increased from 0.35 to 0.45. Must chase overtake target for 2+ seconds on final corner, then big boost on straight.
 
-								(Target: self, max 1 )
+**VI:** Hai thay đổi: (1) Chuyển điều kiện phức tạp sang điều kiện tiên quyết để thời điểm ổn định. (2) Tốc độ tăng từ 0.35 lên 0.45. Phải đuổi mục tiêu vượt trong 2+ giây ở khúc cua cuối, sau đó tăng mạnh ở đường thẳng.
 
 ---
 
@@ -646,14 +702,17 @@ Recover endurance with a gentle light when dropping down toward the back mid-rac
 **Changes:**
 
 Condition: phase==1&change_order_onetime>0&order_rate>=40
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: ~~0.055~~ -> **0.075**
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: ~~0.055~~ -> **0.075**
+**EN:** Stamina recovery increased from 0.055 to 0.075 (36% increase). Recovers more stamina when getting overtaken and dropping to back 60% positions in mid-race.
 
-								(Target: self, max 1 )
+**VI:** Hồi phục stamina tăng từ 0.055 lên 0.075 (tăng 36%). Hồi nhiều stamina hơn khi bị vượt và rơi xuống vị trí 60% cuối giữa cuộc đua.
 
 ---
 
@@ -663,14 +722,17 @@ Increase velocity when pressured by another runner and running out of energy tow
 **Changes:**
 
 Condition: is_finalcorner==1&hp_per<=~~35~~**45**&order<=3&order_rate<=50&bashin_diff_behind<=1&overtake_target_time>=1
- Duration: ~~5~~ -> **6**
+Duration: ~~5~~ -> **6**
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Two buffs: (1) HP threshold increased from 35% to 45% - triggers earlier when running low on stamina. (2) Duration increased from 5 to 6 seconds. Activates when in top 3 with close competition and low stamina.
 
-								(Target: self, max 1 )
+**VI:** Hai cải thiện: (1) Ngưỡng HP tăng từ 35% lên 45% - kích hoạt sớm hơn khi sắp hết stamina. (2) Thời lượng tăng từ 5 lên 6 giây. Kích hoạt khi ở top 3 với đối thủ đeo bám và stamina thấp.
 
 ---
 
@@ -680,14 +742,17 @@ Increase velocity when starting to make a move from a position toward the front 
 **Changes:**
 
 Condition: ~~phase_random~~**phase**==1&order>=3&order_rate<=50&is_overtake==1
- Duration: 5
+Duration: 5
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Changed from random point to entire mid-race phase. OLD: activates at one random moment. NEW: can activate anytime during whole mid-race when overtaking from top 50% while 3rd+. More activation opportunities.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ điểm ngẫu nhiên sang toàn bộ giai đoạn giữa cuộc đua. CŨ: kích hoạt tại một thời điểm ngẫu nhiên. MỚI: có thể kích hoạt bất cứ lúc nào trong suốt giữa cuộc đua khi vượt từ top 50% khi ở vị trí thứ 3+. Nhiều cơ hội kích hoạt hơn.
 
 ---
 
@@ -697,19 +762,19 @@ undefined
 **Changes:**
 
 Condition: phase==1&~~distance_rate>=50&~~order>=2&order_rate<=50&overtake_target_time>=1
- Duration: 0
-
-						// Cooldown:
-
-						500
- hp_recovery: 0.055
-
-								(Target: self, max 1 )
-
-						
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.055
+(Target: self, max 1 )
 hp_recovery: -0.005
+(Target: ahead, max 18 )
 
-								(Target: ahead, max 18 )
+**What Changed:**
+
+**EN:** Removed 50%+ race progress requirement. Now activates throughout entire mid-race phase (not just second half). Can drain stamina from opponents earlier. More activation opportunities.
+
+**VI:** Loại bỏ yêu cầu tiến trình 50%+ cuộc đua. Giờ kích hoạt trong suốt toàn bộ giai đoạn giữa cuộc đua (không chỉ nửa sau). Có thể hút stamina từ đối thủ sớm hơn. Nhiều cơ hội kích hoạt hơn.
 
 ---
 
@@ -719,14 +784,17 @@ Increase performance when no other runners are using the same strategy.
 **Changes:**
 
 Condition: running_style_count_same<=1
- Duration: -0.0001
+Duration: -0.0001
+Cooldown:
+0
+speed_stat_up: ~~60~~ -> **80**
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						0
- speed_stat_up: ~~60~~ -> **80**
+**EN:** Speed stat bonus increased from 60 to 80 (33% increase). This is a passive boost that lasts entire race when you're the only one using your running style (e.g., only Front Runner).
 
-								(Target: self, max 1 )
+**VI:** Tăng chỉ số tốc độ từ 60 lên 80 (tăng 33%). Đây là tăng buff thụ động kéo dài cả cuộc đua khi bạn là người duy nhất dùng phong cách chạy của mình (vd: Front Runner duy nhất).
 
 ---
 
@@ -736,14 +804,17 @@ Moderately increase performance when no other runners are using the same strateg
 **Changes:**
 
 Condition: running_style_count_same<=1
- Duration: -0.0001
+Duration: -0.0001
+Cooldown:
+0
+speed_stat_up: ~~40~~ -> **60**
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						0
- speed_stat_up: ~~40~~ -> **60**
+**EN:** Speed stat bonus increased from 40 to 60 (50% increase). Weaker version of Maverick ◎ but still significant buff when running unique style.
 
-								(Target: self, max 1 )
+**VI:** Tăng chỉ số tốc độ từ 40 lên 60 (tăng 50%). Phiên bản yếu hơn của Maverick ◎ nhưng vẫn là buff đáng kể khi chạy phong cách độc nhất.
 
 ---
 
@@ -753,14 +824,17 @@ Increase performance when at least 5 other runners are using the same strategy.
 **Changes:**
 
 Condition: ~~running_style_count_same~~**running_style_count_same_rate**>=~~6~~**40**
- Duration: -0.0001
+Duration: -0.0001
+Cooldown:
+0
+power_stat_up: 60
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						0
- power_stat_up: 60
+**EN:** Changed from counting horses (6+) to percentage (40%+). More flexible - works in races with different field sizes. Now based on 40% of field sharing your style instead of exact count of 6.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ đếm ngựa (6+) sang phần trăm (40%+). Linh hoạt hơn - hoạt động trong các cuộc đua với số lượng đối thủ khác nhau. Giờ dựa trên 40% đàn chia sẻ phong cách của bạn thay vì số lượng chính xác là 6.
 
 ---
 
@@ -770,14 +844,17 @@ Moderately increase performance when at least 5 other runners are using the same
 **Changes:**
 
 Condition: ~~running_style_count_same~~**running_style_count_same_rate**>=~~6~~**40**
- Duration: -0.0001
+Duration: -0.0001
+Cooldown:
+0
+power_stat_up: 40
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						0
- power_stat_up: 40
+**EN:** Changed from counting horses (6+) to percentage (40%+). Weaker version of Competitive Spirit ◎ with same condition change. More flexible across different field sizes.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ đếm ngựa (6+) sang phần trăm (40%+). Phiên bản yếu hơn của Competitive Spirit ◎ với cùng thay đổi điều kiện. Linh hoạt hơn với các kích thước đàn khác nhau.
 
 ---
 
@@ -787,14 +864,17 @@ Moderately decrease performance when at least 5 other runners are using the same
 **Changes:**
 
 Condition: ~~running_style_count_same~~**running_style_count_same_rate**>=~~6~~**40**
- Duration: -0.0001
+Duration: -0.0001
+Cooldown:
+0
+power_stat_up: -40
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						0
- power_stat_up: -40
+**EN:** Changed from counting horses (6+) to percentage (40%+). This is a DEBUFF skill - same condition change as Competitive Spirit but hurts instead of helps. Avoid if possible.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ đếm ngựa (6+) sang phần trăm (40%+). Đây là kỹ năng DEBUFF - cùng thay đổi điều kiện như Competitive Spirit nhưng gây hại thay vì giúp đỡ. Tránh nếu có thể.
 
 ---
 
@@ -804,14 +884,17 @@ Increase velocity on a corner with skilled turning.
 **Changes:**
 
 Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+30
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- speed: 0.35
+**EN:** Two changes: (1) Simplified activation - now picks 4 random corner points instead of 4 separate conditions. (2) Duration increased from 1.8 to 2.4 seconds. Lasts longer on corners.
 
-								(Target: self, max 1 )
+**VI:** Hai thay đổi: (1) Kích hoạt đơn giản hơn - giờ chọn 4 điểm khúc cua ngẫu nhiên thay vì 4 điều kiện riêng. (2) Thời lượng tăng từ 1.8 lên 2.4 giây. Kéo dài hơn ở khúc cua.
 
 ---
 
@@ -821,14 +904,17 @@ Slightly increase velocity on a corner with skilled turning.
 **Changes:**
 
 Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+30
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- speed: 0.15
+**EN:** Simplified activation and duration increased from 1.8 to 2.4 seconds. Weaker version of Professor of Curvature with same changes.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn và thời lượng tăng từ 1.8 lên 2.4 giây. Phiên bản yếu hơn của Professor of Curvature với cùng thay đổi.
 
 ---
 
@@ -838,14 +924,17 @@ Moderately decrease velocity on a corner with clumsy turning.
 **Changes:**
 
 Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+30
+current_speed: -0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- current_speed: -0.2
+**EN:** DEBUFF skill - same changes as corner skills above but SLOWS you down. Duration increased means you're slowed for longer (2.4s instead of 1.8s). Avoid this skill!
 
-								(Target: self, max 1 )
+**VI:** Kỹ năng DEBUFF - cùng thay đổi như các kỹ năng khúc cua trên nhưng LÀM CHẬM bạn. Thời lượng tăng nghĩa là bạn bị chậm lâu hơn (2.4s thay vì 1.8s). Tránh kỹ năng này!
 
 ---
 
@@ -855,14 +944,17 @@ Increase acceleration on a corner with masterful turning.
 **Changes:**
 
 Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
- Duration: ~~1.8~~ -> **3**
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+30
+acceleration: 0.4
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- acceleration: 0.4
+**EN:** Simplified activation and duration increased from 1.8 to 3 seconds. Acceleration version of corner skills - lasts even longer than speed variants.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn và thời lượng tăng từ 1.8 lên 3 giây. Phiên bản gia tốc của kỹ năng khúc cua - kéo dài lâu hơn cả biến thể tốc độ.
 
 ---
 
@@ -872,14 +964,17 @@ Slightly increase acceleration on a corner with masterful turning.
 **Changes:**
 
 Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
- Duration: ~~1.8~~ -> **3**
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+30
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- acceleration: 0.2
+**EN:** Simplified activation and duration increased from 1.8 to 3 seconds. Weaker version of Corner Connoisseur with same changes.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn và thời lượng tăng từ 1.8 lên 3 giây. Phiên bản yếu hơn của Corner Connoisseur với cùng thay đổi.
 
 ---
 
@@ -889,14 +984,17 @@ Moderately decrease acceleration on a corner with awkward turning.
 **Changes:**
 
 Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
- Duration: ~~1.8~~ -> **3**
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+30
+acceleration: -0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- acceleration: -0.2
+**EN:** DEBUFF skill - reduces acceleration on corners. Duration increased from 1.8 to 3 seconds means you struggle to speed up for longer. Avoid this skill!
 
-								(Target: self, max 1 )
+**VI:** Kỹ năng DEBUFF - giảm gia tốc ở khúc cua. Thời lượng tăng từ 1.8 lên 3 giây nghĩa là bạn khó tăng tốc lâu hơn. Tránh kỹ năng này!
 
 ---
 
@@ -906,14 +1004,17 @@ Increase velocity on a straight.
 **Changes:**
 
 Condition: straight_random==1
- Duration: ~~0.9~~ -> **2.4**
+Duration: ~~0.9~~ -> **2.4**
+Cooldown:
+30
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- speed: 0.35
+**EN:** Duration massively increased from 0.9 to 2.4 seconds (167% increase). Speed boost now lasts much longer on straights. Major buff.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng khủng từ 0.9 lên 2.4 giây (tăng 167%). Tăng tốc độ giờ kéo dài lâu hơn nhiều ở đường thẳng. Buff lớn.
 
 ---
 
@@ -923,14 +1024,17 @@ Slightly increase velocity on a straight.
 **Changes:**
 
 Condition: straight_random==1
- Duration: ~~0.9~~ -> **2.4**
+Duration: ~~0.9~~ -> **2.4**
+Cooldown:
+30
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- speed: 0.15
+**EN:** Duration increased from 0.9 to 2.4 seconds (167% increase). Weaker version of Beeline Burst with same duration buff.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 0.9 lên 2.4 giây (tăng 167%). Phiên bản yếu hơn của Beeline Burst với cùng buff thời lượng.
 
 ---
 
@@ -940,14 +1044,17 @@ Increase acceleration on a straight.
 **Changes:**
 
 Condition: straight_random==1
- Duration: ~~1.8~~ -> **3**
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+30
+acceleration: 0.4
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- acceleration: 0.4
+**EN:** Duration increased from 1.8 to 3 seconds (67% increase). Acceleration boost lasts longer on straights.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 3 giây (tăng 67%). Tăng gia tốc kéo dài lâu hơn ở đường thẳng.
 
 ---
 
@@ -957,14 +1064,17 @@ Slightly increase acceleration on a straight.
 **Changes:**
 
 Condition: straight_random==1
- Duration: ~~1.8~~ -> **3**
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+30
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- acceleration: 0.2
+**EN:** Duration increased from 1.8 to 3 seconds. Weaker version of Rushing Gale! with same duration buff.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 3 giây. Phiên bản yếu hơn của Rushing Gale! với cùng buff thời lượng.
 
 ---
 
@@ -974,14 +1084,17 @@ Moderately increase fatigue on an uphill.
 **Changes:**
 
 Condition: ~~slope~~**up_slope_random**==1
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: -0.02
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: -0.02
+**EN:** DEBUFF skill - Changed to more specific uphill detection. Now triggers at random uphill points. Still drains stamina on uphills - avoid this skill!
 
-								(Target: self, max 1 )
+**VI:** Kỹ năng DEBUFF - Thay đổi sang phát hiện dốc lên cụ thể hơn. Giờ kích hoạt tại các điểm dốc lên ngẫu nhiên. Vẫn hút stamina ở dốc lên - tránh kỹ năng này!
 
 ---
 
@@ -991,14 +1104,17 @@ Moderately lose endurance when surrounded.
 **Changes:**
 
 Condition: accumulatetime>=2&~~blocked_all_continuetime>=~~**is_surrounded==**1
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: -0.02
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: -0.02
+**EN:** DEBUFF skill - Changed to clearer surrounded detection. Uses new is_surrounded check (front+back+side blocked). Still drains stamina when boxed in - avoid this skill!
 
-								(Target: self, max 1 )
+**VI:** Kỹ năng DEBUFF - Thay đổi sang phát hiện bị vây rõ ràng hơn. Dùng kiểm tra is_surrounded mới (bị chặn trước+sau+bên). Vẫn hút stamina khi bị vây - tránh kỹ năng này!
 
 ---
 
@@ -1008,14 +1124,17 @@ Moderately increase urge to give up when positioned around the very back on the 
 **Changes:**
 
 Condition: ~~is_finalcorner~~**last_straight_random**==1&~~is_lastspurt==1&straight_random==1&corner==0&~~distance_diff_rate>=75
- Duration: 3
+Duration: 3
+Cooldown:
+30
+current_speed: -0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						30
- current_speed: -0.2
+**EN:** DEBUFF skill - Simplified to just trigger at random point on last straight. Removed position requirements. May trigger more often now - definitely avoid this skill!
 
-								(Target: self, max 1 )
+**VI:** Kỹ năng DEBUFF - Đơn giản hóa chỉ kích hoạt tại điểm ngẫu nhiên ở đường thẳng cuối. Loại bỏ yêu cầu vị trí. Có thể kích hoạt thường xuyên hơn - chắc chắn tránh kỹ năng này!
 
 ---
 
@@ -1025,14 +1144,17 @@ Recover endurance when the way ahead is jammed early-race.
 **Changes:**
 
 Condition: phase~~==0~~**<=1**&accumulatetime>=5&blocked_front_continuetime>=1
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.055
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.055
+**EN:** Phase expanded from only Early-Race to Early+Mid-Race (phase 0 and 1). Can now recover stamina when blocked in both early phases instead of just early. More activation opportunities.
 
-								(Target: self, max 1 )
+**VI:** Giai đoạn mở rộng từ chỉ Đầu cuộc đua sang Đầu+Giữa cuộc đua (giai đoạn 0 và 1). Giờ có thể hồi stamina khi bị chặn ở cả hai giai đoạn đầu thay vì chỉ đầu. Nhiều cơ hội kích hoạt hơn.
 
 ---
 
@@ -1042,14 +1164,17 @@ Slightly recover endurance when the way ahead is jammed early-race.
 **Changes:**
 
 Condition: phase~~==0~~**<=1**&accumulatetime>=5&blocked_front_continuetime>=1
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.015
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.015
+**EN:** Phase expanded from only Early-Race to Early+Mid-Race. Weaker version of Iron Will with same phase expansion.
 
-								(Target: self, max 1 )
+**VI:** Giai đoạn mở rộng từ chỉ Đầu cuộc đua sang Đầu+Giữa cuộc đua. Phiên bản yếu hơn của Iron Will với cùng mở rộng giai đoạn.
 
 ---
 
@@ -1059,14 +1184,17 @@ Increase navigation early-race.
 **Changes:**
 
 Condition: phase_random==0
- Duration: 3
+Duration: 3
+Cooldown:
+500
+lane_speed: ~~0.035~~ -> **0.045**
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- lane_speed: ~~0.035~~ -> **0.045**
+**EN:** Lane speed (navigation) increased from 0.035 to 0.045 (29% increase). Better at positioning and avoiding traffic at random point in early-race.
 
-								(Target: self, max 1 )
+**VI:** Tốc độ làn (điều hướng) tăng từ 0.035 lên 0.045 (tăng 29%). Tốt hơn ở việc định vị và tránh vòng vây tại điểm ngẫu nhiên đầu cuộc đua.
 
 ---
 
@@ -1076,14 +1204,17 @@ Moderately increase navigation early-race.
 **Changes:**
 
 Condition: phase_random==0
- Duration: 3
+Duration: 3
+Cooldown:
+500
+lane_speed: ~~0.025~~ -> **0.035**
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- lane_speed: ~~0.025~~ -> **0.035**
+**EN:** Lane speed increased from 0.025 to 0.035 (40% increase). Weaker version of Center Stage with same percentage buff.
 
-								(Target: self, max 1 )
+**VI:** Tốc độ làn tăng từ 0.025 lên 0.035 (tăng 40%). Phiên bản yếu hơn của Center Stage với cùng phần trăm buff.
 
 ---
 
@@ -1093,14 +1224,17 @@ Recover endurance when surrounded mid-race.
 **Changes:**
 
 Condition: phase==1&~~blocked_all_continuetime>=~~**is_surrounded==**1
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.055
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.055
+**EN:** Changed to clearer surrounded detection using is_surrounded check. Activates in mid-race when boxed in by other horses (front+back+side).
 
-								(Target: self, max 1 )
+**VI:** Thay đổi sang phát hiện bị vây rõ ràng hơn dùng kiểm tra is_surrounded. Kích hoạt giữa cuộc đua khi bị vây bởi ngựa khác (trước+sau+bên).
 
 ---
 
@@ -1110,14 +1244,17 @@ Slightly recover endurance when surrounded mid-race.
 **Changes:**
 
 Condition: phase==1&~~blocked_all_continuetime>=~~**is_surrounded==**1
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.015
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.015
+**EN:** Changed to clearer surrounded detection. Weaker version of Unruffled with same condition change.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi sang phát hiện bị vây rõ ràng hơn. Phiên bản yếu hơn của Unruffled với cùng thay đổi điều kiện.
 
 ---
 
@@ -1127,19 +1264,19 @@ Increase maneuverability when the way ahead is blocked in the last spurt.
 **Changes:**
 
 Condition: ~~blocked_front_continuetime~~**infront_near_lane_time**>=1&is_lastspurt==1&hp_per>=1
- Duration: 3
-
-						// Cooldown:
-
-						30
- acceleration: 0.4
-
-								(Target: self, max 1 )
-
-						
+Duration: 3
+Cooldown:
+30
+acceleration: 0.4
+(Target: self, max 1 )
 lane_speed: 0.025
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Changed to more precise front detection - now checks for horses directly in front (within 2.5m/1 lane) instead of just general blocking. Better at detecting when you need to navigate around slower horses.
+
+**VI:** Thay đổi sang phát hiện phía trước chính xác hơn - giờ kiểm tra ngựa ngay phía trước (trong 2.5m/1 làn) thay vì chỉ chặn chung. Tốt hơn ở phát hiện khi cần điều hướng quanh ngựa chậm hơn.
 
 ---
 
@@ -1149,19 +1286,19 @@ Slightly increase maneuverability when the way ahead is blocked in the last spur
 **Changes:**
 
 Condition: ~~blocked_front_continuetime~~**infront_near_lane_time**>=1&is_lastspurt==1&hp_per>=1
- Duration: 3
-
-						// Cooldown:
-
-						30
- acceleration: 0.2
-
-								(Target: self, max 1 )
-
-						
+Duration: 3
+Cooldown:
+30
+acceleration: 0.2
+(Target: self, max 1 )
 lane_speed: 0.005
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Changed to more precise front detection. Weaker version of No Stopping Me! with same condition change.
+
+**VI:** Thay đổi sang phát hiện phía trước chính xác hơn. Phiên bản yếu hơn của No Stopping Me! với cùng thay đổi điều kiện.
 
 ---
 
@@ -1171,14 +1308,17 @@ Increase velocity in the last spurt.
 **Changes:**
 
 Condition: is_lastspurt==1&phase_random==3
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Duration increased from 1.8 to 2.4 seconds (33% increase). Speed boost lasts longer during last spurt phase.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 2.4 giây (tăng 33%). Tăng tốc độ kéo dài lâu hơn trong giai đoạn cố cuối.
 
 ---
 
@@ -1188,14 +1328,17 @@ Slightly increase velocity in the last spurt.
 **Changes:**
 
 Condition: is_lastspurt==1&phase_random==3
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Duration increased from 1.8 to 2.4 seconds. Weaker version of In Body and Mind with same duration buff.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 2.4 giây. Phiên bản yếu hơn của In Body and Mind với cùng buff thời lượng.
 
 ---
 
@@ -1205,14 +1348,17 @@ Increase ability to go to the front early-race. (Front Runner)
 **Changes:**
 
 Condition: running_style==1&phase==0~~&accumulatetime>=5~~
- Duration: 1.2
+Duration: 1.2
+Cooldown:
+500
+acceleration: 0.4
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.4
+**EN:** Removed 5 second wait requirement. Now activates immediately at race start for Front Runners. Can boost to the front faster from the gate.
 
-								(Target: self, max 1 )
+**VI:** Loại bỏ yêu cầu chờ 5 giây. Giờ kích hoạt ngay lập tức khi bắt đầu cuộc đua cho Front Runner. Có thể tăng tốc lên đầu nhanh hơn từ cổng xuất phát.
 
 ---
 
@@ -1222,14 +1368,17 @@ Slightly increase ability to go to the front early-race. (Front Runner)
 **Changes:**
 
 Condition: running_style==1&phase==0~~&accumulatetime>=5~~
- Duration: 1.2
+Duration: 1.2
+Cooldown:
+500
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.2
+**EN:** Removed 5 second wait requirement. Weaker version of Taking the Lead with same timing improvement.
 
-								(Target: self, max 1 )
+**VI:** Loại bỏ yêu cầu chờ 5 giây. Phiên bản yếu hơn của Taking the Lead với cùng cải thiện thời điểm.
 
 ---
 
@@ -1239,14 +1388,17 @@ Decrease fatigue early-race. (Pace Chaser)
 **Changes:**
 
 Condition: running_style==2&~~phase_random~~**phase_laterhalf_random**==0&~~accumulatetime>=5&~~order_rate<=50
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.055
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.055
+**EN:** Two changes: (1) Changed from random point to second half of early-race phase. (2) Removed time and position requirements. Activates more reliably for Pace Chasers in latter part of early phase.
 
-								(Target: self, max 1 )
+**VI:** Hai thay đổi: (1) Thay đổi từ điểm ngẫu nhiên sang nửa sau của giai đoạn đầu. (2) Loại bỏ yêu cầu thời gian và vị trí. Kích hoạt đáng tin cậy hơn cho Pace Chaser trong phần sau của giai đoạn đầu.
 
 ---
 
@@ -1256,14 +1408,17 @@ Slightly decrease fatigue early-race. (Pace Chaser)
 **Changes:**
 
 Condition: running_style==2&~~phase_random~~**phase_laterhalf_random**==0&~~accumulatetime>=5&~~order_rate<=50
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.015
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.015
+**EN:** Changed timing and removed requirements. Weaker version of Calm and Collected with same changes.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi thời điểm và loại bỏ yêu cầu. Phiên bản yếu hơn của Calm and Collected với cùng thay đổi.
 
 ---
 
@@ -1273,14 +1428,17 @@ Increase ability to break out of the pack on the final corner. (Pace Chaser)
 **Changes:**
 
 Condition: running_style==2&is_finalcorner_random==1&order_rate<=50
- Duration: ~~1.2~~ -> **1.8**
+Duration: ~~1.2~~ -> **1.8**
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Duration increased from 1.2 to 1.8 seconds (50% increase). Speed boost lasts longer when breaking out on final corner for Pace Chasers in top 50%.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.2 lên 1.8 giây (tăng 50%). Tăng tốc độ kéo dài lâu hơn khi thoát ra ở khúc cua cuối cho Pace Chaser trong top 50%.
 
 ---
 
@@ -1290,14 +1448,17 @@ Slightly increase ability to break out of the pack on the final corner. (Pace Ch
 **Changes:**
 
 Condition: running_style==2&is_finalcorner_random==1&order_rate<=50
- Duration: ~~1.2~~ -> **1.8**
+Duration: ~~1.2~~ -> **1.8**
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Duration increased from 1.2 to 1.8 seconds. Weaker version of Speed Star with same duration buff.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.2 lên 1.8 giây. Phiên bản yếu hơn của Speed Star với cùng buff thời lượng.
 
 ---
 
@@ -1307,14 +1468,17 @@ Increase velocity mid-race. (Late Surger)
 **Changes:**
 
 Condition: running_style==3&phase_random==1&order_rate>50
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Duration increased from 1.8 to 2.4 seconds (33% increase). Speed boost lasts longer for Late Surgers in back half of pack during mid-race.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 2.4 giây (tăng 33%). Tăng tốc độ kéo dài lâu hơn cho Late Surger ở nửa sau đàn trong giữa cuộc đua.
 
 ---
 
@@ -1324,14 +1488,17 @@ Slightly increase velocity mid-race. (Late Surger)
 **Changes:**
 
 Condition: running_style==3&phase_random==1&order_rate>50
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Duration increased from 1.8 to 2.4 seconds. Weaker version of Fast & Furious with same duration buff.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 2.4 giây. Phiên bản yếu hơn của Fast & Furious với cùng buff thời lượng.
 
 ---
 
@@ -1341,14 +1508,17 @@ Move up in preparation to close the gap late-race. (End Closer)
 **Changes:**
 
 Condition: running_style==4&phase_random==2&distance_diff_rate>=~~75~~**50**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Distance gap requirement relaxed from 75% to 50%. Now activates when further behind - easier for End Closers to trigger when positioning to make their late move.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu khoảng cách nới lỏng từ 75% xuống 50%. Giờ kích hoạt khi ở xa phía sau hơn - dễ hơn cho End Closer kích hoạt khi định vị để thực hiện động thái cuối.
 
 ---
 
@@ -1358,14 +1528,17 @@ Slightly move up in preparation to close the gap late-race. (End Closer)
 **Changes:**
 
 Condition: running_style==4&phase_random==2&distance_diff_rate>=~~75~~**50**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Distance gap relaxed from 75% to 50%. Weaker version of Sturm und Drang with same condition change.
 
-								(Target: self, max 1 )
+**VI:** Khoảng cách nới lỏng từ 75% xuống 50%. Phiên bản yếu hơn của Sturm und Drang với cùng thay đổi điều kiện.
 
 ---
 
@@ -1375,19 +1548,19 @@ Slightly decrease fatigue when positioned toward the back mid-race. (Sprint)
 **Changes:**
 
 Condition: distance_type==1&phase_random==1&order_rate>50
- Duration: ~~0~~ -> **3**
-
-						// Cooldown:
-
-						500
- hp_recovery: 0.015
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~0~~ -> **3**
+Cooldown:
+500
+hp_recovery: 0.015
+(Target: self, max 1 )
 **acceleration**: **0.1**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Two buffs: (1) Duration increased from instant (0) to 3 seconds. (2) Added acceleration boost (0.1). For Sprint distance, now gives stamina recovery AND acceleration when in back half mid-race.
+
+**VI:** Hai buff: (1) Thời lượng tăng từ tức thì (0) lên 3 giây. (2) Thêm tăng gia tốc (0.1). Với cự ly Sprint, giờ hồi stamina VÀ tăng gia tốc khi ở nửa sau giữa cuộc đua.
 
 ---
 
@@ -1397,19 +1570,19 @@ Increase spurting ability when positioned toward the back late-race. (Sprint)
 **Changes:**
 
 Condition: distance_type==1&phase_random==2&order_rate>50
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
+**acceleration**: **0.2**
+(Target: **self**, max **1** )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Added acceleration boost (0.2) on top of speed. For Sprint distance, now gives both speed AND acceleration when in back half during late-race.
 
-								(Target: self, max 1 )
-
-						
-**acceleration**: **0.1**
-
-								(Target: **self**, max **1** )
+**VI:** Thêm tăng gia tốc (0.2) vào tốc độ. Với cự ly Sprint, giờ tăng cả tốc độ VÀ gia tốc khi ở nửa sau trong cuối cuộc đua.
 
 ---
 
@@ -1419,19 +1592,19 @@ Slightly increase spurting ability when positioned toward the back late-race. (S
 **Changes:**
 
 Condition: distance_type==1&phase_random==2&order_rate>50
- Duration: 3
-
-						// Cooldown:
-
-						500
- speed: 0.15
-
-								(Target: self, max 1 )
-
-						
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 **acceleration**: **0.05**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Added acceleration boost (0.05). Weaker version of Blinding Flash - also gets acceleration buff but with lower values.
+
+**VI:** Thêm tăng gia tốc (0.05). Phiên bản yếu hơn của Blinding Flash - cũng được buff gia tốc nhưng giá trị thấp hơn.
 
 ---
 
@@ -1441,14 +1614,17 @@ Widen the margin when in the lead early-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&phase_random==0&accumulatetime>=5&~~order==1~~**order_rate<=50**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Position requirement relaxed from only 1st place to top 50% of pack. For Mile distance, now activates when in front half instead of only when leading.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ chỉ vị trí thứ nhất sang top 50% đàn. Với cự ly Mile, giờ kích hoạt khi ở nửa trước thay vì chỉ khi dẫn đầu.
 
 ---
 
@@ -1458,14 +1634,17 @@ Slightly widen the margin when in the lead early-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&phase_random==0&accumulatetime>=5&~~order==1~~**order_rate<=50**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Position requirement relaxed from 1st to top 50%. Weaker version of Mile Maven with same condition change.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ thứ nhất sang top 50%. Phiên bản yếu hơn của Mile Maven với cùng thay đổi điều kiện.
 
 ---
 
@@ -1475,19 +1654,19 @@ Decrease fatigue when positioned toward the back early-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&~~phase_random~~**phase_laterhalf_random**==0&~~accumulatetime>=5&~~order_rate>50
- Duration: ~~0~~ -> **3**
-
-						// Cooldown:
-
-						500
- hp_recovery: 0.055
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~0~~ -> **3**
+Cooldown:
+500
+hp_recovery: 0.055
+(Target: self, max 1 )
 **current_speed**: **-0.2**
+(Target: **ahead**, max **18** )
 
-								(Target: **ahead**, max **18** )
+**What Changed:**
+
+**EN:** Three changes: (1) Changed to second half of early-race. (2) Duration increased from 0 to 3 seconds. (3) Added speed debuff (-0.2) on horses ahead. For Mile, now slows down front runners while recovering stamina.
+
+**VI:** Ba thay đổi: (1) Thay đổi sang nửa sau của đầu cuộc đua. (2) Thời lượng tăng từ 0 lên 3 giây. (3) Thêm debuff tốc độ (-0.2) cho ngựa phía trước. Với Mile, giờ làm chậm ngựa dẫn đầu trong khi hồi stamina.
 
 ---
 
@@ -1497,19 +1676,19 @@ Slightly decrease fatigue when positioned toward the back early-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&~~phase_random~~**phase_laterhalf_random**==0&~~accumulatetime>=5&~~order_rate>50
- Duration: ~~0~~ -> **3**
-
-						// Cooldown:
-
-						500
- hp_recovery: 0.015
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~0~~ -> **3**
+Cooldown:
+500
+hp_recovery: 0.015
+(Target: self, max 1 )
 **current_speed**: **-0.05**
+(Target: **ahead**, max **18** )
 
-								(Target: **ahead**, max **18** )
+**What Changed:**
+
+**EN:** Same changes as Keen Eye but weaker. Duration increased and added speed debuff (-0.05) on horses ahead. Weaker version with smaller effects.
+
+**VI:** Cùng thay đổi như Keen Eye nhưng yếu hơn. Thời lượng tăng và thêm debuff tốc độ (-0.05) cho ngựa phía trước. Phiên bản yếu hơn với hiệu ứng nhỏ hơn.
 
 ---
 
@@ -1519,14 +1698,17 @@ Decrease fatigue when in the lead mid-race. (Medium)
 **Changes:**
 
 Condition: distance_type==3&phase_random==1&order~~==1~~**<=3**
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.055
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.055
+**EN:** Position requirement relaxed from only 1st place to top 3. For Medium distance, now activates when in top 3 positions instead of only when leading mid-race.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ chỉ vị trí thứ nhất sang top 3. Với cự ly Medium, giờ kích hoạt khi ở top 3 vị trí thay vì chỉ khi dẫn đầu giữa cuộc đua.
 
 ---
 
@@ -1536,14 +1718,17 @@ Slightly decrease fatigue when in the lead mid-race. (Medium)
 **Changes:**
 
 Condition: distance_type==3&phase_random==1&order~~==1~~**<=3**
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.015
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.015
+**EN:** Position requirement relaxed from 1st to top 3. Weaker version of Trackblazer with same condition change.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí nới lỏng từ thứ nhất sang top 3. Phiên bản yếu hơn của Trackblazer với cùng thay đổi điều kiện.
 
 ---
 
@@ -1553,14 +1738,17 @@ Increase positioning ability when positioned toward the front mid-race. (Medium)
 **Changes:**
 
 Condition: distance_type==3&phase_random==1&order_rate<=50
- Duration: ~~0.9~~ -> **2.4**
+Duration: ~~0.9~~ -> **2.4**
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Duration massively increased from 0.9 to 2.4 seconds (167% increase). For Medium distance, speed boost lasts much longer when in top 50% mid-race.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng khủng từ 0.9 lên 2.4 giây (tăng 167%). Với cự ly Medium, tăng tốc độ kéo dài lâu hơn nhiều khi ở top 50% giữa cuộc đua.
 
 ---
 
@@ -1570,14 +1758,17 @@ Slightly increase positioning ability when positioned toward the front mid-race.
 **Changes:**
 
 Condition: distance_type==3&phase_random==1&order_rate<=50
- Duration: ~~0.9~~ -> **2.4**
+Duration: ~~0.9~~ -> **2.4**
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Duration increased from 0.9 to 2.4 seconds (167% increase). Weaker version of Killer Tunes with same duration buff.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 0.9 lên 2.4 giây (tăng 167%). Phiên bản yếu hơn của Killer Tunes với cùng buff thời lượng.
 
 ---
 
@@ -1587,19 +1778,19 @@ Increase ability to fight back when passed by another runner on the final corner
 **Changes:**
 
 Condition: distance_type==3&is_finalcorner==1&corner!=0&change_order_onetime>0
- Duration: 3
-
-						// Cooldown:
-
-						500
- speed: 0.35
-
-								(Target: self, max 1 )
-
-						
+Duration: 3
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 **acceleration**: **0.1**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Added acceleration boost (0.1). For Medium distance, now gives both speed AND acceleration when getting passed on final corner.
+
+**VI:** Thêm tăng gia tốc (0.1). Với cự ly Medium, giờ tăng cả tốc độ VÀ gia tốc khi bị vượt ở khúc cua cuối.
 
 ---
 
@@ -1609,19 +1800,19 @@ Slightly increase ability to fight back when passed by another runner on the fin
 **Changes:**
 
 Condition: distance_type==3&is_finalcorner==1&corner!=0&change_order_onetime>0
- Duration: 3
-
-						// Cooldown:
-
-						500
- speed: 0.15
-
-								(Target: self, max 1 )
-
-						
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 **acceleration**: **0.05**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Added acceleration boost (0.05). Weaker version of Unyielding with lower values for both speed and acceleration.
+
+**VI:** Thêm tăng gia tốc (0.05). Phiên bản yếu hơn của Unyielding với giá trị thấp hơn cho cả tốc độ và gia tốc.
 
 ---
 
@@ -1631,14 +1822,17 @@ Regain the energy to run after exhausting strength. (Long)
 **Changes:**
 
 Condition: distance_type==4&~~is_hp_empty_onetime==1~~**hp_per<=30**
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.055
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.055
+**EN:** Changed from one-time trigger when stamina hits zero to continuous trigger when stamina is 30% or below. For Long distance, now can activate multiple times instead of just once. Much more useful.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ kích hoạt một lần khi stamina chạm 0 sang kích hoạt liên tục khi stamina ở 30% trở xuống. Với cự ly Long, giờ có thể kích hoạt nhiều lần thay vì chỉ một lần. Hữu ích hơn nhiều.
 
 ---
 
@@ -1648,14 +1842,17 @@ Slightly regain the energy to run after exhausting strength. (Long)
 **Changes:**
 
 Condition: distance_type==4&~~is_hp_empty_onetime==1~~**hp_per<=30**
- Duration: 0
+Duration: 0
+Cooldown:
+500
+hp_recovery: 0.015
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: 0.015
+**EN:** Changed from one-time trigger to continuous trigger at 30% stamina or below. Weaker version of Adrenaline Rush with same condition change.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ kích hoạt một lần sang kích hoạt liên tục ở 30% stamina trở xuống. Phiên bản yếu hơn của Adrenaline Rush với cùng thay đổi điều kiện.
 
 ---
 
@@ -1665,14 +1862,17 @@ Moderately increase velocity on a corner. (Sprint)
 **Changes:**
 
 Condition: distance_type==1&~~corner_random~~**all_corner_random**==1~~@distance_type==1&corner_random==2@distance_type==1&corner_random==3@distance_type==1&corner_random==4~~
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Simplified activation - now picks 4 random corner points with single condition instead of 4 separate conditions. For Sprint distance, easier to implement.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn - giờ chọn 4 điểm khúc cua ngẫu nhiên với một điều kiện thay vì 4 điều kiện riêng. Với cự ly Sprint, dễ triển khai hơn.
 
 ---
 
@@ -1682,14 +1882,17 @@ Slightly increase velocity on a corner. (Sprint)
 **Changes:**
 
 Condition: distance_type==1&~~corner_random~~**all_corner_random**==1~~@distance_type==1&corner_random==2@distance_type==1&corner_random==3@distance_type==1&corner_random==4~~
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Simplified activation. Weaker version of Sprint Corners ◎ with same condition change.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của Sprint Corners ◎ với cùng thay đổi điều kiện.
 
 ---
 
@@ -1699,14 +1902,17 @@ Increase ability to maintain the lead when leading by a large margin mid-race. (
 **Changes:**
 
 Condition: distance_type==1&phase==1&bashin_diff_behind>=~~5~~**3**&order==1
- Duration: ~~1.2~~ -> **3**
+Duration: ~~1.2~~ -> **3**
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Two buffs: (1) Lead requirement reduced from 5 to 3 horse lengths - easier to activate. (2) Duration increased from 1.2 to 3 seconds (150% increase). For Sprint, activates earlier and lasts longer when leading.
 
-								(Target: self, max 1 )
+**VI:** Hai buff: (1) Yêu cầu dẫn trước giảm từ 5 xuống 3 thân ngựa - dễ kích hoạt hơn. (2) Thời lượng tăng từ 1.2 lên 3 giây (tăng 150%). Với Sprint, kích hoạt sớm hơn và kéo dài lâu hơn khi dẫn đầu.
 
 ---
 
@@ -1716,14 +1922,17 @@ Slightly increase ability to maintain the lead when leading by a large margin mi
 **Changes:**
 
 Condition: distance_type==1&phase==1&bashin_diff_behind>=~~5~~**3**&order==1
- Duration: ~~1.2~~ -> **3**
+Duration: ~~1.2~~ -> **3**
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Lead requirement reduced and duration increased. Weaker version of Staggering Lead with same changes.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu dẫn trước giảm và thời lượng tăng. Phiên bản yếu hơn của Staggering Lead với cùng thay đổi.
 
 ---
 
@@ -1733,14 +1942,17 @@ Increase passing ability when positioned toward the front mid-race. (Sprint)
 **Changes:**
 
 Condition: distance_type==1&~~phase_random~~**phase_laterhalf_random**==1&order>=2&order_rate<=50
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: 0.4
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.4
+**EN:** Changed from random point to second half of mid-race. For Sprint, now activates in latter part of mid-race when 2nd+ in top 50%. More predictable timing.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ điểm ngẫu nhiên sang nửa sau của giữa cuộc đua. Với Sprint, giờ kích hoạt ở phần sau của giữa cuộc đua khi thứ 2+ trong top 50%. Thời điểm dự đoán được hơn.
 
 ---
 
@@ -1750,14 +1962,17 @@ Slightly increase passing ability when positioned toward the front mid-race. (Sp
 **Changes:**
 
 Condition: distance_type==1&~~phase_random~~**phase_laterhalf_random**==1&order>=2&order_rate<=50
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.2
+**EN:** Changed timing to second half of mid-race. Weaker version of Plan X with same timing change.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi thời điểm sang nửa sau của giữa cuộc đua. Phiên bản yếu hơn của Plan X với cùng thay đổi thời điểm.
 
 ---
 
@@ -1767,19 +1982,19 @@ Prepare to make for the finish line mid-race. (Sprint)
 **Changes:**
 
 Condition: distance_type==1&phase_random==1
- Duration: ~~3~~ -> **4**
-
-						// Cooldown:
-
-						500
- lane_speed: 0.035
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~3~~ -> **4**
+Cooldown:
+500
+lane_speed: 0.035
+(Target: self, max 1 )
 acceleration: 0.3
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Duration increased from 3 to 4 seconds (33% increase). For Sprint, navigation and acceleration boost lasts longer mid-race.
+
+**VI:** Thời lượng tăng từ 3 lên 4 giây (tăng 33%). Với Sprint, buff điều hướng và gia tốc kéo dài lâu hơn giữa cuộc đua.
 
 ---
 
@@ -1789,19 +2004,19 @@ Moderately prepare to make for the finish line mid-race. (Sprint)
 **Changes:**
 
 Condition: distance_type==1&phase_random==1
- Duration: ~~3~~ -> **4**
-
-						// Cooldown:
-
-						500
- lane_speed: 0.025
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~3~~ -> **4**
+Cooldown:
+500
+lane_speed: 0.025
+(Target: self, max 1 )
 acceleration: 0.2
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Duration increased from 3 to 4 seconds. Weaker version of Perfect Prep! with same duration buff.
+
+**VI:** Thời lượng tăng từ 3 lên 4 giây. Phiên bản yếu hơn của Perfect Prep! với cùng buff thời lượng.
 
 ---
 
@@ -1811,14 +2026,17 @@ Intimidate runners behind when positioned toward the front early-race. (Sprint)
 **Changes:**
 
 Condition: distance_type==1&phase_random==0&~~order~~**order_rate**<=~~3~~**50**&accumulatetime>=5
- Duration: 3
+Duration: 3
+Cooldown:
+500
+current_speed: -0.25
+(Target: behind, max 18 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- current_speed: -0.25
+**EN:** Position requirement changed from top 3 places to top 50% of pack. For Sprint, easier to activate - now slows down horses behind you when in front half instead of only top 3.
 
-								(Target: behind, max 18 )
+**VI:** Yêu cầu vị trí thay đổi từ top 3 vị trí sang top 50% đàn. Với Sprint, dễ kích hoạt hơn - giờ làm chậm ngựa phía sau khi ở nửa trước thay vì chỉ top 3.
 
 ---
 
@@ -1828,14 +2046,17 @@ Moderately intimidate runners behind when positioned toward the front early-race
 **Changes:**
 
 Condition: distance_type==1&phase_random==0&~~order~~**order_rate**<=~~3~~**50**&accumulatetime>=5
- Duration: 3
+Duration: 3
+Cooldown:
+500
+current_speed: -0.2
+(Target: behind, max 18 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- current_speed: -0.2
+**EN:** Position requirement changed from top 3 to top 50%. Weaker version of Adored by All with same condition change.
 
-								(Target: behind, max 18 )
+**VI:** Yêu cầu vị trí thay đổi từ top 3 sang top 50%. Phiên bản yếu hơn của Adored by All với cùng thay đổi điều kiện.
 
 ---
 
@@ -1845,19 +2066,19 @@ Cause panic in runners ahead when positioned toward the back early-race. (Sprint
 **Changes:**
 
 Condition: distance_type==1&phase_random==0&order_rate>50&accumulatetime>=5
- Duration: ~~0~~ -> **1.2**
-
-						// Cooldown:
-
-						500
- hp_recovery: -0.03
-
-								(Target: ahead, max 18 )
-
-						
+Duration: ~~0~~ -> **1.2**
+Cooldown:
+500
+hp_recovery: -0.03
+(Target: ahead, max 18 )
 **acceleration**: **-0.2**
+(Target: **ahead**, max **18** )
 
-								(Target: **ahead**, max **18** )
+**What Changed:**
+
+**EN:** Two changes: (1) Duration increased from instant (0) to 1.2 seconds. (2) Added acceleration debuff (-0.2) on horses ahead. For Sprint from back half, now drains stamina AND reduces acceleration of front runners for longer.
+
+**VI:** Hai thay đổi: (1) Thời lượng tăng từ tức thì (0) lên 1.2 giây. (2) Thêm debuff gia tốc (-0.2) cho ngựa phía trước. Với Sprint từ nửa sau, giờ hút stamina VÀ giảm gia tốc của ngựa dẫn đầu lâu hơn.
 
 ---
 
@@ -1867,19 +2088,19 @@ Slightly cause panic in runners ahead when positioned toward the back early-race
 **Changes:**
 
 Condition: distance_type==1&phase_random==0&order_rate>50&accumulatetime>=5
- Duration: ~~0~~ -> **1.2**
+Duration: ~~0~~ -> **1.2**
+Cooldown:
+500
+hp_recovery: -0.01
+(Target: ahead, max 18 )
+**acceleration**: **-0.1**
+(Target: **ahead**, max **18** )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- hp_recovery: -0.01
+**EN:** Duration increased and added acceleration debuff (-0.1). Weaker version of You've Got No Shot with same changes but lower values.
 
-								(Target: ahead, max 18 )
-
-						
-**acceleration**: **-0.05**
-
-								(Target: **ahead**, max **18** )
+**VI:** Thời lượng tăng và thêm debuff gia tốc (-0.1). Phiên bản yếu hơn của You've Got No Shot với cùng thay đổi nhưng giá trị thấp hơn.
 
 ---
 
@@ -1889,14 +2110,17 @@ Moderately increase velocity on a corner. (Mile)
 **Changes:**
 
 Condition: distance_type==2&~~corner_random~~**all_corner_random**==1~~@distance_type==2&corner_random==2@distance_type==2&corner_random==3@distance_type==2&corner_random==4~~
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Simplified activation - single condition instead of 4 separate ones. For Mile distance, easier to implement.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn - một điều kiện thay vì 4 riêng biệt. Với cự ly Mile, dễ triển khai hơn.
 
 ---
 
@@ -1906,14 +2130,17 @@ Slightly increase velocity on a corner. (Mile)
 **Changes:**
 
 Condition: distance_type==2&~~corner_random~~**all_corner_random**==1~~@distance_type==2&corner_random==2@distance_type==2&corner_random==3@distance_type==2&corner_random==4~~
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Simplified activation. Weaker version of Mile Corners ◎.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của Mile Corners ◎.
 
 ---
 
@@ -1923,14 +2150,17 @@ Increase passing ability when positioned toward the front mid-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&phase_random==1&order_rate<=50
- Duration: ~~1.2~~ -> **2.4**
+Duration: ~~1.2~~ -> **2.4**
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Duration doubled from 1.2 to 2.4 seconds (100% increase). For Mile, speed boost lasts much longer when in top 50% mid-race.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng gấp đôi từ 1.2 lên 2.4 giây (tăng 100%). Với Mile, tăng tốc độ kéo dài lâu hơn nhiều khi ở top 50% giữa cuộc đua.
 
 ---
 
@@ -1940,14 +2170,17 @@ Slightly increase passing ability when positioned toward the front mid-race. (Mi
 **Changes:**
 
 Condition: distance_type==2&phase_random==1&order_rate<=50
- Duration: ~~1.2~~ -> **2.4**
+Duration: ~~1.2~~ -> **2.4**
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Duration doubled from 1.2 to 2.4 seconds. Weaker version of Changing Gears.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng gấp đôi từ 1.2 lên 2.4 giây. Phiên bản yếu hơn của Changing Gears.
 
 ---
 
@@ -1957,14 +2190,17 @@ Increase acceleration when passing another runner mid-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&phase==1&change_order_onetime<0
- Duration: ~~1.2~~ -> **3**
+Duration: ~~1.2~~ -> **3**
+Cooldown:
+500
+acceleration: 0.4
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.4
+**EN:** Duration increased from 1.2 to 3 seconds (150% increase). For Mile, acceleration boost lasts much longer when overtaking mid-race.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.2 lên 3 giây (tăng 150%). Với Mile, tăng gia tốc kéo dài lâu hơn nhiều khi vượt giữa cuộc đua.
 
 ---
 
@@ -1974,14 +2210,17 @@ Slightly increase acceleration when passing another runner mid-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&phase==1&change_order_onetime<0
- Duration: ~~1.2~~ -> **3**
+Duration: ~~1.2~~ -> **3**
+Cooldown:
+500
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.2
+**EN:** Duration increased from 1.2 to 3 seconds. Weaker version of Step on the Gas!
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.2 lên 3 giây. Phiên bản yếu hơn của Step on the Gas!
 
 ---
 
@@ -1991,14 +2230,17 @@ Increase passing ability. (Mile)
 **Changes:**
 
 Condition: distance_type==2&is_overtake==1&accumulatetime>=5
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Duration increased from 1.8 to 2.4 seconds (33% increase). For Mile, speed boost lasts longer when overtaking after 5 seconds.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 2.4 giây (tăng 33%). Với Mile, tăng tốc độ kéo dài lâu hơn khi vượt sau 5 giây.
 
 ---
 
@@ -2008,14 +2250,17 @@ Slightly increase passing ability. (Mile)
 **Changes:**
 
 Condition: distance_type==2&is_overtake==1&accumulatetime>=5
- Duration: ~~1.8~~ -> **2.4**
+Duration: ~~1.8~~ -> **2.4**
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Duration increased from 1.8 to 2.4 seconds. Weaker version of Big-Sisterly.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 2.4 giây. Phiên bản yếu hơn của Big-Sisterly.
 
 ---
 
@@ -2025,19 +2270,19 @@ Moderately steal velocity from runners behind when in the lead mid-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&phase_random==1&order~~==1~~**<=3**
- Duration: 3
-
-						// Cooldown:
-
-						500
- current_speed: -0.2
-
-								(Target: behind, max 5 )
-
-						
+Duration: 3
+Cooldown:
+500
+current_speed: -0.2
+(Target: behind, max 5 )
 speed: 0.25
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Position relaxed from 1st only to top 3. Slows horses behind while boosting your speed when in top 3 mid-race for Mile.
+
+**VI:** Vị trí nới lỏng từ chỉ thứ nhất sang top 3. Làm chậm ngựa phía sau trong khi tăng tốc độ của bạn khi ở top 3 giữa cuộc đua với Mile.
 
 ---
 
@@ -2047,19 +2292,19 @@ Slightly steal velocity from runners behind when in the lead mid-race. (Mile)
 **Changes:**
 
 Condition: distance_type==2&phase_random==1&order~~==1~~**<=3**
- Duration: 3
-
-						// Cooldown:
-
-						500
- current_speed: -0.15
-
-								(Target: behind, max 5 )
-
-						
+Duration: 3
+Cooldown:
+500
+current_speed: -0.15
+(Target: behind, max 5 )
 speed: 0.15
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Position relaxed from 1st to top 3. Weaker version of Greed for Speed.
+
+**VI:** Vị trí nới lỏng từ thứ nhất sang top 3. Phiên bản yếu hơn của Greed for Speed.
 
 ---
 
@@ -2069,14 +2314,17 @@ Dull movement for runners ahead when positioned toward the back early-race. (Mil
 **Changes:**
 
 Condition: distance_type==2&phase_random==0&order_rate>50&accumulatetime>=~~5~~**3**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: -0.3
+(Target: ahead, max 18 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: -0.3
+**EN:** Wait time reduced from 5 to 3 seconds. Activates earlier, reducing acceleration of front runners for Mile from back half.
 
-								(Target: ahead, max 18 )
+**VI:** Thời gian chờ giảm từ 5 xuống 3 giây. Kích hoạt sớm hơn, giảm gia tốc của ngựa dẫn đầu với Mile từ nửa sau.
 
 ---
 
@@ -2086,14 +2334,17 @@ Slightly dull movement for runners ahead when positioned toward the back early-r
 **Changes:**
 
 Condition: distance_type==2&phase_random==0&order_rate>50&accumulatetime>=~~5~~**3**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: -0.1
+(Target: ahead, max 18 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: -0.1
+**EN:** Wait time reduced from 5 to 3 seconds. Weaker version of Battle Formation.
 
-								(Target: ahead, max 18 )
+**VI:** Thời gian chờ giảm từ 5 xuống 3 giây. Phiên bản yếu hơn của Battle Formation.
 
 ---
 
@@ -2103,14 +2354,17 @@ Moderately increase velocity on a corner. (Medium)
 **Changes:**
 
 Condition: distance_type==3&~~corner_random~~**all_corner_random**==1~~@distance_type==3&corner_random==2@distance_type==3&corner_random==3@distance_type==3&corner_random==4~~
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Simplified activation for Medium distance.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn với cự ly Medium.
 
 ---
 
@@ -2120,14 +2374,17 @@ Slightly increase velocity on a corner. (Medium)
 **Changes:**
 
 Condition: distance_type==3&~~corner_random~~**all_corner_random**==1~~@distance_type==3&corner_random==2@distance_type==3&corner_random==3@distance_type==3&corner_random==4~~
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Simplified activation. Weaker version of Medium Corners ◎.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của Medium Corners ◎.
 
 ---
 
@@ -2137,19 +2394,19 @@ Avoid becoming surrounded when positioned toward the back mid-race. (Medium)
 **Changes:**
 
 Condition: distance_type==3&phase_random==1&order_rate>50
- Duration: ~~3~~ -> **4**
-
-						// Cooldown:
-
-						500
- lane_speed: 0.035
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~3~~ -> **4**
+Cooldown:
+500
+lane_speed: 0.035
+(Target: self, max 1 )
 acceleration: 0.3
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Duration increased from 3 to 4 seconds. Navigation and acceleration buff lasts longer for Medium from back half.
+
+**VI:** Thời lượng tăng từ 3 lên 4 giây. Buff điều hướng và gia tốc kéo dài lâu hơn với Medium từ nửa sau.
 
 ---
 
@@ -2159,19 +2416,19 @@ Moderately avoid becoming surrounded when positioned toward the back mid-race. (
 **Changes:**
 
 Condition: distance_type==3&phase_random==1&order_rate>50
- Duration: ~~3~~ -> **4**
-
-						// Cooldown:
-
-						500
- lane_speed: 0.025
-
-								(Target: self, max 1 )
-
-						
+Duration: ~~3~~ -> **4**
+Cooldown:
+500
+lane_speed: 0.025
+(Target: self, max 1 )
 acceleration: 0.2
+(Target: self, max 1 )
 
-								(Target: self, max 1 )
+**What Changed:**
+
+**EN:** Duration increased from 3 to 4 seconds. Weaker version of Lightning Step.
+
+**VI:** Thời lượng tăng từ 3 lên 4 giây. Phiên bản yếu hơn của Lightning Step.
 
 ---
 
@@ -2181,14 +2438,17 @@ Moderately increase velocity on a corner. (Long)
 **Changes:**
 
 Condition: distance_type==4&~~corner_random~~**all_corner_random**==1~~@distance_type==4&corner_random==2@distance_type==4&corner_random==3@distance_type==4&corner_random==4~~
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Simplified activation for Long distance.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn với cự ly Long.
 
 ---
 
@@ -2197,15 +2457,18 @@ Slightly increase velocity on a corner. (Long)
 
 **Changes:**
 
-Condition: distance_type==4&~~corner_random~~**all_corner_random**==1~~@distance_type==4&corner_random==2@distance_type==4&corner_random==3@distance_type==4&corner_random==4~~
- Duration: 3
+Condition: distance_type==4&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Simplified activation. Weaker version of Long Corners ◎.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của Long Corners ◎.
 
 ---
 
@@ -2215,14 +2478,17 @@ Increase ability to maintain the lead when leading by a large margin mid-race. (
 **Changes:**
 
 Condition: distance_type==4&phase_random==1&bashin_diff_behind>=~~3~~**1**&order==1
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.35
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.35
+**EN:** Lead requirement reduced from 3 to 1 horse length. Much easier to activate for Long distance when leading mid-race.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu dẫn trước giảm từ 3 xuống 1 thân ngựa. Dễ kích hoạt hơn nhiều với cự ly Long khi dẫn đầu giữa cuộc đua.
 
 ---
 
@@ -2232,14 +2498,17 @@ Slightly increase ability to maintain the lead when leading by a large margin mi
 **Changes:**
 
 Condition: distance_type==4&phase_random==1&bashin_diff_behind>=~~3~~**1**&order==1
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Lead requirement reduced from 3 to 1 horse length. Weaker version of Vanguard Spirit.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu dẫn trước giảm từ 3 xuống 1 thân ngựa. Phiên bản yếu hơn của Vanguard Spirit.
 
 ---
 
@@ -2248,15 +2517,18 @@ Moderately increase velocity on a corner. (Front Runner)
 
 **Changes:**
 
-Condition: running_style==1&~~corner_random~~**all_corner_random**==1~~@running_style==1&corner_random==2@running_style==1&corner_random==3@running_style==1&corner_random==4~~
- Duration: 3
+Condition: running_style==1&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Simplified activation for Front Runner style.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn cho phong cách Front Runner.
 
 ---
 
@@ -2265,15 +2537,18 @@ Slightly increase velocity on a corner. (Front Runner)
 
 **Changes:**
 
-Condition: running_style==1&~~corner_random~~**all_corner_random**==1~~@running_style==1&corner_random==2@running_style==1&corner_random==3@running_style==1&corner_random==4~~
- Duration: 3
+Condition: running_style==1&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Simplified activation. Weaker version of Front Runner Corners ◎.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của Front Runner Corners ◎.
 
 ---
 
@@ -2283,19 +2558,19 @@ Avoid becoming surrounded early-race. (Front Runner)
 **Changes:**
 
 Condition: running_style==1&phase==0&~~blocked_all_continuetime~~**blocked_front_continuetime**>=1**@running_style==1&phase==0&blocked_side_continuetime>=1**
- Duration: 3
-
-						// Cooldown:
-
-						500
- lane_speed: 0.035
-
-								(Target: self, max 1 )
-
-						
+Duration: 3
+Cooldown:
+500
+lane_speed: 0.035
+(Target: self, max 1 )
 **new_unkn_35**: **0.5**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Changed to trigger when blocked from front OR side (instead of all directions). Added unknown stat (0.5). More flexible activation for Front Runners early-race.
+
+**VI:** Thay đổi sang kích hoạt khi bị chặn từ trước HOẶC bên (thay vì tất cả hướng). Thêm chỉ số chưa rõ (0.5). Kích hoạt linh hoạt hơn cho Front Runner đầu cuộc đua.
 
 ---
 
@@ -2305,19 +2580,19 @@ Moderately avoid becoming surrounded early-race. (Front Runner)
 **Changes:**
 
 Condition: running_style==1&phase==0&~~blocked_all_continuetime~~**blocked_front_continuetime**>=1**@running_style==1&phase==0&blocked_side_continuetime>=1**
- Duration: 3
-
-						// Cooldown:
-
-						500
- lane_speed: 0.025
-
-								(Target: self, max 1 )
-
-						
+Duration: 3
+Cooldown:
+500
+lane_speed: 0.025
+(Target: self, max 1 )
 **new_unkn_35**: **0.5**
+(Target: **self**, max **1** )
 
-								(Target: **self**, max **1** )
+**What Changed:**
+
+**EN:** Changed blocking detection and added unknown stat. Weaker version of Sixth Sense.
+
+**VI:** Thay đổi phát hiện bị chặn và thêm chỉ số chưa rõ. Phiên bản yếu hơn của Sixth Sense.
 
 ---
 
@@ -2327,14 +2602,17 @@ Slightly avoid being passed early-race. (Front Runner)
 **Changes:**
 
 Condition: running_style==1&phase~~==0~~**<=1**&change_order_onetime>0&accumulatetime>=5**@running_style==1&phase<=1&blocked_side_continuetime>=2&accumulatetime>=5**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Phase expanded from early-race only to early+mid-race. Added alternative condition for side blocking. More activation opportunities for Front Runners when getting passed or blocked.
 
-								(Target: self, max 1 )
+**VI:** Giai đoạn mở rộng từ chỉ đầu cuộc đua sang đầu+giữa cuộc đua. Thêm điều kiện thay thế cho bị chặn bên. Nhiều cơ hội kích hoạt hơn cho Front Runner khi bị vượt hoặc chặn.
 
 ---
 
@@ -2344,14 +2622,17 @@ Increase acceleration when positioned toward the back mid-race. (Front Runner)
 **Changes:**
 
 Condition: running_style==1&phase_random==1&~~order_rate>50~~**order>=2**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: 0.4
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.4
+**EN:** Changed from percentage-based (back 50%) to position-based (2nd or worse). For Front Runners who lost lead, triggers when 2nd or lower mid-race.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ dựa phần trăm (50% sau) sang dựa vị trí (thứ 2 trở xuống). Cho Front Runner mất dẫn đầu, kích hoạt khi thứ 2 hoặc thấp hơn giữa cuộc đua.
 
 ---
 
@@ -2361,14 +2642,17 @@ Slightly increase acceleration when positioned toward the back mid-race. (Front 
 **Changes:**
 
 Condition: running_style==1&phase_random==1&~~order_rate>50~~**order>=2**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.2
+**EN:** Changed from percentage to position-based. Weaker version of Reignition.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi từ phần trăm sang dựa vị trí. Phiên bản yếu hơn của Reignition.
 
 ---
 
@@ -2378,14 +2662,17 @@ Slightly startle runners ahead when failing to get a lead early-race. (Front Run
 **Changes:**
 
 Condition: running_style==1&phase_random==0&~~order_rate>50~~**order>=2**&accumulatetime>=5
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: -0.1
+(Target: ahead, max 18 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: -0.1
+**EN:** Changed from percentage to position-based (2nd or worse). Reduces acceleration of horses ahead when Front Runner fails to take lead early.
 
-								(Target: ahead, max 18 )
+**VI:** Thay đổi từ phần trăm sang dựa vị trí (thứ 2 trở xuống). Giảm gia tốc của ngựa phía trước khi Front Runner không dẫn đầu sớm.
 
 ---
 
@@ -2394,15 +2681,18 @@ Moderately increase velocity on a corner. (Pace Chaser)
 
 **Changes:**
 
-Condition: running_style==2&~~corner_random~~**all_corner_random**==1~~@running_style==2&corner_random==2@running_style==2&corner_random==3@running_style==2&corner_random==4~~
- Duration: 3
+Condition: running_style==2&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Simplified activation for Pace Chaser style.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn cho phong cách Pace Chaser.
 
 ---
 
@@ -2411,15 +2701,18 @@ Slightly increase velocity on a corner. (Pace Chaser)
 
 **Changes:**
 
-Condition: running_style==2&~~corner_random~~**all_corner_random**==1~~@running_style==2&corner_random==2@running_style==2&corner_random==3@running_style==2&corner_random==4~~
- Duration: 3
+Condition: running_style==2&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Simplified activation. Weaker version of Pace Chaser Corners ◎.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của Pace Chaser Corners ◎.
 
 ---
 
@@ -2429,14 +2722,17 @@ Moderately increase ability to navigate smoothly. (Pace Chaser)
 **Changes:**
 
 Condition: running_style==2&is_move_lane==1@running_style==2&is_move_lane==2
- Duration: ~~1.8~~ -> **3**
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+500
+acceleration: 0.3
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.3
+**EN:** Duration increased from 1.8 to 3 seconds (67% increase). Acceleration boost lasts longer when Pace Chasers change lanes.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 3 giây (tăng 67%). Tăng gia tốc kéo dài lâu hơn khi Pace Chaser đổi làn.
 
 ---
 
@@ -2446,14 +2742,17 @@ Slightly increase ability to navigate smoothly. (Pace Chaser)
 **Changes:**
 
 Condition: running_style==2&is_move_lane==1@running_style==2&is_move_lane==2
- Duration: ~~1.8~~ -> **3**
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+500
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.2
+**EN:** Duration increased from 1.8 to 3 seconds. Weaker version of Technician.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 3 giây. Phiên bản yếu hơn của Technician.
 
 ---
 
@@ -2463,14 +2762,17 @@ Moderately improve running on a downhill. (Pace Chaser)
 **Changes:**
 
 Condition: running_style==2&~~slope~~**down_slope_random**==~~2~~**1**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: 0.3
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.3
+**EN:** Changed to more specific downhill detection and changed value. Now triggers at downhill points for Pace Chasers.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi sang phát hiện dốc xuống cụ thể hơn và thay đổi giá trị. Giờ kích hoạt tại điểm dốc xuống cho Pace Chaser.
 
 ---
 
@@ -2480,14 +2782,17 @@ Slightly improve running on a downhill. (Pace Chaser)
 **Changes:**
 
 Condition: running_style==2&~~slope~~**down_slope_random**==~~2~~**1**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.2
+**EN:** Changed detection. Weaker version of Determined Descent.
 
-								(Target: self, max 1 )
+**VI:** Thay đổi phát hiện. Phiên bản yếu hơn của Determined Descent.
 
 ---
 
@@ -2497,14 +2802,17 @@ Moderately increase acceleration when positioned toward the back mid-race. (Pace
 **Changes:**
 
 Condition: running_style==2&phase_random==1&order_rate>~~50~~**40**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: 0.3
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.3
+**EN:** Position requirement changed from back 50% to back 60%. Easier to activate for Pace Chasers further back mid-race.
 
-								(Target: self, max 1 )
+**VI:** Yêu cầu vị trí thay đổi từ 50% sau sang 60% sau. Dễ kích hoạt hơn cho Pace Chaser ở xa hơn phía sau giữa cuộc đua.
 
 ---
 
@@ -2514,14 +2822,17 @@ Slightly increase acceleration when positioned toward the back mid-race. (Pace C
 **Changes:**
 
 Condition: running_style==2&phase_random==1&order_rate>~~50~~**40**
- Duration: 3
+Duration: 3
+Cooldown:
+500
+acceleration: 0.2
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.2
+**EN:** Position changed to back 60%. Weaker version of Shatterproof.
 
-								(Target: self, max 1 )
+**VI:** Vị trí thay đổi sang 60% sau. Phiên bản yếu hơn của Shatterproof.
 
 ---
 
@@ -2530,15 +2841,18 @@ Moderately increase velocity on a corner. (Late Surger)
 
 **Changes:**
 
-Condition: running_style==3&~~corner_random~~**all_corner_random**==1~~@running_style==3&corner_random==2@running_style==3&corner_random==3@running_style==3&corner_random==4~~
- Duration: 3
+Condition: running_style==3&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Simplified activation for Late Surger style.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn cho phong cách Late Surger.
 
 ---
 
@@ -2547,83 +2861,62 @@ Slightly increase velocity on a corner. (Late Surger)
 
 **Changes:**
 
-Condition: running_style==3&~~corner_random~~**all_corner_random**==1~~@running_style==3&corner_random==2@running_style==3&corner_random==3@running_style==3&corner_random==4~~
- Duration: 3
+Condition: running_style==3&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Simplified activation. Weaker version of Later Surger Corners ◎.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của Later Surger Corners ◎.
 
 ---
 
 ### Hard Worker (努力家)
-Moderately increase passing ability. (Late Surger)
+Moderately improve running late-race. (Late Surger)
 
 **Changes:**
 
-Condition: running_style==3&is_overtake==1&accumulatetime>=5
- Duration: ~~3~~ -> **4**
+Condition: running_style==3&phase_random==2
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
+**acceleration**: **0.1**
+(Target: **self**, max **1** )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.3
+**EN:** Duration increased from 1.8 to 3 seconds. Added acceleration boost (0.1). For Late Surgers, now gets both speed AND acceleration in late-race phase.
 
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 3 giây. Thêm tăng gia tốc (0.1). Cho Late Surger, giờ được cả tốc độ VÀ gia tốc trong giai đoạn cuối cuộc đua.
 
 ---
 
-### Fighter (がんばり屋)
-Slightly increase passing ability. (Late Surger)
+### Diligence (直向き)
+Slightly improve running late-race. (Late Surger)
 
 **Changes:**
 
-Condition: running_style==3&is_overtake==1&accumulatetime>=5
- Duration: ~~3~~ -> **4**
+Condition: running_style==3&phase_random==2
+Duration: ~~1.8~~ -> **3**
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
+**acceleration**: **0.05**
+(Target: **self**, max **1** )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- acceleration: 0.2
+**EN:** Duration increased from 1.8 to 3 seconds. Added acceleration boost (0.05). Weaker version of Hard Worker with same changes.
 
-								(Target: self, max 1 )
-
----
-
-### 15,000,000 CC (百万バリキ)
-Increase velocity on an uphill. (Late Surger)
-
-**Changes:**
-
-Condition: running_style==3&~~slope~~**up_slope_random**==1
- Duration: ~~1.8~~ -> **2.4**
-
-						// Cooldown:
-
-						500
- speed: 0.35
-
-								(Target: self, max 1 )
-
----
-
-### 1,500,000 CC (十万バリキ)
-Slightly increase velocity on an uphill. (Late Surger)
-
-**Changes:**
-
-Condition: running_style==3&~~slope~~**up_slope_random**==1
- Duration: ~~1.8~~ -> **2.4**
-
-						// Cooldown:
-
-						500
- speed: 0.15
-
-								(Target: self, max 1 )
+**VI:** Thời lượng tăng từ 1.8 lên 3 giây. Thêm tăng gia tốc (0.05). Phiên bản yếu hơn của Hard Worker với cùng thay đổi.
 
 ---
 
@@ -2632,15 +2925,18 @@ Moderately increase velocity on a corner. (End Closer)
 
 **Changes:**
 
-Condition: running_style==4&~~corner_random~~**all_corner_random**==1~~@running_style==4&corner_random==2@running_style==4&corner_random==3@running_style==4&corner_random==4~~
- Duration: 3
+Condition: running_style==4&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.25
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.25
+**EN:** Simplified activation for End Closer style.
 
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn cho phong cách End Closer.
 
 ---
 
@@ -2649,144 +2945,17 @@ Slightly increase velocity on a corner. (End Closer)
 
 **Changes:**
 
-Condition: running_style==4&~~corner_random~~**all_corner_random**==1~~@running_style==4&corner_random==2@running_style==4&corner_random==3@running_style==4&corner_random==4~~
- Duration: 3
+Condition: running_style==4&~~corner_random~~**all_corner_random**==1
+Duration: 3
+Cooldown:
+500
+speed: 0.15
+(Target: self, max 1 )
 
-						// Cooldown:
+**What Changed:**
 
-						500
- speed: 0.15
+**EN:** Simplified activation. Weaker version of End Closer Corners ◎.
 
-								(Target: self, max 1 )
-
----
-
-### Highlander (登山家)
-Slightly improve running on an uphill.
-
-**Changes:**
-
-Condition: ~~slope~~**up_slope_random**==1
- Duration: 3
-
-						// Cooldown:
-
-						500
- acceleration: 0.2
-
-								(Target: self, max 1 )
+**VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của End Closer Corners ◎.
 
 ---
-
-### Uma Stan (ウマ好み)
-Slightly increase velocity when close to many runners.
-
-**Changes:**
-
-Condition: near_count~~==4@near_count==~~**>=3&accumulatetime>=**5~~@near_count==6@near_count==7~~
- Duration: 3
-
-						// Cooldown:
-
-						500
- speed: 0.15
-
-								(Target: self, max 1 )
-
----
-
-### undefined (ウママニア)
-undefined
-
-**Changes:**
-
-Condition: near_count~~==4@near_count==~~**>=3&accumulatetime>=**5~~@near_count==6@near_count==7~~
- Duration: 3
-
-						// Cooldown:
-
-						500
- speed: 0.35
-
-								(Target: self, max 1 )
-
----
-
-### Trending in the Charts! (チャート急上昇！)
-Increase velocity when engaged in a challenge mid-race. (Dirt)
-
-**Changes:**
-
-Condition: ground_type==2&phase==1&blocked_side_continuetime>=2
- Duration: ~~1.8~~ -> **2.4**
-
-						// Cooldown:
-
-						500
- speed: 0.35
-
-								(Target: self, max 1 )
-
----
-
-### Top Pick (レコメンド)
-Slightly increase velocity when engaged in a challenge mid-race. (Dirt)
-
-**Changes:**
-
-Condition: ground_type==2&phase==1&blocked_side_continuetime>=2
- Duration: ~~1.8~~ -> **2.4**
-
-						// Cooldown:
-
-						500
- speed: 0.15
-
-								(Target: self, max 1 )
-
----
-
-### Burning Spirit WIT (アオハル燃焼・賢)
-Burn bright with team spirit, increasing strategic navigation in proportion to the total Wit of racing team members early-race.
-
-**Changes:**
-
-Condition: phase_random==0
- Duration: ~~3~~ -> **4**
-
-						// Cooldown:
-
-						500
- lane_speed: 0.035
-
-								(Target: self, max 1 , scaled: team_wisdom )
-
-						
-fov_up: 15
-
-								(Target: self, max 1 , scaled: team_wisdom )
-
----
-
-### Ignited Spirit WIT (アオハル点火・賢)
-Burn bright with team spirit, slightly increasing strategic navigation in proportion to the total Wit of racing team members early-race.
-
-**Changes:**
-
-Condition: phase_random==0
- Duration: ~~3~~ -> **4**
-
-						// Cooldown:
-
-						500
- lane_speed: 0.015
-
-								(Target: self, max 1 , scaled: team_wisdom )
-
-						
-fov_up: 5
-
-								(Target: self, max 1 , scaled: team_wisdom )
-
----
-
