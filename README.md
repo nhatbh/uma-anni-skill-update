@@ -5,7 +5,20 @@ Slightly swell with the determination to stay number one in the second half of t
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_rate&gt;=50&order==1&bashin_diff_behind&lt;=1</span>**@distance_rate&gt;=50&order==2&is_overtake==1**</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_rate>=50&order==1&bashin_diff_behind<=1**@distance_rate>=50&order==2&is_overtake==1**
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -14,7 +27,15 @@ Moderately increase velocity with a strong turn of foot when passing another run
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&corner==0&change_order_onetime&lt;0&order&gt;=</span>~~4~~**3**</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&corner==0&change_order_onetime<0&order>=~~4~~**3**
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -23,7 +44,15 @@ Moderately increase velocity with the stride of an empress when passing another 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&corner!=0&order&gt;=</span>~~4~~**3**<span>&change_order_onetime&lt;0</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&corner!=0&order>=~~4~~**3**&change_order_onetime<0
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -32,7 +61,20 @@ Slightly increase ability to break out of the pack on the straight after engagin
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&</span>~~corner!=0&~~<span>blocked_side_continuetime&gt;=2&order&lt;=3</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&~~corner!=0&~~blocked_side_continuetime>=2&order<=3
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -41,7 +83,20 @@ Moderately recover endurance when conserving energy on a corner in the second ha
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_rate&gt;=50&corner!=0&order&gt;=3&order_rate&lt;=40</span></strong></div> <div>Duration: <strong>~~0~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.035</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**speed**: **0.15**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: distance_rate>=50&corner!=0&order>=3&order_rate<=40
+ Duration: ~~0~~ -> **4**
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.035
+
+								(Target: self, max 1 )
+
+						
+**speed**: **0.15**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -50,7 +105,16 @@ Refuse to back down from a challenge, moderately increasing velocity on the fina
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"><div>Precondition: <strong>**is_finalcorner==1&blocked_side_continuetime&gt;=2**</strong></div> <div>Condition: <strong><span>is_finalcorner==1&corner==0&order&lt;=5</span>~~&blocked_side_continuetime&gt;=2~~</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Precondition: **is_finalcorner==1&blocked_side_continuetime>=2**
+ Condition: is_finalcorner==1&corner==0&order<=5~~&blocked_side_continuetime>=2~~
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -59,7 +123,15 @@ Moderately recover endurance when well-positioned mid-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase_random==1&order&gt;=2&order_rate&lt;=40</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: ~~0.035~~ -&gt; **0.055**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase_random==1&order>=2&order_rate<=40
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: ~~0.035~~ -> **0.055**
+
+								(Target: self, max 1 )
 
 ---
 
@@ -68,7 +140,20 @@ Moderately clear a path forward with the power of divination when the way ahead 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase&gt;=2&order&gt;=3&blocked_front==1</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**acceleration**: **0.1**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: phase>=2&order>=3&blocked_front==1
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
+
+						
+**acceleration**: **0.1**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -77,7 +162,15 @@ Increase velocity in a true display of skill with 200m remaining after racing ca
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>temptation_count==0&remain_distance&lt;=201&remain_distance&gt;=199&order&gt;=</span>~~5~~**4**<span>&order_rate&lt;=</span>~~60~~**70**</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: temptation_count==0&remain_distance<=201&remain_distance>=199&order>=~~5~~**4**&order_rate<=~~60~~**70**
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -86,7 +179,20 @@ Ride the momentum and increase velocity after passing another runner toward the 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase&gt;=2&order&gt;=</span>~~2~~**1**<span>&order_rate&lt;=50&change_order_onetime&lt;0</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**acceleration**: **0.1**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: phase>=2&order>=~~2~~**1**&order_rate<=50&change_order_onetime<0
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
+
+						
+**acceleration**: **0.1**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -95,7 +201,15 @@ Increase velocity by drawing on all remaining strength when in the lead by a fai
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~is_finalcorner==1~~**distance_rate&gt;=50**<span>&</span>~~corner==0&~~<span>order==1&bashin_diff_behind&gt;=1</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~is_finalcorner==1~~**distance_rate>=50**&~~corner==0&~~order==1&bashin_diff_behind>=1
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -104,7 +218,15 @@ Greatly increase velocity with a dazzling display when just breaking out of the 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&corner==0&order_rate&lt;=30&</span>~~behind_near_lane_time~~**behind_near_lane_time_set1**<span>&gt;=1</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.45</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&corner==0&order_rate<=30&~~behind_near_lane_time~~**behind_near_lane_time_set1**>=1
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.45
+
+								(Target: self, max 1 )
 
 ---
 
@@ -113,7 +235,20 @@ Swell with the determination to stay number one in the second half of the race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_rate&gt;=50&order==1&bashin_diff_behind&lt;=1</span>**@distance_rate&gt;=50&order==2&is_overtake==1**</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_rate>=50&order==1&bashin_diff_behind<=1**@distance_rate>=50&order==2&is_overtake==1**
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -122,7 +257,15 @@ Increase acceleration with a pow, a wow, and a bang when well-positioned on the 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~is_finalcorner~~**is_finalcorner_laterhalf**<span>==1&corner!=0&order&gt;=3&order_rate&lt;=</span>~~50~~**40**</strong></div> <div>Duration: <strong><span>4</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.4</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~is_finalcorner~~**is_finalcorner_laterhalf**==1&corner!=0&order>=3&order_rate<=~~50~~**40**
+ Duration: 4
+
+						// Cooldown:
+
+						500
+ acceleration: 0.4
+
+								(Target: self, max 1 )
 
 ---
 
@@ -131,7 +274,15 @@ Increase velocity with a strong turn of foot when passing another runner toward 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&corner==0&change_order_onetime&lt;0&order&gt;=</span>~~4~~**3**</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&corner==0&change_order_onetime<0&order>=~~4~~**3**
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -140,7 +291,16 @@ Increase velocity when passing another runner on the outside toward the back on 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"><div>Precondition: <strong>**is_finalcorner==1&is_behind_in==1&change_order_onetime&lt;0&order_rate&gt;=40**</strong></div> <div>Condition: <strong><span>is_finalcorner==1&corner==0</span>~~&is_behind_in==1&change_order_onetime&lt;0&order_rate&gt;=40~~</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Precondition: **is_finalcorner==1&is_behind_in==1&change_order_onetime<0&order_rate>=40**
+ Condition: is_finalcorner==1&corner==0~~&is_behind_in==1&change_order_onetime<0&order_rate>=40~~
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -149,7 +309,15 @@ Increase velocity with royal brilliance when engaged in a challenge toward the f
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&</span>~~corner!=0~~**bashin_diff_behind&lt;=1**<span>&</span>~~bashin_diff_infront~~**order**<span>&lt;=</span>**4@is_finalcorner==**<span>1&</span>~~bashin_diff_behind~~**bashin_diff_infront**<span>&lt;=1&</span>~~blocked_side_continuetime&gt;=2&~~<span>order&lt;=4</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&~~corner!=0~~**bashin_diff_behind<=1**&~~bashin_diff_infront~~**order**<=**4@is_finalcorner==**1&~~bashin_diff_behind~~**bashin_diff_infront**<=1&~~blocked_side_continuetime>=2&~~order<=4
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -158,7 +326,29 @@ Increase velocity with beastly strength when passing another runner on the outsi
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"><div>Precondition: <strong>**phase==1&blocked_side_continuetime&gt;=2**</strong></div> <div>Condition: <strong><span>is_finalcorner==1&order&gt;=2&order_rate&lt;=75&is_behind_in==1&change_order_onetime&lt;0</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: ~~0.35~~ -&gt; **0.45**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div><div class="row"><div class="col"> <div>Condition: <strong>**is_finalcorner==1&order&gt;=2&order_rate&lt;=75&is_behind_in==1&change_order_onetime&lt;0**</strong></div> <div>Duration: <strong>**5**</strong>// Cooldown:<strong>**500**</strong></div> <div><span><strong>**speed**: **0.35**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Precondition: **phase==1&blocked_side_continuetime>=2**
+ Condition: is_finalcorner==1&order>=2&order_rate<=75&is_behind_in==1&change_order_onetime<0
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: ~~0.35~~ -> **0.45**
+
+								(Target: self, max 1 )
+
+						
+
+ 
+ Condition: **is_finalcorner==1&order>=2&order_rate<=75&is_behind_in==1&change_order_onetime<0**
+ Duration: **5**
+
+						// Cooldown:
+
+						**500**
+ **speed**: **0.35**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -167,7 +357,15 @@ Increase velocity with the stride of an empress when passing another runner towa
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&corner!=0&order&gt;=</span>~~4~~**3**<span>&change_order_onetime&lt;0</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&corner!=0&order>=~~4~~**3**&change_order_onetime<0
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -176,7 +374,20 @@ undefined
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>change_order_up_end_after&gt;=2</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**lane_speed**: **0.035**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: change_order_up_end_after>=2
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
+
+						
+**lane_speed**: **0.035**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -185,7 +396,15 @@ Increase velocity by deriving the winning equation when passing another runner t
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&</span>~~corner!=0&~~<span>change_order_onetime&lt;0&order&lt;=4</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&~~corner!=0&~~change_order_onetime<0&order<=4
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -194,7 +413,20 @@ Increase ability to break out of the pack on the straight after engaging in a ch
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&</span>~~corner!=0&~~<span>blocked_side_continuetime&gt;=2&order&lt;=3</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&~~corner!=0&~~blocked_side_continuetime>=2&order<=3
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -203,7 +435,16 @@ Increase velocity with strong willpower when breaking out of the pack on the fin
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"><div>Precondition: <strong>**is_finalcorner==1&order&lt;=4&change_order_onetime&lt;0**</strong></div> <div>Condition: <strong><span>is_finalcorner==1&corner==0</span>~~&order&lt;=4&change_order_onetime&lt;0~~</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Precondition: **is_finalcorner==1&order<=4&change_order_onetime<0**
+ Condition: is_finalcorner==1&corner==0~~&order<=4&change_order_onetime<0~~
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -212,7 +453,20 @@ Recover endurance when conserving energy on a corner in the second half of the r
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_rate&gt;=50&corner!=0&order&gt;=3&order_rate&lt;=40</span></strong></div> <div>Duration: <strong>~~0~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.055</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**speed**: **0.25**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: distance_rate>=50&corner!=0&order>=3&order_rate<=40
+ Duration: ~~0~~ -> **4**
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.055
+
+								(Target: self, max 1 )
+
+						
+**speed**: **0.25**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -221,7 +475,16 @@ Refuse to back down from a challenge, increasing velocity on the final straight.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"><div>Precondition: <strong>**is_finalcorner==1&blocked_side_continuetime&gt;=2**</strong></div> <div>Condition: <strong><span>is_finalcorner==1&corner==0&order&lt;=5</span>~~&blocked_side_continuetime&gt;=2~~</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Precondition: **is_finalcorner==1&blocked_side_continuetime>=2**
+ Condition: is_finalcorner==1&corner==0&order<=5~~&blocked_side_continuetime>=2~~
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -230,7 +493,20 @@ Gain momentum and begin to advance when passing another runner while well-positi
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_rate&gt;=50&distance_rate&lt;=65&order&gt;=</span>~~3~~**2**<span>&order_rate&lt;=40&change_order_onetime&lt;0</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_rate>=50&distance_rate<=65&order>=~~3~~**2**&order_rate<=40&change_order_onetime<0
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -239,7 +515,15 @@ undefined
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&corner==0&</span>~~order&gt;=3&order_rate&lt;=70&~~<span>blocked_side_continuetime&gt;=2</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&corner==0&~~order>=3&order_rate<=70&~~blocked_side_continuetime>=2
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -248,7 +532,15 @@ Recover endurance when well-positioned mid-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase_random==1&order&gt;=2&order_rate&lt;=40</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: ~~0.055~~ -&gt; **0.075**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase_random==1&order>=2&order_rate<=40
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: ~~0.055~~ -> **0.075**
+
+								(Target: self, max 1 )
 
 ---
 
@@ -257,7 +549,20 @@ Become empowered against ceding the spotlight when about to lose the lead on a s
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase==1&corner==0&order</span>~~==1~~**&lt;=2**<span>&bashin_diff_behind&lt;=1</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase==1&corner==0&order~~==1~~**<=2**&bashin_diff_behind<=1
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -266,7 +571,15 @@ Increase velocity with smoldering ambition when moving up from a position toward
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&</span>~~corner!=0&~~<span>order_rate&gt;=</span>~~50~~**40**<span>&order_rate&lt;=75&is_overtake==1</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&~~corner!=0&~~order_rate>=~~50~~**40**&order_rate<=75&is_overtake==1
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -275,7 +588,20 @@ Clear a path forward with the power of divination when the way ahead is jammed l
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase&gt;=2&order&gt;=3&blocked_front==1</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**acceleration**: **0.1**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: phase>=2&order>=3&blocked_front==1
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
+
+						
+**acceleration**: **0.1**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -284,7 +610,15 @@ Greatly increase velocity in a true display of skill with 200m remaining after r
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>temptation_count==0&remain_distance&lt;=201&remain_distance&gt;=199&order&gt;=</span>~~5~~**4**<span>&order_rate&lt;=</span>~~60~~**70**</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.45</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: temptation_count==0&remain_distance<=201&remain_distance>=199&order>=~~5~~**4**&order_rate<=~~60~~**70**
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.45
+
+								(Target: self, max 1 )
 
 ---
 
@@ -293,7 +627,16 @@ Increase velocity with an indomitable fighting spirit when on the heels of anoth
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"><div>Precondition: <strong>**is_finalcorner==1&is_overtake==1&order&lt;=5&order_rate&lt;=50&overtake_target_no_order_up_time&gt;=2**</strong></div> <div>Condition: <strong><span>is_finalcorner==1&corner==0</span>~~&is_overtake==1&order&lt;=5&order_rate&lt;=50&overtake_target_no_order_up_time&gt;=2~~</strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: ~~0.35~~ -&gt; **0.45**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Precondition: **is_finalcorner==1&is_overtake==1&order<=5&order_rate<=50&overtake_target_no_order_up_time>=2**
+ Condition: is_finalcorner==1&corner==0~~&is_overtake==1&order<=5&order_rate<=50&overtake_target_no_order_up_time>=2~~
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: ~~0.35~~ -> **0.45**
+
+								(Target: self, max 1 )
 
 ---
 
@@ -302,7 +645,15 @@ Recover endurance with a gentle light when dropping down toward the back mid-rac
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase==1&change_order_onetime&gt;0&order_rate&gt;=40</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: ~~0.055~~ -&gt; **0.075**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase==1&change_order_onetime>0&order_rate>=40
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: ~~0.055~~ -> **0.075**
+
+								(Target: self, max 1 )
 
 ---
 
@@ -311,7 +662,15 @@ Increase velocity when pressured by another runner and running out of energy tow
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_finalcorner==1&hp_per&lt;=</span>~~35~~**45**<span>&order&lt;=3&order_rate&lt;=50&bashin_diff_behind&lt;=1&overtake_target_time&gt;=1</span></strong></div> <div>Duration: <strong>~~5~~ -&gt; **6**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_finalcorner==1&hp_per<=~~35~~**45**&order<=3&order_rate<=50&bashin_diff_behind<=1&overtake_target_time>=1
+ Duration: ~~5~~ -> **6**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -320,7 +679,15 @@ Increase velocity when starting to make a move from a position toward the front 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~phase_random~~**phase**<span>==1&order&gt;=3&order_rate&lt;=50&is_overtake==1</span></strong></div> <div>Duration: <strong><span>5</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~phase_random~~**phase**==1&order>=3&order_rate<=50&is_overtake==1
+ Duration: 5
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -329,7 +696,20 @@ undefined
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase==1&</span>~~distance_rate&gt;=50&~~<span>order&gt;=2&order_rate&lt;=50&overtake_target_time&gt;=1</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.055</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>hp_recovery</span>: <span>-0.005</span></strong>(Target: <span>ahead</span>, max <span>18</span></span> )</div></div> </div></div>
+Condition: phase==1&~~distance_rate>=50&~~order>=2&order_rate<=50&overtake_target_time>=1
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.055
+
+								(Target: self, max 1 )
+
+						
+hp_recovery: -0.005
+
+								(Target: ahead, max 18 )
 
 ---
 
@@ -338,7 +718,15 @@ Increase performance when no other runners are using the same strategy.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style_count_same&lt;=1</span></strong></div> <div>Duration: <strong><span>-0.0001</span></strong>// Cooldown:<strong><span>0</span></strong></div> <div><span><strong><span>speed_stat_up</span>: ~~60~~ -&gt; **80**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style_count_same<=1
+ Duration: -0.0001
+
+						// Cooldown:
+
+						0
+ speed_stat_up: ~~60~~ -> **80**
+
+								(Target: self, max 1 )
 
 ---
 
@@ -347,7 +735,15 @@ Moderately increase performance when no other runners are using the same strateg
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style_count_same&lt;=1</span></strong></div> <div>Duration: <strong><span>-0.0001</span></strong>// Cooldown:<strong><span>0</span></strong></div> <div><span><strong><span>speed_stat_up</span>: ~~40~~ -&gt; **60**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style_count_same<=1
+ Duration: -0.0001
+
+						// Cooldown:
+
+						0
+ speed_stat_up: ~~40~~ -> **60**
+
+								(Target: self, max 1 )
 
 ---
 
@@ -356,7 +752,15 @@ Increase performance when at least 5 other runners are using the same strategy.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~running_style_count_same~~**running_style_count_same_rate**<span>&gt;=</span>~~6~~**40**</strong></div> <div>Duration: <strong><span>-0.0001</span></strong>// Cooldown:<strong><span>0</span></strong></div> <div><span><strong><span>power_stat_up</span>: <span>60</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~running_style_count_same~~**running_style_count_same_rate**>=~~6~~**40**
+ Duration: -0.0001
+
+						// Cooldown:
+
+						0
+ power_stat_up: 60
+
+								(Target: self, max 1 )
 
 ---
 
@@ -365,7 +769,15 @@ Moderately increase performance when at least 5 other runners are using the same
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~running_style_count_same~~**running_style_count_same_rate**<span>&gt;=</span>~~6~~**40**</strong></div> <div>Duration: <strong><span>-0.0001</span></strong>// Cooldown:<strong><span>0</span></strong></div> <div><span><strong><span>power_stat_up</span>: <span>40</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~running_style_count_same~~**running_style_count_same_rate**>=~~6~~**40**
+ Duration: -0.0001
+
+						// Cooldown:
+
+						0
+ power_stat_up: 40
+
+								(Target: self, max 1 )
 
 ---
 
@@ -374,7 +786,15 @@ Moderately decrease performance when at least 5 other runners are using the same
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~running_style_count_same~~**running_style_count_same_rate**<span>&gt;=</span>~~6~~**40**</strong></div> <div>Duration: <strong><span>-0.0001</span></strong>// Cooldown:<strong><span>0</span></strong></div> <div><span><strong><span>power_stat_up</span>: <span>-40</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~running_style_count_same~~**running_style_count_same_rate**>=~~6~~**40**
+ Duration: -0.0001
+
+						// Cooldown:
+
+						0
+ power_stat_up: -40
+
+								(Target: self, max 1 )
 
 ---
 
@@ -383,7 +803,15 @@ Increase velocity on a corner with skilled turning.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~corner_random~~**all_corner_random**<span>==1</span>~~@corner_random==2@corner_random==3@corner_random==4~~</strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						30
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -392,7 +820,15 @@ Slightly increase velocity on a corner with skilled turning.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~corner_random~~**all_corner_random**<span>==1</span>~~@corner_random==2@corner_random==3@corner_random==4~~</strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						30
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -401,7 +837,15 @@ Moderately decrease velocity on a corner with clumsy turning.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~corner_random~~**all_corner_random**<span>==1</span>~~@corner_random==2@corner_random==3@corner_random==4~~</strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>current_speed</span>: <span>-0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						30
+ current_speed: -0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -410,7 +854,15 @@ Increase acceleration on a corner with masterful turning.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~corner_random~~**all_corner_random**<span>==1</span>~~@corner_random==2@corner_random==3@corner_random==4~~</strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **3**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.4</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
+ Duration: ~~1.8~~ -> **3**
+
+						// Cooldown:
+
+						30
+ acceleration: 0.4
+
+								(Target: self, max 1 )
 
 ---
 
@@ -419,7 +871,15 @@ Slightly increase acceleration on a corner with masterful turning.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~corner_random~~**all_corner_random**<span>==1</span>~~@corner_random==2@corner_random==3@corner_random==4~~</strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **3**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
+ Duration: ~~1.8~~ -> **3**
+
+						// Cooldown:
+
+						30
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -428,7 +888,15 @@ Moderately decrease acceleration on a corner with awkward turning.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~corner_random~~**all_corner_random**<span>==1</span>~~@corner_random==2@corner_random==3@corner_random==4~~</strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **3**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>acceleration</span>: <span>-0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~corner_random~~**all_corner_random**==1~~@corner_random==2@corner_random==3@corner_random==4~~
+ Duration: ~~1.8~~ -> **3**
+
+						// Cooldown:
+
+						30
+ acceleration: -0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -437,7 +905,15 @@ Increase velocity on a straight.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>straight_random==1</span></strong></div> <div>Duration: <strong>~~0.9~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: straight_random==1
+ Duration: ~~0.9~~ -> **2.4**
+
+						// Cooldown:
+
+						30
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -446,7 +922,15 @@ Slightly increase velocity on a straight.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>straight_random==1</span></strong></div> <div>Duration: <strong>~~0.9~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: straight_random==1
+ Duration: ~~0.9~~ -> **2.4**
+
+						// Cooldown:
+
+						30
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -455,7 +939,15 @@ Increase acceleration on a straight.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>straight_random==1</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **3**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.4</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: straight_random==1
+ Duration: ~~1.8~~ -> **3**
+
+						// Cooldown:
+
+						30
+ acceleration: 0.4
+
+								(Target: self, max 1 )
 
 ---
 
@@ -464,7 +956,15 @@ Slightly increase acceleration on a straight.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>straight_random==1</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **3**</strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: straight_random==1
+ Duration: ~~1.8~~ -> **3**
+
+						// Cooldown:
+
+						30
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -473,7 +973,15 @@ Moderately increase fatigue on an uphill.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~slope~~**up_slope_random**<span>==1</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>-0.02</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~slope~~**up_slope_random**==1
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: -0.02
+
+								(Target: self, max 1 )
 
 ---
 
@@ -482,7 +990,15 @@ Moderately lose endurance when surrounded.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>accumulatetime&gt;=2&</span>~~blocked_all_continuetime&gt;=~~**is_surrounded==**<span>1</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>-0.02</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: accumulatetime>=2&~~blocked_all_continuetime>=~~**is_surrounded==**1
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: -0.02
+
+								(Target: self, max 1 )
 
 ---
 
@@ -491,7 +1007,15 @@ Moderately increase urge to give up when positioned around the very back on the 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~is_finalcorner~~**last_straight_random**<span>==1&</span>~~is_lastspurt==1&straight_random==1&corner==0&~~<span>distance_diff_rate&gt;=75</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>current_speed</span>: <span>-0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~is_finalcorner~~**last_straight_random**==1&~~is_lastspurt==1&straight_random==1&corner==0&~~distance_diff_rate>=75
+ Duration: 3
+
+						// Cooldown:
+
+						30
+ current_speed: -0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -500,7 +1024,15 @@ Recover endurance when the way ahead is jammed early-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase</span>~~==0~~**&lt;=1**<span>&accumulatetime&gt;=5&blocked_front_continuetime&gt;=1</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.055</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase~~==0~~**<=1**&accumulatetime>=5&blocked_front_continuetime>=1
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.055
+
+								(Target: self, max 1 )
 
 ---
 
@@ -509,7 +1041,15 @@ Slightly recover endurance when the way ahead is jammed early-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase</span>~~==0~~**&lt;=1**<span>&accumulatetime&gt;=5&blocked_front_continuetime&gt;=1</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.015</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase~~==0~~**<=1**&accumulatetime>=5&blocked_front_continuetime>=1
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.015
+
+								(Target: self, max 1 )
 
 ---
 
@@ -518,7 +1058,15 @@ Increase navigation early-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase_random==0</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: ~~0.035~~ -&gt; **0.045**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase_random==0
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ lane_speed: ~~0.035~~ -> **0.045**
+
+								(Target: self, max 1 )
 
 ---
 
@@ -527,7 +1075,15 @@ Moderately increase navigation early-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase_random==0</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: ~~0.025~~ -&gt; **0.035**</strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase_random==0
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ lane_speed: ~~0.025~~ -> **0.035**
+
+								(Target: self, max 1 )
 
 ---
 
@@ -536,7 +1092,15 @@ Recover endurance when surrounded mid-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase==1&</span>~~blocked_all_continuetime&gt;=~~**is_surrounded==**<span>1</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.055</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase==1&~~blocked_all_continuetime>=~~**is_surrounded==**1
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.055
+
+								(Target: self, max 1 )
 
 ---
 
@@ -545,7 +1109,15 @@ Slightly recover endurance when surrounded mid-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase==1&</span>~~blocked_all_continuetime&gt;=~~**is_surrounded==**<span>1</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.015</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: phase==1&~~blocked_all_continuetime>=~~**is_surrounded==**1
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.015
+
+								(Target: self, max 1 )
 
 ---
 
@@ -554,7 +1126,20 @@ Increase maneuverability when the way ahead is blocked in the last spurt.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~blocked_front_continuetime~~**infront_near_lane_time**<span>&gt;=1&is_lastspurt==1&hp_per&gt;=1</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.4</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>lane_speed</span>: <span>0.025</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~blocked_front_continuetime~~**infront_near_lane_time**>=1&is_lastspurt==1&hp_per>=1
+ Duration: 3
+
+						// Cooldown:
+
+						30
+ acceleration: 0.4
+
+								(Target: self, max 1 )
+
+						
+lane_speed: 0.025
+
+								(Target: self, max 1 )
 
 ---
 
@@ -563,7 +1148,20 @@ Slightly increase maneuverability when the way ahead is blocked in the last spur
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~blocked_front_continuetime~~**infront_near_lane_time**<span>&gt;=1&is_lastspurt==1&hp_per&gt;=1</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>30</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>lane_speed</span>: <span>0.005</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~blocked_front_continuetime~~**infront_near_lane_time**>=1&is_lastspurt==1&hp_per>=1
+ Duration: 3
+
+						// Cooldown:
+
+						30
+ acceleration: 0.2
+
+								(Target: self, max 1 )
+
+						
+lane_speed: 0.005
+
+								(Target: self, max 1 )
 
 ---
 
@@ -572,7 +1170,15 @@ Increase velocity in the last spurt.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_lastspurt==1&phase_random==3</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_lastspurt==1&phase_random==3
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -581,7 +1187,15 @@ Slightly increase velocity in the last spurt.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>is_lastspurt==1&phase_random==3</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: is_lastspurt==1&phase_random==3
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -590,7 +1204,15 @@ Increase ability to go to the front early-race. (Front Runner)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&phase==0</span>~~&accumulatetime&gt;=5~~</strong></div> <div>Duration: <strong><span>1.2</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.4</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==1&phase==0~~&accumulatetime>=5~~
+ Duration: 1.2
+
+						// Cooldown:
+
+						500
+ acceleration: 0.4
+
+								(Target: self, max 1 )
 
 ---
 
@@ -599,7 +1221,15 @@ Slightly increase ability to go to the front early-race. (Front Runner)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&phase==0</span>~~&accumulatetime&gt;=5~~</strong></div> <div>Duration: <strong><span>1.2</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==1&phase==0~~&accumulatetime>=5~~
+ Duration: 1.2
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -608,7 +1238,15 @@ Decrease fatigue early-race. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&</span>~~phase_random~~**phase_laterhalf_random**<span>==0&</span>~~accumulatetime&gt;=5&~~<span>order_rate&lt;=50</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.055</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&~~phase_random~~**phase_laterhalf_random**==0&~~accumulatetime>=5&~~order_rate<=50
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.055
+
+								(Target: self, max 1 )
 
 ---
 
@@ -617,7 +1255,15 @@ Slightly decrease fatigue early-race. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&</span>~~phase_random~~**phase_laterhalf_random**<span>==0&</span>~~accumulatetime&gt;=5&~~<span>order_rate&lt;=50</span></strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.015</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&~~phase_random~~**phase_laterhalf_random**==0&~~accumulatetime>=5&~~order_rate<=50
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.015
+
+								(Target: self, max 1 )
 
 ---
 
@@ -626,7 +1272,15 @@ Increase ability to break out of the pack on the final corner. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&is_finalcorner_random==1&order_rate&lt;=50</span></strong></div> <div>Duration: <strong>~~1.2~~ -&gt; **1.8**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&is_finalcorner_random==1&order_rate<=50
+ Duration: ~~1.2~~ -> **1.8**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -635,7 +1289,15 @@ Slightly increase ability to break out of the pack on the final corner. (Pace Ch
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&is_finalcorner_random==1&order_rate&lt;=50</span></strong></div> <div>Duration: <strong>~~1.2~~ -&gt; **1.8**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&is_finalcorner_random==1&order_rate<=50
+ Duration: ~~1.2~~ -> **1.8**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -644,7 +1306,15 @@ Increase velocity mid-race. (Late Surger)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==3&phase_random==1&order_rate&gt;50</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==3&phase_random==1&order_rate>50
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -653,7 +1323,15 @@ Slightly increase velocity mid-race. (Late Surger)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==3&phase_random==1&order_rate&gt;50</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==3&phase_random==1&order_rate>50
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -662,7 +1340,15 @@ Move up in preparation to close the gap late-race. (End Closer)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==4&phase_random==2&distance_diff_rate&gt;=</span>~~75~~**50**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==4&phase_random==2&distance_diff_rate>=~~75~~**50**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -671,7 +1357,15 @@ Slightly move up in preparation to close the gap late-race. (End Closer)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==4&phase_random==2&distance_diff_rate&gt;=</span>~~75~~**50**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==4&phase_random==2&distance_diff_rate>=~~75~~**50**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -680,7 +1374,20 @@ Slightly decrease fatigue when positioned toward the back mid-race. (Sprint)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==1&order_rate&gt;50</span></strong></div> <div>Duration: <strong>~~0~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.015</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**acceleration**: **0.1**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==1&order_rate>50
+ Duration: ~~0~~ -> **3**
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.015
+
+								(Target: self, max 1 )
+
+						
+**acceleration**: **0.1**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -689,7 +1396,20 @@ Increase spurting ability when positioned toward the back late-race. (Sprint)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==2&order_rate&gt;50</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**acceleration**: **0.1**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==2&order_rate>50
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
+
+						
+**acceleration**: **0.1**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -698,7 +1418,20 @@ Slightly increase spurting ability when positioned toward the back late-race. (S
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==2&order_rate&gt;50</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**acceleration**: **0.05**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==2&order_rate>50
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
+
+						
+**acceleration**: **0.05**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -707,7 +1440,15 @@ Widen the margin when in the lead early-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase_random==0&accumulatetime&gt;=5&</span>~~order==1~~**order_rate&lt;=50**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase_random==0&accumulatetime>=5&~~order==1~~**order_rate<=50**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -716,7 +1457,15 @@ Slightly widen the margin when in the lead early-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase_random==0&accumulatetime&gt;=5&</span>~~order==1~~**order_rate&lt;=50**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase_random==0&accumulatetime>=5&~~order==1~~**order_rate<=50**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -725,7 +1474,20 @@ Decrease fatigue when positioned toward the back early-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&</span>~~phase_random~~**phase_laterhalf_random**<span>==0&</span>~~accumulatetime&gt;=5&~~<span>order_rate&gt;50</span></strong></div> <div>Duration: <strong>~~0~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.055</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**current_speed**: **-0.2**</strong>(Target: **ahead**, max **18**</span> )</div></div> </div></div>
+Condition: distance_type==2&~~phase_random~~**phase_laterhalf_random**==0&~~accumulatetime>=5&~~order_rate>50
+ Duration: ~~0~~ -> **3**
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.055
+
+								(Target: self, max 1 )
+
+						
+**current_speed**: **-0.2**
+
+								(Target: **ahead**, max **18** )
 
 ---
 
@@ -734,7 +1496,20 @@ Slightly decrease fatigue when positioned toward the back early-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&</span>~~phase_random~~**phase_laterhalf_random**<span>==0&</span>~~accumulatetime&gt;=5&~~<span>order_rate&gt;50</span></strong></div> <div>Duration: <strong>~~0~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.015</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**current_speed**: **-0.05**</strong>(Target: **ahead**, max **18**</span> )</div></div> </div></div>
+Condition: distance_type==2&~~phase_random~~**phase_laterhalf_random**==0&~~accumulatetime>=5&~~order_rate>50
+ Duration: ~~0~~ -> **3**
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.015
+
+								(Target: self, max 1 )
+
+						
+**current_speed**: **-0.05**
+
+								(Target: **ahead**, max **18** )
 
 ---
 
@@ -743,7 +1518,15 @@ Decrease fatigue when in the lead mid-race. (Medium)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&phase_random==1&order</span>~~==1~~**&lt;=3**</strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.055</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==3&phase_random==1&order~~==1~~**<=3**
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.055
+
+								(Target: self, max 1 )
 
 ---
 
@@ -752,7 +1535,15 @@ Slightly decrease fatigue when in the lead mid-race. (Medium)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&phase_random==1&order</span>~~==1~~**&lt;=3**</strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.015</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==3&phase_random==1&order~~==1~~**<=3**
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.015
+
+								(Target: self, max 1 )
 
 ---
 
@@ -761,7 +1552,15 @@ Increase positioning ability when positioned toward the front mid-race. (Medium)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&phase_random==1&order_rate&lt;=50</span></strong></div> <div>Duration: <strong>~~0.9~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==3&phase_random==1&order_rate<=50
+ Duration: ~~0.9~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -770,7 +1569,15 @@ Slightly increase positioning ability when positioned toward the front mid-race.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&phase_random==1&order_rate&lt;=50</span></strong></div> <div>Duration: <strong>~~0.9~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==3&phase_random==1&order_rate<=50
+ Duration: ~~0.9~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -779,7 +1586,20 @@ Increase ability to fight back when passed by another runner on the final corner
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&is_finalcorner==1&corner!=0&change_order_onetime&gt;0</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**acceleration**: **0.1**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: distance_type==3&is_finalcorner==1&corner!=0&change_order_onetime>0
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
+
+						
+**acceleration**: **0.1**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -788,7 +1608,20 @@ Slightly increase ability to fight back when passed by another runner on the fin
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&is_finalcorner==1&corner!=0&change_order_onetime&gt;0</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**acceleration**: **0.05**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: distance_type==3&is_finalcorner==1&corner!=0&change_order_onetime>0
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
+
+						
+**acceleration**: **0.05**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -797,7 +1630,15 @@ Regain the energy to run after exhausting strength. (Long)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==4&</span>~~is_hp_empty_onetime==1~~**hp_per&lt;=30**</strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.055</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==4&~~is_hp_empty_onetime==1~~**hp_per<=30**
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.055
+
+								(Target: self, max 1 )
 
 ---
 
@@ -806,7 +1647,15 @@ Slightly regain the energy to run after exhausting strength. (Long)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==4&</span>~~is_hp_empty_onetime==1~~**hp_per&lt;=30**</strong></div> <div>Duration: <strong><span>0</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>0.015</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==4&~~is_hp_empty_onetime==1~~**hp_per<=30**
+ Duration: 0
+
+						// Cooldown:
+
+						500
+ hp_recovery: 0.015
+
+								(Target: self, max 1 )
 
 ---
 
@@ -815,7 +1664,15 @@ Moderately increase velocity on a corner. (Sprint)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@distance_type==1&corner_random==2@distance_type==1&corner_random==3@distance_type==1&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==1&~~corner_random~~**all_corner_random**==1~~@distance_type==1&corner_random==2@distance_type==1&corner_random==3@distance_type==1&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -824,7 +1681,15 @@ Slightly increase velocity on a corner. (Sprint)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@distance_type==1&corner_random==2@distance_type==1&corner_random==3@distance_type==1&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==1&~~corner_random~~**all_corner_random**==1~~@distance_type==1&corner_random==2@distance_type==1&corner_random==3@distance_type==1&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -833,7 +1698,15 @@ Increase ability to maintain the lead when leading by a large margin mid-race. (
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase==1&bashin_diff_behind&gt;=</span>~~5~~**3**<span>&order==1</span></strong></div> <div>Duration: <strong>~~1.2~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==1&phase==1&bashin_diff_behind>=~~5~~**3**&order==1
+ Duration: ~~1.2~~ -> **3**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -842,7 +1715,15 @@ Slightly increase ability to maintain the lead when leading by a large margin mi
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase==1&bashin_diff_behind&gt;=</span>~~5~~**3**<span>&order==1</span></strong></div> <div>Duration: <strong>~~1.2~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==1&phase==1&bashin_diff_behind>=~~5~~**3**&order==1
+ Duration: ~~1.2~~ -> **3**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -851,7 +1732,15 @@ Increase passing ability when positioned toward the front mid-race. (Sprint)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&</span>~~phase_random~~**phase_laterhalf_random**<span>==1&order&gt;=2&order_rate&lt;=50</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.4</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==1&~~phase_random~~**phase_laterhalf_random**==1&order>=2&order_rate<=50
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.4
+
+								(Target: self, max 1 )
 
 ---
 
@@ -860,7 +1749,15 @@ Slightly increase passing ability when positioned toward the front mid-race. (Sp
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&</span>~~phase_random~~**phase_laterhalf_random**<span>==1&order&gt;=2&order_rate&lt;=50</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==1&~~phase_random~~**phase_laterhalf_random**==1&order>=2&order_rate<=50
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -869,7 +1766,20 @@ Prepare to make for the finish line mid-race. (Sprint)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==1</span></strong></div> <div>Duration: <strong>~~3~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: <span>0.035</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==1
+ Duration: ~~3~~ -> **4**
+
+						// Cooldown:
+
+						500
+ lane_speed: 0.035
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -878,7 +1788,20 @@ Moderately prepare to make for the finish line mid-race. (Sprint)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==1</span></strong></div> <div>Duration: <strong>~~3~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: <span>0.025</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==1
+ Duration: ~~3~~ -> **4**
+
+						// Cooldown:
+
+						500
+ lane_speed: 0.025
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -887,7 +1810,15 @@ Intimidate runners behind when positioned toward the front early-race. (Sprint)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==0&</span>~~order~~**order_rate**<span>&lt;=</span>~~3~~**50**<span>&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>current_speed</span>: <span>-0.25</span></strong>(Target: <span>behind</span>, max <span>18</span></span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==0&~~order~~**order_rate**<=~~3~~**50**&accumulatetime>=5
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ current_speed: -0.25
+
+								(Target: behind, max 18 )
 
 ---
 
@@ -896,7 +1827,15 @@ Moderately intimidate runners behind when positioned toward the front early-race
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==0&</span>~~order~~**order_rate**<span>&lt;=</span>~~3~~**50**<span>&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>current_speed</span>: <span>-0.2</span></strong>(Target: <span>behind</span>, max <span>18</span></span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==0&~~order~~**order_rate**<=~~3~~**50**&accumulatetime>=5
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ current_speed: -0.2
+
+								(Target: behind, max 18 )
 
 ---
 
@@ -905,7 +1844,20 @@ Cause panic in runners ahead when positioned toward the back early-race. (Sprint
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==0&order_rate&gt;50&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong>~~0~~ -&gt; **1.2**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>-0.03</span></strong>(Target: <span>ahead</span>, max <span>18</span></span> )</div><div><span><strong>**acceleration**: **-0.2**</strong>(Target: **ahead**, max **18**</span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==0&order_rate>50&accumulatetime>=5
+ Duration: ~~0~~ -> **1.2**
+
+						// Cooldown:
+
+						500
+ hp_recovery: -0.03
+
+								(Target: ahead, max 18 )
+
+						
+**acceleration**: **-0.2**
+
+								(Target: **ahead**, max **18** )
 
 ---
 
@@ -914,7 +1866,20 @@ Slightly cause panic in runners ahead when positioned toward the back early-race
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==1&phase_random==0&order_rate&gt;50&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong>~~0~~ -&gt; **1.2**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>hp_recovery</span>: <span>-0.01</span></strong>(Target: <span>ahead</span>, max <span>18</span></span> )</div><div><span><strong>**acceleration**: **-0.05**</strong>(Target: **ahead**, max **18**</span> )</div></div> </div></div>
+Condition: distance_type==1&phase_random==0&order_rate>50&accumulatetime>=5
+ Duration: ~~0~~ -> **1.2**
+
+						// Cooldown:
+
+						500
+ hp_recovery: -0.01
+
+								(Target: ahead, max 18 )
+
+						
+**acceleration**: **-0.05**
+
+								(Target: **ahead**, max **18** )
 
 ---
 
@@ -923,7 +1888,15 @@ Moderately increase velocity on a corner. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@distance_type==2&corner_random==2@distance_type==2&corner_random==3@distance_type==2&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&~~corner_random~~**all_corner_random**==1~~@distance_type==2&corner_random==2@distance_type==2&corner_random==3@distance_type==2&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -932,7 +1905,15 @@ Slightly increase velocity on a corner. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@distance_type==2&corner_random==2@distance_type==2&corner_random==3@distance_type==2&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&~~corner_random~~**all_corner_random**==1~~@distance_type==2&corner_random==2@distance_type==2&corner_random==3@distance_type==2&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -941,7 +1922,15 @@ Increase passing ability when positioned toward the front mid-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase_random==1&order_rate&lt;=50</span></strong></div> <div>Duration: <strong>~~1.2~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase_random==1&order_rate<=50
+ Duration: ~~1.2~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -950,7 +1939,15 @@ Slightly increase passing ability when positioned toward the front mid-race. (Mi
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase_random==1&order_rate&lt;=50</span></strong></div> <div>Duration: <strong>~~1.2~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase_random==1&order_rate<=50
+ Duration: ~~1.2~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -959,7 +1956,15 @@ Increase acceleration when passing another runner mid-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase==1&change_order_onetime&lt;0</span></strong></div> <div>Duration: <strong>~~1.2~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.4</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase==1&change_order_onetime<0
+ Duration: ~~1.2~~ -> **3**
+
+						// Cooldown:
+
+						500
+ acceleration: 0.4
+
+								(Target: self, max 1 )
 
 ---
 
@@ -968,7 +1973,15 @@ Slightly increase acceleration when passing another runner mid-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase==1&change_order_onetime&lt;0</span></strong></div> <div>Duration: <strong>~~1.2~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase==1&change_order_onetime<0
+ Duration: ~~1.2~~ -> **3**
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -977,7 +1990,15 @@ Increase passing ability. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&is_overtake==1&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&is_overtake==1&accumulatetime>=5
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -986,7 +2007,15 @@ Slightly increase passing ability. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&is_overtake==1&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&is_overtake==1&accumulatetime>=5
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -995,7 +2024,20 @@ Moderately steal velocity from runners behind when in the lead mid-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase_random==1&order</span>~~==1~~**&lt;=3**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>current_speed</span>: <span>-0.2</span></strong>(Target: <span>behind</span>, max <span>5</span></span> )</div><div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase_random==1&order~~==1~~**<=3**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ current_speed: -0.2
+
+								(Target: behind, max 5 )
+
+						
+speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1004,7 +2046,20 @@ Slightly steal velocity from runners behind when in the lead mid-race. (Mile)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase_random==1&order</span>~~==1~~**&lt;=3**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>current_speed</span>: <span>-0.15</span></strong>(Target: <span>behind</span>, max <span>5</span></span> )</div><div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase_random==1&order~~==1~~**<=3**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ current_speed: -0.15
+
+								(Target: behind, max 5 )
+
+						
+speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1013,7 +2068,15 @@ Dull movement for runners ahead when positioned toward the back early-race. (Mil
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase_random==0&order_rate&gt;50&accumulatetime&gt;=</span>~~5~~**3**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>-0.3</span></strong>(Target: <span>ahead</span>, max <span>18</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase_random==0&order_rate>50&accumulatetime>=~~5~~**3**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: -0.3
+
+								(Target: ahead, max 18 )
 
 ---
 
@@ -1022,7 +2085,15 @@ Slightly dull movement for runners ahead when positioned toward the back early-r
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==2&phase_random==0&order_rate&gt;50&accumulatetime&gt;=</span>~~5~~**3**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>-0.1</span></strong>(Target: <span>ahead</span>, max <span>18</span></span> )</div></div> </div></div>
+Condition: distance_type==2&phase_random==0&order_rate>50&accumulatetime>=~~5~~**3**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: -0.1
+
+								(Target: ahead, max 18 )
 
 ---
 
@@ -1031,7 +2102,15 @@ Moderately increase velocity on a corner. (Medium)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@distance_type==3&corner_random==2@distance_type==3&corner_random==3@distance_type==3&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==3&~~corner_random~~**all_corner_random**==1~~@distance_type==3&corner_random==2@distance_type==3&corner_random==3@distance_type==3&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1040,7 +2119,15 @@ Slightly increase velocity on a corner. (Medium)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@distance_type==3&corner_random==2@distance_type==3&corner_random==3@distance_type==3&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==3&~~corner_random~~**all_corner_random**==1~~@distance_type==3&corner_random==2@distance_type==3&corner_random==3@distance_type==3&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1049,7 +2136,20 @@ Avoid becoming surrounded when positioned toward the back mid-race. (Medium)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&phase_random==1&order_rate&gt;50</span></strong></div> <div>Duration: <strong>~~3~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: <span>0.035</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==3&phase_random==1&order_rate>50
+ Duration: ~~3~~ -> **4**
+
+						// Cooldown:
+
+						500
+ lane_speed: 0.035
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1058,7 +2158,20 @@ Moderately avoid becoming surrounded when positioned toward the back mid-race. (
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==3&phase_random==1&order_rate&gt;50</span></strong></div> <div>Duration: <strong>~~3~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: <span>0.025</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==3&phase_random==1&order_rate>50
+ Duration: ~~3~~ -> **4**
+
+						// Cooldown:
+
+						500
+ lane_speed: 0.025
+
+								(Target: self, max 1 )
+
+						
+acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1067,7 +2180,15 @@ Moderately increase velocity on a corner. (Long)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==4&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@distance_type==4&corner_random==2@distance_type==4&corner_random==3@distance_type==4&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==4&~~corner_random~~**all_corner_random**==1~~@distance_type==4&corner_random==2@distance_type==4&corner_random==3@distance_type==4&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1076,7 +2197,15 @@ Slightly increase velocity on a corner. (Long)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==4&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@distance_type==4&corner_random==2@distance_type==4&corner_random==3@distance_type==4&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==4&~~corner_random~~**all_corner_random**==1~~@distance_type==4&corner_random==2@distance_type==4&corner_random==3@distance_type==4&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1085,7 +2214,15 @@ Increase ability to maintain the lead when leading by a large margin mid-race. (
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==4&phase_random==1&bashin_diff_behind&gt;=</span>~~3~~**1**<span>&order==1</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==4&phase_random==1&bashin_diff_behind>=~~3~~**1**&order==1
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1094,7 +2231,15 @@ Slightly increase ability to maintain the lead when leading by a large margin mi
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>distance_type==4&phase_random==1&bashin_diff_behind&gt;=</span>~~3~~**1**<span>&order==1</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: distance_type==4&phase_random==1&bashin_diff_behind>=~~3~~**1**&order==1
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1103,7 +2248,15 @@ Moderately increase velocity on a corner. (Front Runner)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@running_style==1&corner_random==2@running_style==1&corner_random==3@running_style==1&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==1&~~corner_random~~**all_corner_random**==1~~@running_style==1&corner_random==2@running_style==1&corner_random==3@running_style==1&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1112,7 +2265,15 @@ Slightly increase velocity on a corner. (Front Runner)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@running_style==1&corner_random==2@running_style==1&corner_random==3@running_style==1&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==1&~~corner_random~~**all_corner_random**==1~~@running_style==1&corner_random==2@running_style==1&corner_random==3@running_style==1&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1121,7 +2282,20 @@ Avoid becoming surrounded early-race. (Front Runner)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&phase==0&</span>~~blocked_all_continuetime~~**blocked_front_continuetime**<span>&gt;=1</span>**@running_style==1&phase==0&blocked_side_continuetime&gt;=1**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: <span>0.035</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**new_unkn_35**: **0.5**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: running_style==1&phase==0&~~blocked_all_continuetime~~**blocked_front_continuetime**>=1**@running_style==1&phase==0&blocked_side_continuetime>=1**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ lane_speed: 0.035
+
+								(Target: self, max 1 )
+
+						
+**new_unkn_35**: **0.5**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -1130,7 +2304,20 @@ Moderately avoid becoming surrounded early-race. (Front Runner)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&phase==0&</span>~~blocked_all_continuetime~~**blocked_front_continuetime**<span>&gt;=1</span>**@running_style==1&phase==0&blocked_side_continuetime&gt;=1**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: <span>0.025</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div><div><span><strong>**new_unkn_35**: **0.5**</strong>(Target: **self**, max **1**</span> )</div></div> </div></div>
+Condition: running_style==1&phase==0&~~blocked_all_continuetime~~**blocked_front_continuetime**>=1**@running_style==1&phase==0&blocked_side_continuetime>=1**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ lane_speed: 0.025
+
+								(Target: self, max 1 )
+
+						
+**new_unkn_35**: **0.5**
+
+								(Target: **self**, max **1** )
 
 ---
 
@@ -1139,7 +2326,15 @@ Slightly avoid being passed early-race. (Front Runner)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&phase</span>~~==0~~**&lt;=1**<span>&change_order_onetime&gt;0&accumulatetime&gt;=5</span>**@running_style==1&phase&lt;=1&blocked_side_continuetime&gt;=2&accumulatetime&gt;=5**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==1&phase~~==0~~**<=1**&change_order_onetime>0&accumulatetime>=5**@running_style==1&phase<=1&blocked_side_continuetime>=2&accumulatetime>=5**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1148,7 +2343,15 @@ Increase acceleration when positioned toward the back mid-race. (Front Runner)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&phase_random==1&</span>~~order_rate&gt;50~~**order&gt;=2**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.4</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==1&phase_random==1&~~order_rate>50~~**order>=2**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.4
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1157,7 +2360,15 @@ Slightly increase acceleration when positioned toward the back mid-race. (Front 
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&phase_random==1&</span>~~order_rate&gt;50~~**order&gt;=2**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==1&phase_random==1&~~order_rate>50~~**order>=2**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1166,7 +2377,15 @@ Slightly startle runners ahead when failing to get a lead early-race. (Front Run
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==1&phase_random==0&</span>~~order_rate&gt;50~~**order&gt;=2**<span>&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>-0.1</span></strong>(Target: <span>ahead</span>, max <span>18</span></span> )</div></div> </div></div>
+Condition: running_style==1&phase_random==0&~~order_rate>50~~**order>=2**&accumulatetime>=5
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: -0.1
+
+								(Target: ahead, max 18 )
 
 ---
 
@@ -1175,7 +2394,15 @@ Moderately increase velocity on a corner. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@running_style==2&corner_random==2@running_style==2&corner_random==3@running_style==2&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&~~corner_random~~**all_corner_random**==1~~@running_style==2&corner_random==2@running_style==2&corner_random==3@running_style==2&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1184,7 +2411,15 @@ Slightly increase velocity on a corner. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@running_style==2&corner_random==2@running_style==2&corner_random==3@running_style==2&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&~~corner_random~~**all_corner_random**==1~~@running_style==2&corner_random==2@running_style==2&corner_random==3@running_style==2&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1193,7 +2428,15 @@ Moderately increase ability to navigate smoothly. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&is_move_lane==1@running_style==2&is_move_lane==2</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&is_move_lane==1@running_style==2&is_move_lane==2
+ Duration: ~~1.8~~ -> **3**
+
+						// Cooldown:
+
+						500
+ acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1202,7 +2445,15 @@ Slightly increase ability to navigate smoothly. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&is_move_lane==1@running_style==2&is_move_lane==2</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **3**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&is_move_lane==1@running_style==2&is_move_lane==2
+ Duration: ~~1.8~~ -> **3**
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1211,7 +2462,15 @@ Moderately improve running on a downhill. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&</span>~~slope~~**down_slope_random**<span>==</span>~~2~~**1**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&~~slope~~**down_slope_random**==~~2~~**1**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1220,7 +2479,15 @@ Slightly improve running on a downhill. (Pace Chaser)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&</span>~~slope~~**down_slope_random**<span>==</span>~~2~~**1**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&~~slope~~**down_slope_random**==~~2~~**1**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1229,7 +2496,15 @@ Moderately increase acceleration when positioned toward the back mid-race. (Pace
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&phase_random==1&order_rate&gt;</span>~~50~~**40**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&phase_random==1&order_rate>~~50~~**40**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1238,7 +2513,15 @@ Slightly increase acceleration when positioned toward the back mid-race. (Pace C
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==2&phase_random==1&order_rate&gt;</span>~~50~~**40**</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==2&phase_random==1&order_rate>~~50~~**40**
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1247,7 +2530,15 @@ Moderately increase velocity on a corner. (Late Surger)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==3&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@running_style==3&corner_random==2@running_style==3&corner_random==3@running_style==3&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==3&~~corner_random~~**all_corner_random**==1~~@running_style==3&corner_random==2@running_style==3&corner_random==3@running_style==3&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1256,7 +2547,15 @@ Slightly increase velocity on a corner. (Late Surger)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==3&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@running_style==3&corner_random==2@running_style==3&corner_random==3@running_style==3&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==3&~~corner_random~~**all_corner_random**==1~~@running_style==3&corner_random==2@running_style==3&corner_random==3@running_style==3&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1265,7 +2564,15 @@ Moderately increase passing ability. (Late Surger)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==3&is_overtake==1&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong>~~3~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.3</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==3&is_overtake==1&accumulatetime>=5
+ Duration: ~~3~~ -> **4**
+
+						// Cooldown:
+
+						500
+ acceleration: 0.3
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1274,7 +2581,15 @@ Slightly increase passing ability. (Late Surger)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==3&is_overtake==1&accumulatetime&gt;=5</span></strong></div> <div>Duration: <strong>~~3~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==3&is_overtake==1&accumulatetime>=5
+ Duration: ~~3~~ -> **4**
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1283,7 +2598,15 @@ Increase velocity on an uphill. (Late Surger)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==3&</span>~~slope~~**up_slope_random**<span>==1</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==3&~~slope~~**up_slope_random**==1
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1292,7 +2615,15 @@ Slightly increase velocity on an uphill. (Late Surger)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==3&</span>~~slope~~**up_slope_random**<span>==1</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==3&~~slope~~**up_slope_random**==1
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1301,7 +2632,15 @@ Moderately increase velocity on a corner. (End Closer)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==4&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@running_style==4&corner_random==2@running_style==4&corner_random==3@running_style==4&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.25</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==4&~~corner_random~~**all_corner_random**==1~~@running_style==4&corner_random==2@running_style==4&corner_random==3@running_style==4&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.25
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1310,7 +2649,15 @@ Slightly increase velocity on a corner. (End Closer)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>running_style==4&</span>~~corner_random~~**all_corner_random**<span>==1</span>~~@running_style==4&corner_random==2@running_style==4&corner_random==3@running_style==4&corner_random==4~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: running_style==4&~~corner_random~~**all_corner_random**==1~~@running_style==4&corner_random==2@running_style==4&corner_random==3@running_style==4&corner_random==4~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1319,7 +2666,15 @@ Slightly improve running on an uphill.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong>~~slope~~**up_slope_random**<span>==1</span></strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>acceleration</span>: <span>0.2</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ~~slope~~**up_slope_random**==1
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ acceleration: 0.2
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1328,7 +2683,15 @@ Slightly increase velocity when close to many runners.
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>near_count</span>~~==4@near_count==~~**&gt;=3&accumulatetime&gt;=**<span>5</span>~~@near_count==6@near_count==7~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: near_count~~==4@near_count==~~**>=3&accumulatetime>=**5~~@near_count==6@near_count==7~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1337,7 +2700,15 @@ undefined
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>near_count</span>~~==4@near_count==~~**&gt;=3&accumulatetime&gt;=**<span>5</span>~~@near_count==6@near_count==7~~</strong></div> <div>Duration: <strong><span>3</span></strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: near_count~~==4@near_count==~~**>=3&accumulatetime>=**5~~@near_count==6@near_count==7~~
+ Duration: 3
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1346,7 +2717,15 @@ Increase velocity when engaged in a challenge mid-race. (Dirt)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>ground_type==2&phase==1&blocked_side_continuetime&gt;=2</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.35</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ground_type==2&phase==1&blocked_side_continuetime>=2
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.35
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1355,7 +2734,15 @@ Slightly increase velocity when engaged in a challenge mid-race. (Dirt)
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>ground_type==2&phase==1&blocked_side_continuetime&gt;=2</span></strong></div> <div>Duration: <strong>~~1.8~~ -&gt; **2.4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>speed</span>: <span>0.15</span></strong>(Target: <span>self</span>, max <span>1</span></span> )</div></div> </div></div>
+Condition: ground_type==2&phase==1&blocked_side_continuetime>=2
+ Duration: ~~1.8~~ -> **2.4**
+
+						// Cooldown:
+
+						500
+ speed: 0.15
+
+								(Target: self, max 1 )
 
 ---
 
@@ -1364,7 +2751,20 @@ Burn bright with team spirit, increasing strategic navigation in proportion to t
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase_random==0</span></strong></div> <div>Duration: <strong>~~3~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: <span>0.035</span></strong>(Target: <span>self</span>, max <span>1</span></span> <span>, scaled: <span>team_wisdom</span></span> )</div><div><span><strong><span>fov_up</span>: <span>15</span></strong>(Target: <span>self</span>, max <span>1</span></span> <span>, scaled: <span>team_wisdom</span></span> )</div></div> </div></div>
+Condition: phase_random==0
+ Duration: ~~3~~ -> **4**
+
+						// Cooldown:
+
+						500
+ lane_speed: 0.035
+
+								(Target: self, max 1 , scaled: team_wisdom )
+
+						
+fov_up: 15
+
+								(Target: self, max 1 , scaled: team_wisdom )
 
 ---
 
@@ -1373,7 +2773,20 @@ Burn bright with team spirit, slightly increasing strategic navigation in propor
 
 **Changes:**
 
-<div class="col-12 col-md-7"><div class="row"><div class="col"> <div>Condition: <strong><span>phase_random==0</span></strong></div> <div>Duration: <strong>~~3~~ -&gt; **4**</strong>// Cooldown:<strong><span>500</span></strong></div> <div><span><strong><span>lane_speed</span>: <span>0.015</span></strong>(Target: <span>self</span>, max <span>1</span></span> <span>, scaled: <span>team_wisdom</span></span> )</div><div><span><strong><span>fov_up</span>: <span>5</span></strong>(Target: <span>self</span>, max <span>1</span></span> <span>, scaled: <span>team_wisdom</span></span> )</div></div> </div></div>
+Condition: phase_random==0
+ Duration: ~~3~~ -> **4**
+
+						// Cooldown:
+
+						500
+ lane_speed: 0.015
+
+								(Target: self, max 1 , scaled: team_wisdom )
+
+						
+fov_up: 5
+
+								(Target: self, max 1 , scaled: team_wisdom )
 
 ---
 
