@@ -4,7 +4,7 @@
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100901.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png)
 
 Slightly swell with the determination to stay number one in the second half of the race.
 
@@ -31,7 +31,7 @@ acceleration: 0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png)
 
 Moderately increase velocity with a strong turn of foot when passing another runner toward the back on the final straight.
 
@@ -56,7 +56,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101801.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png)
 
 Moderately increase velocity with the stride of an empress when passing another runner toward the back on the final corner.
 
@@ -81,7 +81,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png)
 
 Slightly increase ability to break out of the pack on the straight after engaging in a challenge toward the front on the final corner.
 
@@ -108,7 +108,7 @@ acceleration: 0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png)
 
 Moderately recover endurance when conserving energy on a corner in the second half of the race.
 
@@ -135,7 +135,7 @@ hp_recovery: 0.035
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png)
 
 Refuse to back down from a challenge, moderately increasing velocity on the final straight.
 
@@ -161,7 +161,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1045_104501.png)
 
 Moderately recover endurance when well-positioned mid-race.
 
@@ -186,7 +186,7 @@ hp_recovery: ~~0.035~~ -> **0.055**
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105601.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1056_105601.png)
 
 Moderately clear a path forward with the power of divination when the way ahead is jammed late-race.
 
@@ -213,7 +213,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png)
 
 Increase velocity in a true display of skill with 200m remaining after racing calmly.
 
@@ -238,7 +238,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png)
 
 Ride the momentum and increase velocity after passing another runner toward the front late-race.
 
@@ -265,7 +265,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1002_100201.png)
 
 Increase velocity by drawing on all remaining strength when in the lead by a fair margin on the final straight.
 
@@ -290,7 +290,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png)
 
 Greatly increase velocity with a dazzling display when just breaking out of the pack toward the front on the final straight.
 
@@ -315,7 +315,7 @@ speed: 0.45
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100901.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png)
 
 Swell with the determination to stay number one in the second half of the race.
 
@@ -342,7 +342,7 @@ acceleration: 0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20043.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101001.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png)
 
 Increase acceleration with a pow, a wow, and a bang when well-positioned on the final corner.
 
@@ -367,7 +367,7 @@ acceleration: 0.4
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png)
 
 Increase velocity with a strong turn of foot when passing another runner toward the back on the final straight.
 
@@ -392,7 +392,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png)
 
 Increase velocity when passing another runner on the outside toward the back on the final straight.
 
@@ -418,7 +418,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png)
 
 Increase velocity with royal brilliance when engaged in a challenge toward the front on the final corner.
 
@@ -443,7 +443,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101601.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png)
 
 Increase velocity with beastly strength when passing another runner on the outside on the final corner or later.
 
@@ -475,7 +475,7 @@ Cooldown:
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101801.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png)
 
 Increase velocity with the stride of an empress when passing another runner toward the back on the final corner.
 
@@ -522,7 +522,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102301.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png)
 
 Increase velocity by deriving the winning equation when passing another runner toward the front on the final corner.
 
@@ -547,7 +547,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png)
 
 Increase ability to break out of the pack on the straight after engaging in a challenge toward the front on the final corner.
 
@@ -574,7 +574,7 @@ acceleration: 0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103001.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png)
 
 Increase velocity with strong willpower when breaking out of the pack on the final straight.
 
@@ -600,7 +600,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png)
 
 Recover endurance when conserving energy on a corner in the second half of the race.
 
@@ -627,7 +627,7 @@ hp_recovery: 0.055
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png)
 
 Refuse to back down from a challenge, increasing velocity on the final straight.
 
@@ -653,7 +653,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103801.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png)
 
 Gain momentum and begin to advance when passing another runner while well-positioned around halfway through the race.
 
@@ -700,7 +700,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1045_104501.png)
 
 Recover endurance when well-positioned mid-race.
 
@@ -725,7 +725,7 @@ hp_recovery: ~~0.055~~ -> **0.075**
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104601.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png)
 
 Become empowered against ceding the spotlight when about to lose the lead on a straight mid-race.
 
@@ -752,7 +752,7 @@ acceleration: 0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105001.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1050_105001.png)
 
 Increase velocity with smoldering ambition when moving up from a position toward the back of the pack on the final corner.
 
@@ -777,7 +777,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105601.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1056_105601.png)
 
 Clear a path forward with the power of divination when the way ahead is jammed late-race.
 
@@ -804,7 +804,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png)
 
 Greatly increase velocity in a true display of skill with 200m remaining after racing calmly.
 
@@ -829,7 +829,7 @@ speed: 0.45
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100302.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100302.png)
 
 Increase velocity with an indomitable fighting spirit when on the heels of another runner toward the front on the final straight.
 
@@ -855,7 +855,7 @@ speed: ~~0.35~~ -> **0.45**
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101102.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1011_101102.png)
 
 Recover endurance with a gentle light when dropping down toward the back mid-race.
 
@@ -880,7 +880,7 @@ hp_recovery: ~~0.055~~ -> **0.075**
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101302.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png)
 
 Increase velocity when pressured by another runner and running out of energy toward the front on the final corner or later.
 
@@ -905,7 +905,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101802.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png)
 
 Increase velocity when starting to make a move from a position toward the front mid-race.
 
@@ -1027,7 +1027,7 @@ power_stat_up: 60
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_10031.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100901.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1065_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png)
 
 Moderately increase performance when at least 5 other runners are using the same strategy.
 
@@ -1077,7 +1077,7 @@ power_stat_up: -40
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104502.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1045_104502.png)
 
 Increase velocity on a corner with skilled turning.
 
@@ -1102,7 +1102,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100103.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1024_102402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1045_104502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100103.png)
 
 Slightly increase velocity on a corner with skilled turning.
 
@@ -1152,7 +1152,7 @@ current_speed: -0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102902.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102902.png)
 
 Increase acceleration on a corner with masterful turning.
 
@@ -1177,7 +1177,7 @@ acceleration: 0.4
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106103.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1072_107201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1078_107801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1061_106103.png)
 
 Slightly increase acceleration on a corner with masterful turning.
 
@@ -1227,7 +1227,7 @@ acceleration: -0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106902.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1051_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106902.png)
 
 Increase velocity on a straight.
 
@@ -1252,7 +1252,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1051_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1084_108401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1064_106402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png)
 
 Slightly increase velocity on a straight.
 
@@ -1277,7 +1277,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104202.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1042_104202.png)
 
 Increase acceleration on a straight.
 
@@ -1302,7 +1302,7 @@ acceleration: 0.4
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100801.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1042_104202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1008_100801.png)
 
 Slightly increase acceleration on a straight.
 
@@ -1402,7 +1402,7 @@ current_speed: -0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1052_105201.png)
 
 Recover endurance when the way ahead is jammed early-race.
 
@@ -1427,7 +1427,7 @@ hp_recovery: 0.055
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1052_105201.png)
 
 Slightly recover endurance when the way ahead is jammed early-race.
 
@@ -1452,7 +1452,7 @@ hp_recovery: 0.015
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20052.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105202.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1052_105202.png)
 
 Increase navigation early-race.
 
@@ -1477,7 +1477,7 @@ lane_speed: ~~0.035~~ -> **0.045**
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20051.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104603.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103103.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108002.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1052_105202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1080_108001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1087_108702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1046_104603.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1031_103103.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1080_108002.png)
 
 Moderately increase navigation early-race.
 
@@ -1502,7 +1502,7 @@ lane_speed: ~~0.025~~ -> **0.035**
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1062_106201.png)
 
 Recover endurance when surrounded mid-race.
 
@@ -1527,7 +1527,7 @@ hp_recovery: 0.055
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1062_106201.png)
 
 Slightly recover endurance when surrounded mid-race.
 
@@ -1552,7 +1552,7 @@ hp_recovery: 0.015
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_111601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1039_103901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1060_106002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1008_100802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1055_105501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1116_111601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png)
 
 Increase maneuverability when the way ahead is blocked in the last spurt.
 
@@ -1579,7 +1579,7 @@ lane_speed: 0.025
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103203.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_111901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_111601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1039_103901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1033_103301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1060_106002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1050_105002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1008_100802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1055_105501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1053_105302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1070_107001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1086_108601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1091_109101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1032_103203.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1119_111901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1116_111601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png)
 
 Slightly increase maneuverability when the way ahead is blocked in the last spurt.
 
@@ -1606,7 +1606,7 @@ lane_speed: 0.005
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108901.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1023_102302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1089_108901.png)
 
 Increase velocity in the last spurt.
 
@@ -1631,7 +1631,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1014_101402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1023_102302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1089_108901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1062_106201.png)
 
 Slightly increase velocity in the last spurt.
 
@@ -1656,7 +1656,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106601.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1068_106801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1087_108701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1068_106802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1104_110401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1065_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1066_106601.png)
 
 Increase ability to go to the front early-race. (Front Runner)
 
@@ -1681,7 +1681,7 @@ acceleration: 0.4
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106803.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104603.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106601.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1068_106801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1020_102002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1064_106401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1087_108701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1068_106802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1041_104102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1104_110401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1064_106402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1068_106803.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1080_108001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1065_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1046_104603.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1066_106601.png)
 
 Slightly increase ability to go to the front early-race. (Front Runner)
 
@@ -1706,7 +1706,7 @@ acceleration: 0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100303.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1030_103002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1017_101702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1099_109901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100303.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png)
 
 Decrease fatigue early-race. (Pace Chaser)
 
@@ -1731,7 +1731,7 @@ hp_recovery: 0.055
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101303.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100303.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1030_103002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1017_101702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101303.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1099_109901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100303.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png)
 
 Slightly decrease fatigue early-race. (Pace Chaser)
 
@@ -1756,7 +1756,7 @@ hp_recovery: 0.015
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109301.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1022_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1005_100502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1093_109301.png)
 
 Increase ability to break out of the pack on the final corner. (Pace Chaser)
 
@@ -1781,7 +1781,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100901.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1022_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1005_100502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1093_109301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1109_110901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png)
 
 Slightly increase ability to break out of the pack on the final corner. (Pace Chaser)
 
@@ -1806,7 +1806,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1021_102101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1088_108801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1054_105401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png)
 
 Increase velocity mid-race. (Late Surger)
 
@@ -1831,7 +1831,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1021_102101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1037_103702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1035_103502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1083_108301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1088_108801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1054_105401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png)
 
 Slightly increase velocity mid-race. (Late Surger)
 
@@ -1856,7 +1856,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1033_103301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1084_108401.png)
 
 Move up in preparation to close the gap late-race. (End Closer)
 
@@ -1881,7 +1881,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100703.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108402.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1033_103301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1084_108401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1012_101202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1007_100703.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1044_104402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1084_108402.png)
 
 Slightly move up in preparation to close the gap late-race. (End Closer)
 
@@ -1933,7 +1933,7 @@ hp_recovery: 0.015
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1054_105401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png)
 
 Increase spurting ability when positioned toward the back late-race. (Sprint)
 
@@ -1960,7 +1960,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1061_106102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1054_105401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png)
 
 Slightly increase spurting ability when positioned toward the back late-race. (Sprint)
 
@@ -1987,7 +1987,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108602.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1065_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1086_108602.png)
 
 Widen the margin when in the lead early-race. (Mile)
 
@@ -2012,7 +2012,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100403.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108602.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1065_106502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100403.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1086_108602.png)
 
 Slightly widen the margin when in the lead early-race. (Mile)
 
@@ -2037,7 +2037,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104001.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png)
 
 Decrease fatigue when positioned toward the back early-race. (Mile)
 
@@ -2064,7 +2064,7 @@ hp_recovery: 0.055
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106102.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1061_106102.png)
 
 Slightly decrease fatigue when positioned toward the back early-race. (Mile)
 
@@ -2091,7 +2091,7 @@ hp_recovery: 0.015
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102601.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png)
 
 Decrease fatigue when in the lead mid-race. (Medium)
 
@@ -2116,7 +2116,7 @@ hp_recovery: 0.055
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106802.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1002_100201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1020_102002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1068_106802.png)
 
 Slightly decrease fatigue when in the lead mid-race. (Medium)
 
@@ -2141,7 +2141,7 @@ hp_recovery: 0.015
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_111301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102701.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1021_102102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1070_107001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1113_111301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1027_102701.png)
 
 Increase positioning ability when positioned toward the front mid-race. (Medium)
 
@@ -2166,7 +2166,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_111301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102701.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1059_105901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1021_102102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1070_107001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1107_110701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1113_111301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1027_102701.png)
 
 Slightly increase positioning ability when positioned toward the front mid-race. (Medium)
 
@@ -2191,7 +2191,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1072_107201.png)
 
 Increase ability to fight back when passed by another runner on the final corner. (Medium)
 
@@ -2218,7 +2218,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1072_107201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1104_110401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png)
 
 Slightly increase ability to fight back when passed by another runner on the final corner. (Medium)
 
@@ -2270,7 +2270,7 @@ hp_recovery: 0.055
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102602.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1026_102602.png)
 
 Slightly regain the energy to run after exhausting strength. (Long)
 
@@ -2320,7 +2320,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106103.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1053_105301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1087_108701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1053_105302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1061_106103.png)
 
 Slightly increase velocity on a corner. (Sprint)
 
@@ -2345,7 +2345,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png)
 
 Increase ability to maintain the lead when leading by a large margin mid-race. (Sprint)
 
@@ -2370,7 +2370,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png)
 
 Slightly increase ability to maintain the lead when leading by a large margin mid-race. (Sprint)
 
@@ -2420,7 +2420,7 @@ acceleration: 0.4
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1093_109301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png)
 
 Slightly increase passing ability when positioned toward the front mid-race. (Sprint)
 
@@ -2445,7 +2445,7 @@ acceleration: 0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20052.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102801.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1028_102801.png)
 
 Prepare to make for the finish line mid-race. (Sprint)
 
@@ -2472,7 +2472,7 @@ acceleration: 0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20051.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1028_102801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1054_105401.png)
 
 Moderately prepare to make for the finish line mid-race. (Sprint)
 
@@ -2499,7 +2499,7 @@ acceleration: 0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103802.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1038_103802.png)
 
 Intimidate runners behind when positioned toward the front early-race. (Sprint)
 
@@ -2524,7 +2524,7 @@ current_speed: -0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108702.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1028_102801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1038_103802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1087_108702.png)
 
 Moderately intimidate runners behind when positioned toward the front early-race. (Sprint)
 
@@ -2628,7 +2628,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1005_100502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1022_102202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1078_107801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1051_105102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1082_108201.png)
 
 Slightly increase velocity on a corner. (Mile)
 
@@ -2653,7 +2653,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1022_102202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1078_107801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1065_106501.png)
 
 Increase passing ability when positioned toward the front mid-race. (Mile)
 
@@ -2678,7 +2678,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100403.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1022_102202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1078_107801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1065_106501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1043_104301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100403.png)
 
 Slightly increase passing ability when positioned toward the front mid-race. (Mile)
 
@@ -2703,7 +2703,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png)
 
 Increase acceleration when passing another runner mid-race. (Mile)
 
@@ -2728,7 +2728,7 @@ acceleration: 0.4
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1051_105101.png)
 
 Slightly increase acceleration when passing another runner mid-race. (Mile)
 
@@ -2753,7 +2753,7 @@ acceleration: 0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100403.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1042_104201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1100_110001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100403.png)
 
 Increase passing ability. (Mile)
 
@@ -2778,7 +2778,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1072_107201.png)
 
 Slightly increase passing ability. (Mile)
 
@@ -2830,7 +2830,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103102.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1031_103101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1031_103102.png)
 
 Slightly steal velocity from runners behind when in the lead mid-race. (Mile)
 
@@ -2857,7 +2857,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30022.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104002.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1040_104002.png)
 
 Dull movement for runners ahead when positioned toward the back early-race. (Mile)
 
@@ -2882,7 +2882,7 @@ acceleration: -0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30021.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104002.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1040_104002.png)
 
 Slightly dull movement for runners ahead when positioned toward the back early-race. (Mile)
 
@@ -2932,7 +2932,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106703.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103201.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1022_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1098_109801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1008_100802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1047_104701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1027_102702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1062_106202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1070_107001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1067_106703.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1039_103902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1088_108801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1033_103302.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1073_107301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png)
 
 Slightly increase velocity on a corner. (Medium)
 
@@ -2957,7 +2957,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20052.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100301.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png)
 
 Avoid becoming surrounded when positioned toward the back mid-race. (Medium)
 
@@ -2984,7 +2984,7 @@ acceleration: 0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20051.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102101.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1021_102101.png)
 
 Moderately avoid becoming surrounded when positioned toward the back mid-race. (Medium)
 
@@ -3036,7 +3036,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100103.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100902.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1001_100103.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1009_100902.png)
 
 Slightly increase velocity on a corner. (Long)
 
@@ -3061,7 +3061,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1020_102001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1064_106401.png)
 
 Increase ability to maintain the lead when leading by a large margin mid-race. (Long)
 
@@ -3086,7 +3086,7 @@ speed: 0.35
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1020_102001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1064_106401.png)
 
 Slightly increase ability to maintain the lead when leading by a large margin mid-race. (Long)
 
@@ -3136,7 +3136,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104602.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106601.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1046_104602.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1031_103102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1002_100202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1066_106601.png)
 
 Slightly increase velocity on a corner. (Front Runner)
 
@@ -3188,7 +3188,7 @@ lane_speed: 0.035
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20051.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102403.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1068_106802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1024_102403.png)
 
 Moderately avoid becoming surrounded early-race. (Front Runner)
 
@@ -3215,7 +3215,7 @@ lane_speed: 0.025
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102401.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1068_106801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1020_102002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png)
 
 Slightly avoid being passed early-race. (Front Runner)
 
@@ -3340,7 +3340,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_106902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103203.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_111601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107301.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1045_104502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1071_107101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1072_107201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1038_103802.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1010_101002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1047_104701.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1027_102702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1069_106902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1071_107102.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1032_103203.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1116_111601.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1077_107702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1095_109501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1073_107301.png)
 
 Slightly increase velocity on a corner. (Pace Chaser)
 
@@ -3365,7 +3365,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100301.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png)
 
 Moderately increase ability to navigate smoothly. (Pace Chaser)
 
@@ -3390,7 +3390,7 @@ acceleration: 0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_100502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_109901.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1024_102402.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1005_100502.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1099_109901.png)
 
 Slightly increase ability to navigate smoothly. (Pace Chaser)
 
@@ -3415,7 +3415,7 @@ acceleration: 0.2
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110902.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1022_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1051_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1027_102702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1109_110902.png)
 
 Moderately improve running on a downhill. (Pace Chaser)
 
@@ -3440,7 +3440,7 @@ acceleration: 0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_111301.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1017_101702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1022_102201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1051_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1029_102901.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1027_102702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1109_110902.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1113_111301.png)
 
 Slightly improve running on a downhill. (Pace Chaser)
 
@@ -3490,7 +3490,7 @@ acceleration: 0.3
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_102801.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1028_102801.png)
 
 Slightly increase acceleration when positioned toward the back mid-race. (Pace Chaser)
 
@@ -3540,7 +3540,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_108501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103602.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101103.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_104003.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110602.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1040_104002.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1037_103702.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1051_105101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1085_108501.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1036_103602.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1011_101103.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1040_104003.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1106_110602.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png)
 
 Slightly increase velocity on a corner. (Late Surger)
 
@@ -3565,7 +3565,7 @@ speed: 0.15
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_105202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_103501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1052_105202.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png)
 
 Moderately improve running late-race. (Late Surger)
 
@@ -3639,7 +3639,7 @@ speed: 0.25
 
 ![icon](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png)
 
-![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_107401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_110801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_112101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1058_111501.png)
+![char](https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1074_107401.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1108_110801.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1121_112101.png) ![char](https://gametora.com/images/umamusume/characters/chara_stand_1115_111501.png)
 
 Slightly increase velocity on a corner. (End Closer)
 
