@@ -2959,3 +2959,4 @@ speed: 0.15
  **VI:** Kích hoạt đơn giản hơn. Phiên bản yếu hơn của End Closer Corners ◎.
 
 ---
+![test CORS](https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png)
