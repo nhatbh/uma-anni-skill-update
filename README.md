@@ -4,7 +4,7 @@
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50">
 
 
 Slightly swell with the determination to stay number one in the second half of the race.
@@ -32,7 +32,7 @@ acceleration: 0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png" alt="char" width="50" height="50">
 
 
 Moderately increase velocity with a strong turn of foot when passing another runner toward the back on the final straight.
@@ -58,7 +58,7 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png" alt="char" width="50" height="50">
 
 
 Moderately increase velocity with the stride of an empress when passing another runner toward the back on the final corner.
@@ -84,7 +84,7 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
 
 
 Slightly increase ability to break out of the pack on the straight after engaging in a challenge toward the front on the final corner.
@@ -112,7 +112,7 @@ acceleration: 0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png" alt="char" width="50" height="50">
 
 
 Moderately recover endurance when conserving energy on a corner in the second half of the race.
@@ -140,7 +140,7 @@ hp_recovery: 0.035
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
 
 
 Refuse to back down from a challenge, moderately increasing velocity on the final straight.
@@ -167,7 +167,7 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1045_104501.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1045_104501.png" alt="char" width="50" height="50">
 
 
 Moderately recover endurance when well-positioned mid-race.
@@ -193,7 +193,7 @@ hp_recovery: ~~0.035~~ -> **0.055**
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1056_105601.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1056_105601.png" alt="char" width="50" height="50">
 
 
 Moderately clear a path forward with the power of divination when the way ahead is jammed late-race.
@@ -221,7 +221,7 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png" alt="char" width="50" height="50">
 
 
 Increase velocity in a true display of skill with 200m remaining after racing calmly.
@@ -247,7 +247,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" alt="char" width="50" height="50">
 
 
 Ride the momentum and increase velocity after passing another runner toward the front late-race.
@@ -275,7 +275,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1002_100201.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1002_100201.png" alt="char" width="50" height="50">
 
 
 Increase velocity by drawing on all remaining strength when in the lead by a fair margin on the final straight.
@@ -301,7 +301,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" alt="char" width="50" height="50">
 
 
 Greatly increase velocity with a dazzling display when just breaking out of the pack toward the front on the final straight.
@@ -327,7 +327,7 @@ speed: 0.45
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50">
 
 
 Swell with the determination to stay number one in the second half of the race.
@@ -355,7 +355,7 @@ acceleration: 0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20043.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
 
 
 Increase acceleration with a pow, a wow, and a bang when well-positioned on the final corner.
@@ -381,7 +381,7 @@ acceleration: 0.4
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png" alt="char" width="50" height="50">
 
 
 Increase velocity with a strong turn of foot when passing another runner toward the back on the final straight.
@@ -407,7 +407,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
 
 
 Increase velocity when passing another runner on the outside toward the back on the final straight.
@@ -434,7 +434,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50">
 
 
 Increase velocity with royal brilliance when engaged in a challenge toward the front on the final corner.
@@ -460,7 +460,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50">
 
 
 Increase velocity with beastly strength when passing another runner on the outside on the final corner or later.
@@ -493,7 +493,7 @@ Cooldown:
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png" alt="char" width="50" height="50">
 
 
 Increase velocity with the stride of an empress when passing another runner toward the back on the final corner.
@@ -541,7 +541,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png" alt="char" width="50" height="50">
 
 
 Increase velocity by deriving the winning equation when passing another runner toward the front on the final corner.
@@ -567,7 +567,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
 
 
 Increase ability to break out of the pack on the straight after engaging in a challenge toward the front on the final corner.
@@ -595,7 +595,7 @@ acceleration: 0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png" alt="char" width="50" height="50">
 
 
 Increase velocity with strong willpower when breaking out of the pack on the final straight.
@@ -622,7 +622,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png" alt="char" width="50" height="50">
 
 
 Recover endurance when conserving energy on a corner in the second half of the race.
@@ -650,7 +650,7 @@ hp_recovery: 0.055
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
 
 
 Refuse to back down from a challenge, increasing velocity on the final straight.
@@ -677,7 +677,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50">
 
 
 Gain momentum and begin to advance when passing another runner while well-positioned around halfway through the race.
@@ -725,7 +725,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1045_104501.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1045_104501.png" alt="char" width="50" height="50">
 
 
 Recover endurance when well-positioned mid-race.
@@ -751,7 +751,7 @@ hp_recovery: ~~0.055~~ -> **0.075**
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png" alt="char" width="50" height="50">
 
 
 Become empowered against ceding the spotlight when about to lose the lead on a straight mid-race.
@@ -779,7 +779,7 @@ acceleration: 0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1050_105001.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1050_105001.png" alt="char" width="50" height="50">
 
 
 Increase velocity with smoldering ambition when moving up from a position toward the back of the pack on the final corner.
@@ -805,7 +805,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1056_105601.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1056_105601.png" alt="char" width="50" height="50">
 
 
 Clear a path forward with the power of divination when the way ahead is jammed late-race.
@@ -833,7 +833,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png" alt="char" width="50" height="50">
 
 
 Greatly increase velocity in a true display of skill with 200m remaining after racing calmly.
@@ -859,7 +859,7 @@ speed: 0.45
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100302.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100302.png" alt="char" width="50" height="50">
 
 
 Increase velocity with an indomitable fighting spirit when on the heels of another runner toward the front on the final straight.
@@ -886,7 +886,7 @@ speed: ~~0.35~~ -> **0.45**
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20023.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101102.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101102.png" alt="char" width="50" height="50">
 
 
 Recover endurance with a gentle light when dropping down toward the back mid-race.
@@ -912,7 +912,7 @@ hp_recovery: ~~0.055~~ -> **0.075**
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" alt="char" width="50" height="50">
 
 
 Increase velocity when pressured by another runner and running out of energy toward the front on the final corner or later.
@@ -938,7 +938,7 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20013.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
 
 
 Increase velocity when starting to make a move from a position toward the front mid-race.
@@ -988,7 +988,6 @@ hp_recovery: -0.005
 
 
 
-
 Increase performance when no other runners are using the same strategy.
 
  **Changes:** 
@@ -1012,8 +1011,9 @@ speed_stat_up: ~~60~~ -> **80**
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_10011.png" alt="icon" width="50" height="50">
 
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30023.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10015.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30046.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30057.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20021.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20023.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10022.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30046.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30057.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20021.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20023.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10022.png" alt="support" width="50" height="50">
 
 Moderately increase performance when no other runners are using the same strategy.
 
@@ -1040,7 +1040,6 @@ speed_stat_up: ~~40~~ -> **60**
 
 
 
-
 Increase performance when at least 5 other runners are using the same strategy.
 
  **Changes:** 
@@ -1064,8 +1063,10 @@ power_stat_up: 60
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_10031.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30042.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30006.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30047.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20031.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10009.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10023.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10051.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10066.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30042.png" alt="support event" width="50" height="50">
+
 
 Moderately increase performance when at least 5 other runners are using the same strategy.
 
@@ -1092,7 +1093,6 @@ power_stat_up: 40
 
 
 
-
 Moderately decrease performance when at least 5 other runners are using the same strategy.
 
  **Changes:** 
@@ -1116,8 +1116,9 @@ power_stat_up: -40
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30028.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30028.png" alt="support event" width="50" height="50">
+
 
 Increase velocity on a corner with skilled turning.
 
@@ -1142,8 +1143,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102402.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30010.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10028.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102402.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30022.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20007.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10030.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10055.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30010.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10028.png" alt="support event" width="50" height="50">
+
 
 Slightly increase velocity on a corner with skilled turning.
 
@@ -1170,7 +1173,6 @@ speed: 0.15
 
 
 
-
 Moderately decrease velocity on a corner with clumsy turning.
 
  **Changes:** 
@@ -1194,8 +1196,9 @@ current_speed: -0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30004.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30004.png" alt="support event" width="50" height="50">
+
 
 Increase acceleration on a corner with masterful turning.
 
@@ -1220,8 +1223,10 @@ acceleration: 0.4
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30031.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20011.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10034.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30054.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20019.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20026.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10047.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30031.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20011.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10034.png" alt="support event" width="50" height="50">
+
 
 Slightly increase acceleration on a corner with masterful turning.
 
@@ -1248,7 +1253,6 @@ acceleration: 0.2
 
 
 
-
 Moderately decrease acceleration on a corner with awkward turning.
 
  **Changes:** 
@@ -1272,8 +1276,9 @@ acceleration: -0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30018.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30018.png" alt="support event" width="50" height="50">
+
 
 Increase velocity on a straight.
 
@@ -1298,8 +1303,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30018.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30028.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20007.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20027.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10030.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30022.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30042.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20007.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20015.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10007.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10030.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10043.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10059.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10065.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30018.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30028.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20007.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20027.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10030.png" alt="support event" width="50" height="50">
+
 
 Slightly increase velocity on a straight.
 
@@ -1324,8 +1331,8 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30003.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30003.png" alt="support" width="50" height="50">
 
 Increase acceleration on a straight.
 
@@ -1350,8 +1357,10 @@ acceleration: 0.4
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1008_100801.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_20004.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20027.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1008_100801.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30010.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20013.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10007.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10038.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20004.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20027.png" alt="support event" width="50" height="50">
+
 
 Slightly increase acceleration on a straight.
 
@@ -1375,7 +1384,6 @@ acceleration: 0.2
 ### Ramp Revulsion (坂苦手)
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20024.png" alt="icon" width="50" height="50">
-
 
 
 
@@ -1404,7 +1412,6 @@ hp_recovery: -0.02
 
 
 
-
 Moderately lose endurance when surrounded.
 
  **Changes:** 
@@ -1427,7 +1434,6 @@ hp_recovery: -0.02
 ### Defeatist (あきらめ癖)
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20014.png" alt="icon" width="50" height="50">
-
 
 
 
@@ -1454,8 +1460,9 @@ current_speed: -0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1052_105201.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30029.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1052_105201.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30029.png" alt="support event" width="50" height="50">
+
 
 Recover endurance when the way ahead is jammed early-race.
 
@@ -1480,8 +1487,10 @@ hp_recovery: 0.055
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1052_105201.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_20021.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10022.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1052_105201.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30030.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30054.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20014.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20019.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20025.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20026.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10026.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10040.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10047.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10053.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10057.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20021.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10022.png" alt="support event" width="50" height="50">
+
 
 Slightly recover endurance when the way ahead is jammed early-race.
 
@@ -1506,8 +1515,9 @@ hp_recovery: 0.015
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20052.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30017.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30039.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30017.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30039.png" alt="support event" width="50" height="50">
+
 
 Increase navigation early-race.
 
@@ -1532,8 +1542,10 @@ lane_speed: ~~0.035~~ -> **0.045**
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20051.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100302.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30017.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100302.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1046_104601.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30045.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20023.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10050.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10059.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30017.png" alt="support event" width="50" height="50">
+
 
 Moderately increase navigation early-race.
 
@@ -1558,8 +1570,8 @@ lane_speed: ~~0.025~~ -> **0.035**
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png" alt="icon" width="50" height="50">
 
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30019.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30030.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30019.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30030.png" alt="support" width="50" height="50">
 
 Recover endurance when surrounded mid-race.
 
@@ -1584,8 +1596,9 @@ hp_recovery: 0.055
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png" alt="icon" width="50" height="50">
 
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20014.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20016.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20025.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10026.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10040.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10044.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10053.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30009.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30030.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10027.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30009.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30030.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10027.png" alt="support" width="50" height="50">
 
 Slightly recover endurance when surrounded mid-race.
 
@@ -1610,8 +1623,9 @@ hp_recovery: 0.015
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30031.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30031.png" alt="support event" width="50" height="50">
+
 
 Increase maneuverability when the way ahead is blocked in the last spurt.
 
@@ -1638,8 +1652,10 @@ lane_speed: 0.025
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30005.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20010.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10007.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30010.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20007.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10030.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10059.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30005.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20010.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10007.png" alt="support event" width="50" height="50">
+
 
 Slightly increase maneuverability when the way ahead is blocked in the last spurt.
 
@@ -1666,8 +1682,9 @@ lane_speed: 0.005
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30001.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30033.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30001.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30033.png" alt="support event" width="50" height="50">
+
 
 Increase velocity in the last spurt.
 
@@ -1692,8 +1709,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101402.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30001.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30042.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30056.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20013.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20020.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10048.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101402.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1016_101601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30001.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30006.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30016.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30025.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30032.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10001.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10007.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10009.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10019.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10058.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30001.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30042.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30056.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20013.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20020.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10048.png" alt="support event" width="50" height="50">
+
 
 Slightly increase velocity in the last spurt.
 
@@ -1718,8 +1737,9 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support event" width="50" height="50">
+
 
 Increase ability to go to the front early-race. (Front Runner)
 
@@ -1744,8 +1764,10 @@ acceleration: 0.4
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30022.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10004.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10010.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10051.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30027.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20009.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10004.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10032.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10051.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10054.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30022.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10004.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10010.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10051.png" alt="support event" width="50" height="50">
+
 
 Slightly increase ability to go to the front early-race. (Front Runner)
 
@@ -1770,7 +1792,7 @@ acceleration: 0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png" alt="char" width="50" height="50">
 
 
 Decrease fatigue early-race. (Pace Chaser)
@@ -1796,8 +1818,10 @@ hp_recovery: 0.055
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30007.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30024.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30047.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10023.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101302.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1023_102301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30022.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20035.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10010.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10012.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10052.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10070.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30007.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30024.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30047.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10023.png" alt="support event" width="50" height="50">
+
 
 Slightly decrease fatigue early-race. (Pace Chaser)
 
@@ -1822,8 +1846,9 @@ hp_recovery: 0.015
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30010.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30038.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30010.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30038.png" alt="support event" width="50" height="50">
+
 
 Increase ability to break out of the pack on the final corner. (Pace Chaser)
 
@@ -1848,8 +1873,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30010.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30038.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20001.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20017.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10008.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10049.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30007.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30022.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30032.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30047.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20031.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10008.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10011.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10023.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10058.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10066.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30010.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30038.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20001.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20017.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10008.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10049.png" alt="support event" width="50" height="50">
+
 
 Slightly increase ability to break out of the pack on the final corner. (Pace Chaser)
 
@@ -1874,8 +1901,9 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30009.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30009.png" alt="support event" width="50" height="50">
+
 
 Increase velocity mid-race. (Late Surger)
 
@@ -1900,7 +1928,8 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1011_101101.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30006.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30012.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30033.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30046.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20035.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10009.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10016.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10070.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase velocity mid-race. (Late Surger)
@@ -1926,7 +1955,7 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
 
 
 Move up in preparation to close the gap late-race. (End Closer)
@@ -1952,8 +1981,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_20003.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20014.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10040.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20003.png" alt="support event" width="50" height="50">
+
 
 Slightly move up in preparation to close the gap late-race. (End Closer)
 
@@ -1978,7 +2009,7 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png" alt="icon" width="50" height="50">
 
-
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30020.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30056.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20020.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10042.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10048.png" alt="support hint" width="50" height="50">
 
 
 Slightly decrease fatigue when positioned toward the back mid-race. (Sprint)
@@ -2006,8 +2037,9 @@ hp_recovery: 0.015
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30056.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30056.png" alt="support event" width="50" height="50">
+
 
 Increase spurting ability when positioned toward the back late-race. (Sprint)
 
@@ -2034,8 +2066,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30015.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30056.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10018.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1061_106101.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30020.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30042.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30056.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20020.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10042.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10048.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10065.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30015.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30056.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10018.png" alt="support event" width="50" height="50">
+
 
 Slightly increase spurting ability when positioned toward the back late-race. (Sprint)
 
@@ -2062,7 +2096,7 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
 
 
 Widen the margin when in the lead early-race. (Mile)
@@ -2088,7 +2122,8 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30020.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10004.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10008.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10042.png" alt="support hint" width="50" height="50">
 
 
 Slightly widen the margin when in the lead early-race. (Mile)
@@ -2114,8 +2149,9 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30014.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30014.png" alt="support event" width="50" height="50">
+
 
 Decrease fatigue when positioned toward the back early-race. (Mile)
 
@@ -2142,8 +2178,10 @@ hp_recovery: 0.055
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30021.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20024.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10021.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30014.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20029.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10017.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10061.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30021.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20024.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10021.png" alt="support event" width="50" height="50">
+
 
 Slightly decrease fatigue when positioned toward the back early-race. (Mile)
 
@@ -2170,7 +2208,7 @@ hp_recovery: 0.015
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
 
 
 Decrease fatigue when in the lead mid-race. (Medium)
@@ -2196,7 +2234,8 @@ hp_recovery: 0.055
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1002_100201.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1002_100201.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30009.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30047.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10023.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10027.png" alt="support hint" width="50" height="50">
 
 
 Slightly decrease fatigue when in the lead mid-race. (Medium)
@@ -2222,8 +2261,9 @@ hp_recovery: 0.015
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1027_102701.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30007.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1027_102701.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30007.png" alt="support event" width="50" height="50">
+
 
 Increase positioning ability when positioned toward the front mid-race. (Medium)
 
@@ -2248,7 +2288,8 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1027_102701.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1015_101501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1009_100901.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1014_101401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101801.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1027_102701.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30007.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30032.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30041.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30047.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30048.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20004.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20010.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20012.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20018.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10011.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10012.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10023.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10025.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10033.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10036.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10046.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10058.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase positioning ability when positioned toward the front mid-race. (Medium)
@@ -2274,8 +2315,9 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30013.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30048.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30013.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30048.png" alt="support event" width="50" height="50">
+
 
 Increase ability to fight back when passed by another runner on the final corner. (Medium)
 
@@ -2302,8 +2344,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30039.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10063.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100101.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30001.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30011.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30025.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30030.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30031.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30038.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30041.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20011.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20018.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10001.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10034.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10035.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10046.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10057.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10062.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30039.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10063.png" alt="support event" width="50" height="50">
+
 
 Slightly increase ability to fight back when passed by another runner on the final corner. (Medium)
 
@@ -2330,8 +2374,8 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20022.png" alt="icon" width="50" height="50">
 
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30023.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30023.png" alt="support" width="50" height="50">
 
 Regain the energy to run after exhausting strength. (Long)
 
@@ -2356,8 +2400,9 @@ hp_recovery: 0.055
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20021.png" alt="icon" width="50" height="50">
 
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30022.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10055.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30001.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30023.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30025.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20019.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10001.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30001.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30023.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30025.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20019.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10001.png" alt="support" width="50" height="50">
 
 Slightly regain the energy to run after exhausting strength. (Long)
 
@@ -2384,7 +2429,6 @@ hp_recovery: 0.015
 
 
 
-
 Moderately increase velocity on a corner. (Sprint)
 
  **Changes:** 
@@ -2408,7 +2452,7 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30015.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30040.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10018.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10064.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase velocity on a corner. (Sprint)
@@ -2434,7 +2478,7 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png" alt="char" width="50" height="50">
 
 
 Increase ability to maintain the lead when leading by a large margin mid-race. (Sprint)
@@ -2460,7 +2504,8 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30015.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10018.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase ability to maintain the lead when leading by a large margin mid-race. (Sprint)
@@ -2486,8 +2531,8 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30020.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30020.png" alt="support" width="50" height="50">
 
 Increase passing ability when positioned toward the front mid-race. (Sprint)
 
@@ -2512,7 +2557,8 @@ acceleration: 0.4
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1041_104101.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30015.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30040.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10018.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10064.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase passing ability when positioned toward the front mid-race. (Sprint)
@@ -2537,7 +2583,6 @@ acceleration: 0.2
 ### Perfect Prep! (準備万全！)
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20052.png" alt="icon" width="50" height="50">
-
 
 
 
@@ -2566,7 +2611,8 @@ acceleration: 0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20051.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30020.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30040.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10042.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10064.png" alt="support hint" width="50" height="50">
 
 
 Moderately prepare to make for the finish line mid-race. (Sprint)
@@ -2594,7 +2640,7 @@ acceleration: 0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50">
 
 
 Intimidate runners behind when positioned toward the front early-race. (Sprint)
@@ -2620,7 +2666,8 @@ current_speed: -0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1038_103801.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30015.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10018.png" alt="support hint" width="50" height="50">
 
 
 Moderately intimidate runners behind when positioned toward the front early-race. (Sprint)
@@ -2645,7 +2692,6 @@ current_speed: -0.2
 ### You've Got No Shot (逃亡禁止令)
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30052.png" alt="icon" width="50" height="50">
-
 
 
 
@@ -2674,7 +2720,7 @@ hp_recovery: -0.03
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30051.png" alt="icon" width="50" height="50">
 
-
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30020.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10042.png" alt="support hint" width="50" height="50">
 
 
 Slightly cause panic in runners ahead when positioned toward the back early-race. (Sprint)
@@ -2704,7 +2750,6 @@ hp_recovery: -0.01
 
 
 
-
 Moderately increase velocity on a corner. (Mile)
 
  **Changes:** 
@@ -2728,7 +2773,8 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20001.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10004.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10049.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10052.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase velocity on a corner. (Mile)
@@ -2754,7 +2800,7 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
 
 
 Increase passing ability when positioned toward the front mid-race. (Mile)
@@ -2780,8 +2826,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_20029.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20031.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1010_101001.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30038.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30047.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10004.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10008.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10023.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10052.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10062.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20029.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20031.png" alt="support event" width="50" height="50">
+
 
 Slightly increase passing ability when positioned toward the front mid-race. (Mile)
 
@@ -2806,7 +2854,7 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50">
 
 
 Increase acceleration when passing another runner mid-race. (Mile)
@@ -2832,7 +2880,8 @@ acceleration: 0.4
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100401.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1006_100601.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1040_104001.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30014.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30042.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10004.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10017.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10065.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase acceleration when passing another runner mid-race. (Mile)
@@ -2858,7 +2907,7 @@ acceleration: 0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1005_100501.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
 
 
 Increase passing ability. (Mile)
@@ -2884,8 +2933,9 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30013.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30048.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30013.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30048.png" alt="support event" width="50" height="50">
+
 
 Slightly increase passing ability. (Mile)
 
@@ -2909,7 +2959,6 @@ speed: 0.15
 ### Greed for Speed (スピードグリード)
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30012.png" alt="icon" width="50" height="50">
-
 
 
 
@@ -2938,7 +2987,8 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1004_100402.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30011.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20024.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10035.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10052.png" alt="support hint" width="50" height="50">
 
 
 Slightly steal velocity from runners behind when in the lead mid-race. (Mile)
@@ -2968,7 +3018,6 @@ speed: 0.15
 
 
 
-
 Dull movement for runners ahead when positioned toward the back early-race. (Mile)
 
  **Changes:** 
@@ -2992,7 +3041,7 @@ acceleration: -0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30021.png" alt="icon" width="50" height="50">
 
-
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20005.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10026.png" alt="support hint" width="50" height="50">
 
 
 Slightly dull movement for runners ahead when positioned toward the back early-race. (Mile)
@@ -3020,7 +3069,6 @@ acceleration: -0.1
 
 
 
-
 Moderately increase velocity on a corner. (Medium)
 
  **Changes:** 
@@ -3044,8 +3092,10 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30032.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10058.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1037_103701.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1058_105801.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1032_103201.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30009.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30029.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30031.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30038.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30044.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20011.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20012.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20035.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10027.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10034.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10036.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10056.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10062.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10070.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10072.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30032.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10058.png" alt="support event" width="50" height="50">
+
 
 Slightly increase velocity on a corner. (Medium)
 
@@ -3070,7 +3120,7 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20052.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50">
 
 
 Avoid becoming surrounded when positioned toward the back mid-race. (Medium)
@@ -3098,7 +3148,8 @@ acceleration: 0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20051.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1001_100102.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30009.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10027.png" alt="support hint" width="50" height="50">
 
 
 Moderately avoid becoming surrounded when positioned toward the back mid-race. (Medium)
@@ -3128,7 +3179,6 @@ acceleration: 0.2
 
 
 
-
 Moderately increase velocity on a corner. (Long)
 
  **Changes:** 
@@ -3152,7 +3202,8 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10010.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10012.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10055.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase velocity on a corner. (Long)
@@ -3178,8 +3229,9 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20012.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1020_102001.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30027.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30055.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1020_102001.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30027.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30055.png" alt="support event" width="50" height="50">
+
 
 Increase ability to maintain the lead when leading by a large margin mid-race. (Long)
 
@@ -3204,8 +3256,10 @@ speed: 0.35
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1020_102001.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30008.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30027.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30055.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10014.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1013_101301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1020_102001.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_10010.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30008.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30027.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30055.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10014.png" alt="support event" width="50" height="50">
+
 
 Slightly increase ability to maintain the lead when leading by a large margin mid-race. (Long)
 
@@ -3232,7 +3286,6 @@ speed: 0.15
 
 
 
-
 Moderately increase velocity on a corner. (Front Runner)
 
  **Changes:** 
@@ -3256,7 +3309,8 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1026_102601.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20009.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10032.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase velocity on a corner. (Front Runner)
@@ -3282,8 +3336,8 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20052.png" alt="icon" width="50" height="50">
 
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30040.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30040.png" alt="support" width="50" height="50">
 
 Avoid becoming surrounded early-race. (Front Runner)
 
@@ -3310,8 +3364,9 @@ lane_speed: 0.035
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20051.png" alt="icon" width="50" height="50">
 
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10055.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30040.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30040.png" alt="support" width="50" height="50">
 
 Moderately avoid becoming surrounded early-race. (Front Runner)
 
@@ -3338,8 +3393,10 @@ lane_speed: 0.025
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102401.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10002.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10051.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30026.png" alt="support event" width="50" height="50">
+
 
 Slightly avoid being passed early-race. (Front Runner)
 
@@ -3366,7 +3423,6 @@ speed: 0.15
 
 
 
-
 Increase acceleration when positioned toward the back mid-race. (Front Runner)
 
  **Changes:** 
@@ -3390,8 +3446,9 @@ acceleration: 0.4
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30017.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10039.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30008.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30008.png" alt="support" width="50" height="50">
 
 Slightly increase acceleration when positioned toward the back mid-race. (Front Runner)
 
@@ -3416,7 +3473,7 @@ acceleration: 0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_30021.png" alt="icon" width="50" height="50">
 
-
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30017.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10039.png" alt="support hint" width="50" height="50">
 
 
 Slightly startle runners ahead when failing to get a lead early-race. (Front Runner)
@@ -3444,7 +3501,6 @@ acceleration: -0.1
 
 
 
-
 Moderately increase velocity on a corner. (Pace Chaser)
 
  **Changes:** 
@@ -3468,8 +3524,10 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_20017.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10045.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1017_101701.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1018_101802.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30018.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20027.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20034.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10041.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10069.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20017.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10045.png" alt="support event" width="50" height="50">
+
 
 Slightly increase velocity on a corner. (Pace Chaser)
 
@@ -3494,7 +3552,7 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50">
 
 
 Moderately increase ability to navigate smoothly. (Pace Chaser)
@@ -3520,7 +3578,8 @@ acceleration: 0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102402.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1003_100301.png" alt="char" width="50" height="50"> <img src="https://gametora.com/images/umamusume/characters/chara_stand_1024_102402.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20028.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10003.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10059.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase ability to navigate smoothly. (Pace Chaser)
@@ -3546,7 +3605,7 @@ acceleration: 0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png" alt="char" width="50" height="50">
 
 
 Moderately improve running on a downhill. (Pace Chaser)
@@ -3572,8 +3631,10 @@ acceleration: 0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_20024.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1030_103001.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30023.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10015.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20024.png" alt="support event" width="50" height="50">
+
 
 Slightly improve running on a downhill. (Pace Chaser)
 
@@ -3598,8 +3659,8 @@ acceleration: 0.2
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30044.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30044.png" alt="support" width="50" height="50">
 
 Moderately increase acceleration when positioned toward the back mid-race. (Pace Chaser)
 
@@ -3624,8 +3685,9 @@ acceleration: 0.3
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20041.png" alt="icon" width="50" height="50">
 
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30039.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10012.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10063.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support event" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_20002.png" alt="support" width="50" height="50">
 
 Slightly increase acceleration when positioned toward the back mid-race. (Pace Chaser)
 
@@ -3652,7 +3714,6 @@ acceleration: 0.2
 
 
 
-
 Moderately increase velocity on a corner. (Late Surger)
 
  **Changes:** 
@@ -3676,8 +3737,10 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30012.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30033.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30046.png" alt="support" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10016.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20013.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_20016.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10038.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10044.png" alt="support hint" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30012.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30033.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_30046.png" alt="support event" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10016.png" alt="support event" width="50" height="50">
+
 
 Slightly increase velocity on a corner. (Late Surger)
 
@@ -3702,8 +3765,9 @@ speed: 0.15
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20042.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
-<img src="https://gametora.com/images/umamusume/supports/support_card_s_30046.png" alt="support" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1035_103501.png" alt="char" width="50" height="50">
+**Support (Event):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_30046.png" alt="support event" width="50" height="50">
+
 
 Moderately improve running late-race. (Late Surger)
 
@@ -3754,7 +3818,6 @@ speed: 0.15
 
 
 
-
 Moderately increase velocity on a corner. (End Closer)
 
  **Changes:** 
@@ -3778,7 +3841,8 @@ speed: 0.25
 
 <img src="https://gametora.com/images/umamusume/skill_icons/utx_ico_skill_20011.png" alt="icon" width="50" height="50">
 
-<img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
+**Character:** <img src="https://gametora.com/images/umamusume/characters/chara_stand_1012_101201.png" alt="char" width="50" height="50">
+**Support (Hint):** <img src="https://gametora.com/images/umamusume/supports/support_card_s_20014.png" alt="support hint" width="50" height="50"> <img src="https://gametora.com/images/umamusume/supports/support_card_s_10040.png" alt="support hint" width="50" height="50">
 
 
 Slightly increase velocity on a corner. (End Closer)
